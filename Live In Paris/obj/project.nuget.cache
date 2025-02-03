@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "R/Cl/UleWWPShdsLbdhPfZ7oH78jrcGqFCvl/u24zuonVq6pvbZGpf0lUMHPZCRCOk+XtBdJXoT3MTDAVIxGbQ==",
+  "dgSpecHash": "cUzT2EtDYcMUZs4f/9wirSRw1LlGrnW3IsFcPDt7rZfH4CiuVUfNA5lNTFRyT5UIv4ycK030dO51+xgfOdB0RA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\grego\\OneDrive\\Documents\\GitHub\\Live-In-Paris\\Live In Paris\\Live In Paris.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\killi\\Documents\\GitHub\\Live-In-Paris\\Live In Paris\\Live In Paris.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\killi\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.15\\microsoft.windowsdesktop.app.ref.7.0.15.nupkg.sha512",
+    "C:\\Users\\killi\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.15\\microsoft.netcore.app.ref.7.0.15.nupkg.sha512",
+    "C:\\Users\\killi\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.15\\microsoft.aspnetcore.app.ref.7.0.15.nupkg.sha512",
+    "C:\\Users\\killi\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.15\\microsoft.netcore.app.host.win-x64.7.0.15.nupkg.sha512"
+  ],
   "logs": []
 }
