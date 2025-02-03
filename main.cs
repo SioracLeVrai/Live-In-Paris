@@ -4,7 +4,7 @@ internal namespace Name
     {
         public static void Main()
         {
-            Console.WriteLine("je t'aime greg");
+            Console.WriteLine("je t'aime greg et kiki");
         }
     }
 }
