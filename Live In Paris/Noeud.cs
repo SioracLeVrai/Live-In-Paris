@@ -9,5 +9,6 @@ namespace Live_In_Paris
     internal class Noeud
     {
         int nombre;
+        int chiffre;
     }
 }
