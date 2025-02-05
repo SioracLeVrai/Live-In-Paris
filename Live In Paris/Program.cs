@@ -1,11 +1,16 @@
-﻿namespace Live_In_Paris
+﻿using System;
+
+
+namespace Live_In_Paris
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
-            Console.WriteLine("Hala Madrid y nada mas");
+            Graphe graphe = new Graphe();
+            graphe.AjouterNoeud("Paris");
+            graphe.AjouterNoeud("Lyon");
+            graphe.AjouterLien("Paris", "Lyon", 450);
         }
     }
 }

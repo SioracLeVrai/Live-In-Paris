@@ -12,3 +12,18 @@ C:\Users\maxim\source\repos\Live In Paris\Live In Paris\obj\Debug\net7.0\refint\
 C:\Users\maxim\source\repos\Live In Paris\Live In Paris\obj\Debug\net7.0\Live In Paris.pdb
 C:\Users\maxim\source\repos\Live In Paris\Live In Paris\obj\Debug\net7.0\Live In Paris.genruntimeconfig.cache
 C:\Users\maxim\source\repos\Live In Paris\Live In Paris\obj\Debug\net7.0\ref\Live In Paris.dll
+C:\Users\killi\Documents\GitHub\Live-In-Paris\Live In Paris\obj\Debug\net7.0\Live In Paris.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\killi\Documents\GitHub\Live-In-Paris\Live In Paris\obj\Debug\net7.0\Live In Paris.AssemblyInfoInputs.cache
+C:\Users\killi\Documents\GitHub\Live-In-Paris\Live In Paris\obj\Debug\net7.0\Live In Paris.AssemblyInfo.cs
+C:\Users\killi\Documents\GitHub\Live-In-Paris\Live In Paris\obj\Debug\net7.0\Live In Paris.csproj.CoreCompileInputs.cache
+C:\Users\killi\Documents\GitHub\Live-In-Paris\Live In Paris\obj\Debug\net7.0\Live In Paris.sourcelink.json
+C:\Users\killi\Documents\GitHub\Live-In-Paris\Live In Paris\obj\Debug\net7.0\Live In Paris.dll
+C:\Users\killi\Documents\GitHub\Live-In-Paris\Live In Paris\obj\Debug\net7.0\refint\Live In Paris.dll
+C:\Users\killi\Documents\GitHub\Live-In-Paris\Live In Paris\obj\Debug\net7.0\Live In Paris.pdb
+C:\Users\killi\Documents\GitHub\Live-In-Paris\Live In Paris\bin\Debug\net7.0\Live In Paris.exe
+C:\Users\killi\Documents\GitHub\Live-In-Paris\Live In Paris\bin\Debug\net7.0\Live In Paris.deps.json
+C:\Users\killi\Documents\GitHub\Live-In-Paris\Live In Paris\bin\Debug\net7.0\Live In Paris.runtimeconfig.json
+C:\Users\killi\Documents\GitHub\Live-In-Paris\Live In Paris\bin\Debug\net7.0\Live In Paris.dll
+C:\Users\killi\Documents\GitHub\Live-In-Paris\Live In Paris\bin\Debug\net7.0\Live In Paris.pdb
+C:\Users\killi\Documents\GitHub\Live-In-Paris\Live In Paris\obj\Debug\net7.0\Live In Paris.genruntimeconfig.cache
+C:\Users\killi\Documents\GitHub\Live-In-Paris\Live In Paris\obj\Debug\net7.0\ref\Live In Paris.dll
