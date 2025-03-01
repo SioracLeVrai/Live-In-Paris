@@ -7,9 +7,9 @@ namespace Live_In_Paris
     {
         public Noeud Noeud1;
         public Noeud Noeud2;
-        public int poids;
+        public double poids;
 
-        public Lien(Noeud Noeud1, Noeud Noeud2, int poids)
+        public Lien(Noeud Noeud1, Noeud Noeud2, double poids)
         {
             this.Noeud1 = Noeud1;
             this.Noeud2 = Noeud2;
