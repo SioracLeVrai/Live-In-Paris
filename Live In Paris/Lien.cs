@@ -1,18 +1,22 @@
-﻿using System;
+﻿using Live_In_Paris;
+using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace Live_In_Paris
+namespace LiveInParis
 {
     internal class Lien
     {
-        public Noeud Noeud1;
-        public Noeud Noeud2;
+        public Noeud Depart;
+        public Noeud Arrivee;
         public double poids;
 
-        public Lien(Noeud Noeud1, Noeud Noeud2, double poids)
+        public Lien(Noeud Depart, Noeud Arrivee, double poids)
         {
-            this.Noeud1 = Noeud1;
-            this.Noeud2 = Noeud2;
+            this.Depart = Depart;
+            this.Arrivee = Arrivee;
             this.poids = poids;
         }
     }
