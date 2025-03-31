@@ -1,13 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "cUzT2EtDYcMUZs4f/9wirSRw1LlGrnW3IsFcPDt7rZfH4CiuVUfNA5lNTFRyT5UIv4ycK030dO51+xgfOdB0RA==",
+  "dgSpecHash": "pLudzUSCxpwLyO3jq71TowS7g4ppvQeogLc+6SAWSU5CVIJiq9paF3agqUmy3jOYz85Gndc8bKViWAMr/Utqcg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\killi\\Documents\\GitHub\\Live-In-Paris\\Live In Paris\\Live In Paris.csproj",
+  "projectFilePath": "C:\\Users\\grego\\OneDrive\\Documents\\GitHub\\Live-In-Paris\\Live In Paris\\Live In Paris.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\killi\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.15\\microsoft.windowsdesktop.app.ref.7.0.15.nupkg.sha512",
-    "C:\\Users\\killi\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.15\\microsoft.netcore.app.ref.7.0.15.nupkg.sha512",
-    "C:\\Users\\killi\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.15\\microsoft.aspnetcore.app.ref.7.0.15.nupkg.sha512",
-    "C:\\Users\\killi\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.15\\microsoft.netcore.app.host.win-x64.7.0.15.nupkg.sha512"
+    "C:\\Users\\grego\\.nuget\\packages\\skiasharp\\3.116.1\\skiasharp.3.116.1.nupkg.sha512",
+    "C:\\Users\\grego\\.nuget\\packages\\skiasharp.nativeassets.macos\\3.116.1\\skiasharp.nativeassets.macos.3.116.1.nupkg.sha512",
+    "C:\\Users\\grego\\.nuget\\packages\\skiasharp.nativeassets.win32\\3.116.1\\skiasharp.nativeassets.win32.3.116.1.nupkg.sha512"
   ],
   "logs": []
 }

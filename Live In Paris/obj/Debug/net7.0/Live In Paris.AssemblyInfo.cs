@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Live In Paris")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f0eb2134bc627395d0b1aaedc052598a1e480cb0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Live In Paris")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Live In Paris")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
