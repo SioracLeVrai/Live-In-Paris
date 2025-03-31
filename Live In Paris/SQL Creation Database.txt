@@ -1,0 +1,108 @@
+
+DROP DATABASE IF EXISTS LiveInParis;
+CREATE DATABASE IF NOT EXISTS LiveInParis;
+
+USE LiveInParis;
+
+CREATE TABLE Repas(
+   No_Repas INT PRIMARY KEY AUTO_INCREMENT,
+   Nom VARCHAR(50),
+   Type_de_plat__entrée__plat__dessert_ VARCHAR(50) NOT NULL,
+   Pour_n_personnes INT NOT NULL,
+   Prix_par_personnes FLOAT NOT NULL,
+   Régime_alimentaire VARCHAR(50),
+   Nature VARCHAR(50) NOT NULL,
+   No_Photo INT
+);
+
+CREATE TABLE Données_Particulier(
+   No_Données INT PRIMARY KEY AUTO_INCREMENT,
+   Nom VARCHAR(20),
+   Prénom VARCHAR(20),
+   Nom_Rue VARCHAR(50),
+   No_Rue INT,
+   Code_Postal INT,
+   Ville VARCHAR(50),
+   Numéro_de_téléphone INT,
+   Adresse_mail VARCHAR(50),
+   Métro_le___proche VARCHAR(50),
+   Mot_de_Passe VARCHAR(20)
+);
+
+CREATE TABLE Données_entreprise(
+   No_Données INT PRIMARY KEY AUTO_INCREMENT,
+   Nom_Entreprise VARCHAR(50),
+   Nom_Referent VARCHAR(20),
+   No_Rue INT,
+   Nom_Rue VARCHAR(50),
+   Code_Postal INT,
+   Ville VARCHAR(50),
+   Métro_le___proche VARCHAR(50),
+   Mot_de_Passe VARCHAR(20)
+);
+
+CREATE TABLE Compte_Client(
+   No_Compte_Client INT PRIMARY KEY AUTO_INCREMENT,
+   No_Données INT,
+   Type_de_Compte__parti_ou_entre_ BOOL,
+   No_Données_1 INT,
+   No_Données_2 INT,
+   UNIQUE(No_Données_1),
+   UNIQUE(No_Données_2),
+   FOREIGN KEY(No_Données_1) REFERENCES Données_entreprise(No_Données),
+   FOREIGN KEY(No_Données_2) REFERENCES Données_Particulier(No_Données)
+);
+
+CREATE TABLE Compte_Cuisinier(
+   No_Compte_Cuisinier INT PRIMARY KEY AUTO_INCREMENT,
+   No_Données INT,
+   Type_de_compte BOOL,
+   Disponibilité BOOL,
+   No_Données_1 INT,
+   No_Données_2 INT,
+   UNIQUE(No_Données_1),
+   UNIQUE(No_Données_2),
+   FOREIGN KEY(No_Données_1) REFERENCES Données_entreprise(No_Données),
+   FOREIGN KEY(No_Données_2) REFERENCES Données_Particulier(No_Données)
+);
+
+CREATE TABLE Element_de_commande(
+   No_Element INT PRIMARY KEY AUTO_INCREMENT,
+   Date_Fabrication DATE NOT NULL,
+   Date_péremption DATE NOT NULL,
+   Quantité INT,
+   No_Repas INT NOT NULL,
+   FOREIGN KEY(No_Repas) REFERENCES Repas(No_Repas)
+);
+
+CREATE TABLE Ingrédient(
+   Nom VARCHAR(50),
+   Quantité VARCHAR(10),
+   No_Repas INT NOT NULL,
+   PRIMARY KEY(Nom, Quantité, No_Repas),
+   FOREIGN KEY(No_Repas) REFERENCES Repas(No_Repas)
+);
+
+CREATE TABLE Commande(
+   No_Achat INT PRIMARY KEY AUTO_INCREMENT,
+   Date_Achat DATE,
+   No_Compte_Client INT NOT NULL,
+   No_Compte_Cuisinier INT NOT NULL,
+   FOREIGN KEY(No_Compte_Client) REFERENCES Compte_Client(No_Compte_Client),
+   FOREIGN KEY(No_Compte_Cuisinier) REFERENCES Compte_Cuisinier(No_Compte_Cuisinier)
+);
+
+CREATE TABLE Comporte(
+   No_Achat INT,
+   No_Element INT,
+   PRIMARY KEY(No_Achat, No_Element),
+   FOREIGN KEY(No_Achat) REFERENCES Commande(No_Achat),
+   FOREIGN KEY(No_Element) REFERENCES Element_de_commande(No_Element)
+);
+
+CREATE TABLE Propose(
+   No_Repas INT PRIMARY KEY AUTO_INCREMENT,
+   No_Compte_Cuisinier INT,
+   FOREIGN KEY(No_Repas) REFERENCES Repas(No_Repas),
+   FOREIGN KEY(No_Compte_Cuisinier) REFERENCES Compte_Cuisinier(No_Compte_Cuisinier)
+);

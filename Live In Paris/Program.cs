@@ -1,5 +1,6 @@
 ﻿using SkiaSharp;
 using System;
+using MySql.Data.MySqlClient;
 
 
 namespace Live_In_Paris
@@ -11,10 +12,10 @@ namespace Live_In_Paris
             Apps App = new Apps();
             App.Initialisation();
 
-            App.Connexion.Close();
+
 
             #region Commandes SELECT
-            /*
+            
             string commande = "SELECT * FROM Données_Particulier;";
             MySqlCommand codeCommande = App.Connexion.CreateCommand();
             codeCommande.CommandText = commande;
@@ -32,7 +33,7 @@ namespace Live_In_Paris
             reader.Close();
             codeCommande.Dispose();
             #endregion
-            */
+            App.Connexion.Close();
 
             /*
             #region Création de table
@@ -121,7 +122,7 @@ namespace Live_In_Paris
             }
             reader.Close();
             */
-            #endregion
+
 
 
             Console.WriteLine(App.SortieConsole);

@@ -197,7 +197,7 @@ namespace Live_In_Paris
             }
             catch (FileNotFoundException e) { this.SortieConsole = "\nEchec lors de la lecture du fichier" + e.Message; return; }
 
-            string[][] tab = new string[texte.Length][];
+            string[][] tab = new string[texte.Length][]; 
             for (int i = 0; i < texte.Length; i++)
             {
                 tab[i] = texte[i].Split(",");

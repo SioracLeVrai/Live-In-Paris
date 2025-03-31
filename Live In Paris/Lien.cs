@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LiveInParis
+namespace Live_In_Paris
 {
     internal class Lien
     {
