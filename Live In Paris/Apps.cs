@@ -1,4 +1,5 @@
-﻿using MySql.Data.MySqlClient;
+﻿using Google.Protobuf.WellKnownTypes;
+using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -47,7 +48,7 @@ namespace Live_In_Paris
         /// </summary>
         public void Initialisation()
         {
-            CreationTables();
+           // CreationTables();
             PeuplementTables();
         }
 
@@ -83,6 +84,7 @@ namespace Live_In_Paris
             PeuplementRepas();
             PeuplementDonneesParticulier();
             PeuplementDonneesEntreprise();
+            PeuplementCompteClient();
         }
 
         /// <summary>
@@ -229,6 +231,73 @@ namespace Live_In_Paris
 
 
             this.SortieConsole = "\n Insertion Réussie.";
+        }
+
+
+        public void PeuplementCompteClient()
+        {
+            // peuplement des comptes de types particuliers
+            this.SortieConsole = "\nDébut insertion table CompteClient Particulier";
+
+            try
+            {
+                string commande = "SELECT No_Données FROM Données_Particulier;";
+                MySqlCommand codeCommande = Connexion.CreateCommand();
+                codeCommande.CommandText = commande;
+                List<int> valueDonneP = new List<int>();
+                MySqlDataReader reader = codeCommande.ExecuteReader();
+                while (reader.Read())
+                {
+                    valueDonneP.Add(reader.GetInt32(0)); 
+                }
+                reader.Close();
+
+                foreach (int noDonnees in valueDonneP)
+                {
+                    string insertTable = $"INSERT INTO Compte_Client (Type_de_compte,No_Données) VALUES (0,{noDonnees})";
+                    MySqlCommand insertCommande=Connexion.CreateCommand();
+                    insertCommande.CommandText = insertTable;
+                    try
+                    {
+                        insertCommande.ExecuteNonQuery();
+                    }
+                    catch(MySqlException e) { Console.WriteLine("\nErreur Insertion : "+e.ToString()); return; }
+                }
+            }
+            catch(MySqlException e) { Console.WriteLine("\nErreur Insertion : " + e.ToString());return; }
+
+
+
+            // Peuplement des comptes de type entreprise
+            this.SortieConsole = "\nDébut insertion table CompteClient Entreprise";
+
+            try
+            {
+                string commande = "SELECT No_Données FROM Données_Entreprise;";
+                MySqlCommand codeCommande = Connexion.CreateCommand();
+                codeCommande.CommandText = commande;
+                List<int> valueDonneP = new List<int>();
+                MySqlDataReader reader = codeCommande.ExecuteReader();
+                while (reader.Read())
+                {
+                    valueDonneP.Add(reader.GetInt32(0));
+                }
+                reader.Close();
+
+                foreach (int noDonnees in valueDonneP)
+                {
+                    string insertTable = $"INSERT INTO Compte_Client (Type_de_compte,No_Données) VALUES (1,{noDonnees})";
+                    MySqlCommand insertCommande = Connexion.CreateCommand();
+                    insertCommande.CommandText = insertTable;
+                    try
+                    {
+                        insertCommande.ExecuteNonQuery();
+                    }
+                    catch (MySqlException e) { Console.WriteLine("\nErreur Insertion : " + e.ToString()); return; }
+                }
+            }
+            catch (MySqlException e) { Console.WriteLine("\nErreur Insertion : " + e.ToString()); return; }
+
         }
 
 

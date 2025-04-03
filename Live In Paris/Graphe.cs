@@ -1,12 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
+using System.IO;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+//using System.Windows.Media;
 using static System.Net.Mime.MediaTypeNames;
 using System.Xml.Linq;
-using System;
-using System.Collections.Generic;
 using SkiaSharp;
-using System.Diagnostics;
 using System.ComponentModel;
+using MySql.Data.MySqlClient;
 
 namespace Live_In_Paris
 {
@@ -21,32 +25,66 @@ namespace Live_In_Paris
             Liens = new List<Lien>();
         }
 
-        public void AjouterNoeud(string valeur)
+        public void AjouterNoeud(string nom, int x_coord, int y_coord)
         {
             foreach (Noeud noeud in Noeuds)
             {
-                if (noeud.valeur == valeur)
+                if (noeud.nom == nom)
                     return; // Le noeud existe deja
             }
 
-            Noeuds.Add(new Noeud(valeur));
+            Noeuds.Add(new Noeud(nom, x_coord, y_coord));
+        }
+
+        /// <summary>
+        /// Ajoute un lien entre deux noeuds avec un poid pris en paramètre
+        /// </summary>
+        /// <param name="nom1"></param>
+        /// <param name="nom2"></param>
+        /// <param name="poids"></param>
+        public void AjouterLien(string NomDepart, string NomArrivee, double poids)
+        {
+            Noeud Depart = null;
+            Noeud Arrivee = null;
+
+            foreach (Noeud noeud in Noeuds)
+            {
+                if (noeud.nom == NomDepart)
+                    Depart = noeud;
+                if (noeud.nom == NomArrivee)
+                    Arrivee = noeud;
+            }
+
+            if (Depart == null || Arrivee == null)
+            {
+                Console.WriteLine("Erreur : Un ou les deux nœuds n'existent pas.");
+                return;
+            }
+
+            if (poids == null) { poids = 0; }
+
+            Lien lien = new Lien(Depart, Arrivee, poids);
+            Liens.Add(lien);
+
         }
 
         /// <summary>
         /// Affiche tout les liens existant dans le graph
         /// </summary>
-        public void AffichageLiens()
+        public string AffichageLiens()
         {
-            foreach(Lien liens in Liens)
+            string txt = "";
+            foreach (Lien liens in Liens)
             {
-                Console.WriteLine("Lien entre " + liens.Noeud1.valeur + " et " + liens.Noeud2.valeur + "ayant le poid " + liens.poids + ".");
+                txt += "\nLien entre " + liens.Depart.nom + " et " + liens.Arrivee.nom + " ayant le poid " + liens.poids + ".";
             }
+            return txt;
         }
 
         /// <summary>
         /// Affiche la matrice d'adjacence du graph
         /// </summary>
-        public void MatriceAdjacence()
+        public string MatriceAdjacence()
         {
             int taille = Noeuds.Count;
             double[,] mat = new double[taille, taille];
@@ -65,7 +103,7 @@ namespace Live_In_Paris
                 {
                     foreach (Lien lien in Liens)
                     {
-                        if ((lien.Noeud1 == Noeuds[i] && lien.Noeud2 == Noeuds[j]) || (lien.Noeud1 == Noeuds[j] && lien.Noeud2 == Noeuds[i]))
+                        if ((lien.Depart == Noeuds[i] && lien.Arrivee == Noeuds[j]) || (lien.Depart == Noeuds[j] && lien.Arrivee == Noeuds[i]))
                         {
                             mat[i, j] = lien.poids;
                         }
@@ -73,90 +111,114 @@ namespace Live_In_Paris
                 }
             }
 
-            Console.Write("\t");
+            string txt = "\t";
+
             foreach (Noeud noeud in Noeuds)
             {
-                Console.Write(noeud.valeur + " ");
-                if (Convert.ToInt32(noeud.valeur) < 10)
-                {
-                    Console.Write(" ");
-                }
+                txt += noeud.nom + " ";
             }
-            Console.WriteLine();
+
+            txt += "\n";
 
             for (int i = 0; i < taille; i++)
             {
-                Console.Write(Noeuds[i].valeur + "\t");
+                txt += Noeuds[i].nom + "\t";
                 for (int j = 0; j < taille; j++)
                 {
-                    Console.Write(mat[i, j] + "  ");
+                    txt += mat[i, j] + "  ";
 
                 }
-                Console.WriteLine();
+                txt += "\n";
             }
+            return txt;
         }
- 
+
+
 
         /// <summary>
-        /// Ajoute un lien entre deux noeuds avec un poid pris en paramètre
-        /// </summary>
-        /// <param name="valeur1"></param>
-        /// <param name="valeur2"></param>
-        /// <param name="poids"></param>
-        public void AjouterLien(string valeur1, string valeur2, double poids)
-            {
-                Noeud noeud1 = null;
-                Noeud noeud2 = null;
-
-                foreach (Noeud noeud in Noeuds)
-                {
-                    if (noeud.valeur == valeur1)
-                        noeud1 = noeud;
-                    if (noeud.valeur == valeur2)
-                        noeud2 = noeud;
-                }
-
-                if (noeud1 == null || noeud2 == null)
-                {
-                    Console.WriteLine("Erreur : Un ou les deux nœuds n'existent pas.");
-                    return;
-                }
-
-                Lien lien = new Lien(noeud1, noeud2, poids);
-                Liens.Add(lien);
-
-            }
-
-        /// <summary>
-        /// Rempli le graph à partir du fichier "soc-karate.txt"
+        /// Rempli le graph à partir des fichiers dans le dossier "Graph".
         /// </summary>
         public void CreationGraph()
         {
+            // Ajout des stations
             string[] texte = null;
-            string Chemin = "soc-karate.txt";
+            string Chemin = "Graph/ListeStations.txt";
             try
             {
                 texte = File.ReadAllText(Chemin).Split('\n');
             }
-            catch (FileNotFoundException e) { Console.WriteLine("echec lors de la lecture du fichier" + e.Message); }
+            catch (FileNotFoundException e) { Console.WriteLine("\nEchec lors de la lecture du fichier" + e.Message); return; }
 
-            string[][] mat = new string[texte.Length][];
-            string[] tempo = null;
+            string[][] tab = new string[texte.Length][];
             for (int i = 0; i < texte.Length; i++)
             {
-                mat[i] = new string[3];
-                texte[i] = texte[i].Substring(3, texte[i].Length - 3);
-                tempo = texte[i].Split(",");
-                mat[i][0] = tempo[0].Trim();
-                mat[i][1] = tempo[1].Split(")")[0].Trim();
-                mat[i][2] = tempo[1].Split(")")[1].Trim();
+                tab[i] = texte[i].Split(",");
+                for (int j = 0; j < tab[i].Length; j++)
+                {
+                    tab[i][j] = tab[i][j].Trim();
+                }
             }
-            for (int i = 0; i < mat.Length; i++)
+
+
+            foreach (string[] ligne in tab)
             {
-                AjouterNoeud(mat[i][0]);
-                AjouterNoeud(mat[i][1]);
-                AjouterLien(mat[i][0], mat[i][1], Convert.ToDouble(mat[i][2].Replace('.', ',')));
+                AjouterNoeud(ligne[0], Convert.ToInt32(ligne[1]), Convert.ToInt32(ligne[2]));
             }
+
+            // Ajout des liaisons
+            texte = null;
+            Chemin = "Graph/ListeAdjacencesLignes.txt";
+            try
+            {
+                texte = File.ReadAllText(Chemin).Split('\n');
+            }
+            catch (FileNotFoundException e) { Console.WriteLine("\nEchec lors de la lecture du fichier" + e.Message); return; }
+
+            tab = new string[texte.Length][];
+            for (int i = 0; i < texte.Length; i++)
+            {
+                tab[i] = texte[i].Split(",");
+                for (int j = 0; j < tab[i].Length; j++)
+                {
+                    tab[i][j] = tab[i][j].Trim();
+                }
+            }
+            foreach (string[] ligne in tab)
+            {
+                try
+                {
+                    AjouterLien(ligne[0], ligne[1], Convert.ToDouble(ligne[2]));
+                }
+                catch (FileNotFoundException e) { Console.WriteLine("\nEchec lors de l'ajout du lien" + e.Message); }
+            }
+
+            texte = null;
+            Chemin = "Graph/ListeAdjacencesChangements.txt";
+            try
+            {
+                texte = File.ReadAllText(Chemin).Split('\n');
+            }
+            catch (FileNotFoundException e) { Console.WriteLine("\nEchec lors de la lecture du fichier" + e.Message); return; }
+
+            tab = new string[texte.Length][];
+            for (int i = 0; i < texte.Length; i++)
+            {
+                tab[i] = texte[i].Split(",");
+                for (int j = 0; j < tab[i].Length; j++)
+                {
+                    tab[i][j] = tab[i][j].Trim();
+                }
+            }
+            foreach (string[] ligne in tab)
+            {
+                try
+                {
+                    AjouterLien(ligne[0], ligne[1], Convert.ToDouble(ligne[2]));
+                }
+                catch (IndexOutOfRangeException e) { Console.WriteLine("\nEchec lors de l'ajout du lien" + e.Message); }
+
+            }
+
         }
 
         /// <summary>
@@ -169,10 +231,10 @@ namespace Live_In_Paris
             List<Noeud> voisin = new List<Noeud>();
             foreach (Lien lien in Liens)
             {
-                if (lien.Noeud1 == noeud)
-                    voisin.Add(lien.Noeud2);
-                else if (lien.Noeud2 == noeud)
-                    voisin.Add(lien.Noeud1);
+                if (lien.Depart == noeud)
+                    voisin.Add(lien.Arrivee);
+                else if (lien.Arrivee == noeud)
+                    voisin.Add(lien.Depart);
             }
             return voisin;
         }
@@ -180,16 +242,16 @@ namespace Live_In_Paris
         /// <summary>
         /// Parcours en largeur le graph
         /// </summary>
-        /// <param name="valeurDebut"></param>
+        /// <param name="nomDebut"></param>
         /// <returns></returns>
-        public string ParcoursEnLargeur(string valeurDebut)
+        public string ParcoursEnLargeur(string nomDebut)
         {
             string resultat = "";
 
             Noeud debut = null;
             foreach (Noeud noeud in Noeuds)
             {
-                if (noeud.valeur == valeurDebut)
+                if (noeud.nom == nomDebut)
                 {
                     debut = noeud;
                 }
@@ -210,19 +272,19 @@ namespace Live_In_Paris
             while (file.Count > 0)
             {
                 Noeud enCours = file.Dequeue();
-                resultat += enCours.valeur + " ";
+                resultat += enCours.nom + ", ";
 
                 foreach (Noeud voisin in listeVoisin(enCours))
                 {
                     tempo = false;
-                    foreach(Noeud noeud in dejaVisite)
+                    foreach (Noeud noeud in dejaVisite)
                     {
-                        if(noeud == voisin)
+                        if (noeud == voisin)
                         {
                             tempo = true;
                         }
                     }
-                    
+
                     if (!tempo)
                     {
                         file.Enqueue(voisin);
@@ -237,14 +299,14 @@ namespace Live_In_Paris
         /// <summary>
         /// Parcour en profondeurs le graph de façon récusive en appelant ParcoursEnProfondeurRecursif
         /// </summary>
-        /// <param name="valeurDebut"></param>
+        /// <param name="nomDebut"></param>
         /// <returns></returns>
-        public string ParcoursEnProfondeur(string valeurDebut)
+        public string ParcoursEnProfondeur(string nomDebut)
         {
             Noeud debut = null;
             foreach (Noeud noeud in Noeuds)
             {
-                if (noeud.valeur == valeurDebut)
+                if (noeud.nom == nomDebut)
                 {
                     debut = noeud;
                 }
@@ -279,7 +341,7 @@ namespace Live_In_Paris
 
             if (!tempo)
             {
-                resultat = enCours.valeur + " ";
+                resultat = enCours.nom + ", ";
 
                 dejaVisite.Add(enCours);
 
@@ -328,11 +390,11 @@ namespace Live_In_Paris
                     {
                         int i = dejaVisite.IndexOf(voisin);
                         string resultat = "";
-                        for(int j = i; j < dejaVisite.Count; j++)
+                        for (int j = i; j < dejaVisite.Count; j++)
                         {
-                            resultat += dejaVisite[j].valeur + " ";
+                            resultat += dejaVisite[j].nom + " ";
                         }
-                        resultat += dejaVisite[i].valeur;
+                        resultat += dejaVisite[i].nom;
                         return resultat;
                     }
                     else
@@ -350,15 +412,31 @@ namespace Live_In_Paris
         /// <summary>
         /// Génère et ouvre un image png imageant le graph
         /// </summary>
+        /// <summary>
+        /// Génère et ouvre une image PNG représentant le graphe avec les noeuds aux coordonnées réelles
+        /// </summary>
         public void DessinerGraphe()
         {
             string filePath = "graphe.png";
-            int width = 2000, height = 2000;
+
+            // Calculer les dimensions de la toile en fonction des coordonnées max/min
+            int minX = Noeuds.Min(n => n.x_coord);
+            int maxX = Noeuds.Max(n => n.x_coord);
+            int minY = Noeuds.Min(n => n.y_coord);
+            int maxY = Noeuds.Max(n => n.y_coord);
+
+            // Ajouter une marge (par exemple, 100 pixels de chaque côté)
+            int margin = 150;
+            int width = 5000;
+            int height = 6000;
+
             using (SKBitmap bitmap = new SKBitmap(width, height))
             using (SKCanvas canvas = new SKCanvas(bitmap))
             {
+                // Fond blanc
                 canvas.Clear(SKColors.White);
 
+                // Styles pour les noeuds, arêtes et texte
                 SKPaint paintNode = new SKPaint
                 {
                     Color = SKColors.Blue,
@@ -373,45 +451,46 @@ namespace Live_In_Paris
 
                 SKPaint paintText = new SKPaint
                 {
-                    Color = SKColors.White,
-                    TextSize = 20,
+                    Color = SKColors.Black,
+                    TextSize = 30,
                     IsAntialias = true,
                     TextAlign = SKTextAlign.Center
                 };
 
+                // Dictionnaire pour stocker les positions des noeuds
                 Dictionary<string, SKPoint> positions = new Dictionary<string, SKPoint>();
-                int centerX = width / 2;
-                int centerY = height / 2;
-                int radius = Math.Min(width, height) / 3;
-                int count = Noeuds.Count;
 
-                for (int i = 0; i < count; i++)
+                // Placer les noeuds aux coordonnées réelles, ajustées avec la marge
+                foreach (Noeud noeud in Noeuds)
                 {
-                    double angle = 2 * Math.PI * i / count;
-                    float x = centerX + (float)(radius * Math.Cos(angle));
-                    float y = centerY + (float)(radius * Math.Sin(angle));
-                    positions[Noeuds[i].valeur] = new SKPoint(x, y);
+                    float x = (noeud.x_coord - minX) * 10 + margin; // Ajuster par rapport au minimum + marge
+                    float y = (noeud.y_coord - minY) * 10 + margin; // Ajuster par rapport au minimum + marge
+                    positions[noeud.nom.Split(" - ")[0]] = new SKPoint(x, y);
                 }
 
+                // Dessiner les arêtes (liens) entre les noeuds
                 foreach (Lien lien in Liens)
                 {
-                    SKPoint p1 = positions[lien.Noeud1.valeur];
-                    SKPoint p2 = positions[lien.Noeud2.valeur];
+                    SKPoint p1 = positions[lien.Depart.nom.Split(" - ")[0]];
+                    SKPoint p2 = positions[lien.Arrivee.nom.Split(" - ")[0]];
                     canvas.DrawLine(p1, p2, paintEdge);
                 }
 
+                // Dessiner les noeuds et leurs noms
                 foreach (var kvp in positions)
                 {
-                    canvas.DrawCircle(kvp.Value, 20, paintNode);
-                    canvas.DrawText(kvp.Key, kvp.Value.X, kvp.Value.Y + 7, paintText);
+                    canvas.DrawCircle(kvp.Value, 40, paintNode); // Cercle pour le noeud
+                    canvas.DrawText(kvp.Key, kvp.Value.X, kvp.Value.Y + 7, paintText); // Nom au centre
                 }
 
+                // Sauvegarder l'image en PNG
                 using (SKImage image = SKImage.FromBitmap(bitmap))
                 using (SKData data = image.Encode(SKEncodedImageFormat.Png, 100))
                 {
                     System.IO.File.WriteAllBytes(filePath, data.ToArray());
                 }
 
+                // Ouvre l'image générée
                 Process.Start(new ProcessStartInfo
                 {
                     FileName = filePath,
