@@ -12,3 +12,66 @@ C:\Users\maxim\source\repos\Live In Paris\Live In Paris\obj\Debug\net7.0\refint\
 C:\Users\maxim\source\repos\Live In Paris\Live In Paris\obj\Debug\net7.0\Live In Paris.pdb
 C:\Users\maxim\source\repos\Live In Paris\Live In Paris\obj\Debug\net7.0\Live In Paris.genruntimeconfig.cache
 C:\Users\maxim\source\repos\Live In Paris\Live In Paris\obj\Debug\net7.0\ref\Live In Paris.dll
+C:\Users\killi\Documents\GitHub\Live-In-Paris\Live In Paris\obj\Debug\net7.0\Live In Paris.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\killi\Documents\GitHub\Live-In-Paris\Live In Paris\obj\Debug\net7.0\Live In Paris.AssemblyInfoInputs.cache
+C:\Users\killi\Documents\GitHub\Live-In-Paris\Live In Paris\obj\Debug\net7.0\Live In Paris.AssemblyInfo.cs
+C:\Users\killi\Documents\GitHub\Live-In-Paris\Live In Paris\obj\Debug\net7.0\Live In Paris.csproj.CoreCompileInputs.cache
+C:\Users\killi\Documents\GitHub\Live-In-Paris\Live In Paris\obj\Debug\net7.0\Live In Paris.sourcelink.json
+C:\Users\killi\Documents\GitHub\Live-In-Paris\Live In Paris\obj\Debug\net7.0\Live In Paris.dll
+C:\Users\killi\Documents\GitHub\Live-In-Paris\Live In Paris\obj\Debug\net7.0\refint\Live In Paris.dll
+C:\Users\killi\Documents\GitHub\Live-In-Paris\Live In Paris\obj\Debug\net7.0\Live In Paris.pdb
+C:\Users\killi\Documents\GitHub\Live-In-Paris\Live In Paris\bin\Debug\net7.0\Live In Paris.exe
+C:\Users\killi\Documents\GitHub\Live-In-Paris\Live In Paris\bin\Debug\net7.0\Live In Paris.deps.json
+C:\Users\killi\Documents\GitHub\Live-In-Paris\Live In Paris\bin\Debug\net7.0\Live In Paris.runtimeconfig.json
+C:\Users\killi\Documents\GitHub\Live-In-Paris\Live In Paris\bin\Debug\net7.0\Live In Paris.dll
+C:\Users\killi\Documents\GitHub\Live-In-Paris\Live In Paris\bin\Debug\net7.0\Live In Paris.pdb
+C:\Users\killi\Documents\GitHub\Live-In-Paris\Live In Paris\obj\Debug\net7.0\Live In Paris.genruntimeconfig.cache
+C:\Users\killi\Documents\GitHub\Live-In-Paris\Live In Paris\obj\Debug\net7.0\ref\Live In Paris.dll
+C:\Users\grego\OneDrive\Documents\GitHub\Live-In-Paris\Live In Paris\bin\Debug\net7.0\Live In Paris.exe
+C:\Users\grego\OneDrive\Documents\GitHub\Live-In-Paris\Live In Paris\bin\Debug\net7.0\Live In Paris.deps.json
+C:\Users\grego\OneDrive\Documents\GitHub\Live-In-Paris\Live In Paris\bin\Debug\net7.0\Live In Paris.runtimeconfig.json
+C:\Users\grego\OneDrive\Documents\GitHub\Live-In-Paris\Live In Paris\bin\Debug\net7.0\Live In Paris.dll
+C:\Users\grego\OneDrive\Documents\GitHub\Live-In-Paris\Live In Paris\bin\Debug\net7.0\Live In Paris.pdb
+C:\Users\grego\OneDrive\Documents\GitHub\Live-In-Paris\Live In Paris\bin\Debug\net7.0\SkiaSharp.dll
+C:\Users\grego\OneDrive\Documents\GitHub\Live-In-Paris\Live In Paris\bin\Debug\net7.0\runtimes\osx\native\libSkiaSharp.dylib
+C:\Users\grego\OneDrive\Documents\GitHub\Live-In-Paris\Live In Paris\bin\Debug\net7.0\runtimes\win-arm64\native\libSkiaSharp.dll
+C:\Users\grego\OneDrive\Documents\GitHub\Live-In-Paris\Live In Paris\bin\Debug\net7.0\runtimes\win-x64\native\libSkiaSharp.dll
+C:\Users\grego\OneDrive\Documents\GitHub\Live-In-Paris\Live In Paris\bin\Debug\net7.0\runtimes\win-x86\native\libSkiaSharp.dll
+C:\Users\grego\OneDrive\Documents\GitHub\Live-In-Paris\Live In Paris\obj\Debug\net7.0\Live In Paris.csproj.AssemblyReference.cache
+C:\Users\grego\OneDrive\Documents\GitHub\Live-In-Paris\Live In Paris\obj\Debug\net7.0\Live In Paris.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\grego\OneDrive\Documents\GitHub\Live-In-Paris\Live In Paris\obj\Debug\net7.0\Live In Paris.AssemblyInfoInputs.cache
+C:\Users\grego\OneDrive\Documents\GitHub\Live-In-Paris\Live In Paris\obj\Debug\net7.0\Live In Paris.AssemblyInfo.cs
+C:\Users\grego\OneDrive\Documents\GitHub\Live-In-Paris\Live In Paris\obj\Debug\net7.0\Live In Paris.csproj.CoreCompileInputs.cache
+C:\Users\grego\OneDrive\Documents\GitHub\Live-In-Paris\Live In Paris\obj\Debug\net7.0\Live In Paris.csproj.CopyComplete
+C:\Users\grego\OneDrive\Documents\GitHub\Live-In-Paris\Live In Paris\obj\Debug\net7.0\Live In Paris.dll
+C:\Users\grego\OneDrive\Documents\GitHub\Live-In-Paris\Live In Paris\obj\Debug\net7.0\refint\Live In Paris.dll
+C:\Users\grego\OneDrive\Documents\GitHub\Live-In-Paris\Live In Paris\obj\Debug\net7.0\Live In Paris.pdb
+C:\Users\grego\OneDrive\Documents\GitHub\Live-In-Paris\Live In Paris\obj\Debug\net7.0\Live In Paris.genruntimeconfig.cache
+C:\Users\grego\OneDrive\Documents\GitHub\Live-In-Paris\Live In Paris\obj\Debug\net7.0\ref\Live In Paris.dll
+C:\Users\grego\OneDrive\Documents\GitHub\Live-In-Paris\Live In Paris\bin\Debug\net7.0\BouncyCastle.Cryptography.dll
+C:\Users\grego\OneDrive\Documents\GitHub\Live-In-Paris\Live In Paris\bin\Debug\net7.0\Google.Protobuf.dll
+C:\Users\grego\OneDrive\Documents\GitHub\Live-In-Paris\Live In Paris\bin\Debug\net7.0\K4os.Compression.LZ4.dll
+C:\Users\grego\OneDrive\Documents\GitHub\Live-In-Paris\Live In Paris\bin\Debug\net7.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\grego\OneDrive\Documents\GitHub\Live-In-Paris\Live In Paris\bin\Debug\net7.0\K4os.Hash.xxHash.dll
+C:\Users\grego\OneDrive\Documents\GitHub\Live-In-Paris\Live In Paris\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\grego\OneDrive\Documents\GitHub\Live-In-Paris\Live In Paris\bin\Debug\net7.0\MySql.Data.dll
+C:\Users\grego\OneDrive\Documents\GitHub\Live-In-Paris\Live In Paris\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\grego\OneDrive\Documents\GitHub\Live-In-Paris\Live In Paris\bin\Debug\net7.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\grego\OneDrive\Documents\GitHub\Live-In-Paris\Live In Paris\bin\Debug\net7.0\System.Diagnostics.EventLog.dll
+C:\Users\grego\OneDrive\Documents\GitHub\Live-In-Paris\Live In Paris\bin\Debug\net7.0\System.IO.Pipelines.dll
+C:\Users\grego\OneDrive\Documents\GitHub\Live-In-Paris\Live In Paris\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\grego\OneDrive\Documents\GitHub\Live-In-Paris\Live In Paris\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\grego\OneDrive\Documents\GitHub\Live-In-Paris\Live In Paris\bin\Debug\net7.0\System.Text.Encoding.CodePages.dll
+C:\Users\grego\OneDrive\Documents\GitHub\Live-In-Paris\Live In Paris\bin\Debug\net7.0\System.Text.Encodings.Web.dll
+C:\Users\grego\OneDrive\Documents\GitHub\Live-In-Paris\Live In Paris\bin\Debug\net7.0\System.Text.Json.dll
+C:\Users\grego\OneDrive\Documents\GitHub\Live-In-Paris\Live In Paris\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\grego\OneDrive\Documents\GitHub\Live-In-Paris\Live In Paris\bin\Debug\net7.0\ZstdSharp.dll
+C:\Users\grego\OneDrive\Documents\GitHub\Live-In-Paris\Live In Paris\bin\Debug\net7.0\runtimes\win-x64\native\comerr64.dll
+C:\Users\grego\OneDrive\Documents\GitHub\Live-In-Paris\Live In Paris\bin\Debug\net7.0\runtimes\win-x64\native\gssapi64.dll
+C:\Users\grego\OneDrive\Documents\GitHub\Live-In-Paris\Live In Paris\bin\Debug\net7.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\grego\OneDrive\Documents\GitHub\Live-In-Paris\Live In Paris\bin\Debug\net7.0\runtimes\win-x64\native\krb5_64.dll
+C:\Users\grego\OneDrive\Documents\GitHub\Live-In-Paris\Live In Paris\bin\Debug\net7.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\grego\OneDrive\Documents\GitHub\Live-In-Paris\Live In Paris\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Diagnostics.EventLog.Messages.dll
+C:\Users\grego\OneDrive\Documents\GitHub\Live-In-Paris\Live In Paris\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Diagnostics.EventLog.dll
+C:\Users\grego\OneDrive\Documents\GitHub\Live-In-Paris\Live In Paris\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Text.Encoding.CodePages.dll
+C:\Users\grego\OneDrive\Documents\GitHub\Live-In-Paris\Live In Paris\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
