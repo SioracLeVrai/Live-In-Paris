@@ -85,8 +85,12 @@ namespace Live_In_Paris
             PeuplementDonneesParticulier();
             PeuplementDonneesEntreprise();
             PeuplementCompteClient();
+            PeuplementCompteCuisinier();
             PeuplementElementDeCommande();
             PeuplementIngrédient();
+            PeuplementCommande();
+            PeuplementComporte();
+            PeuplementPropose();
         }
 
         /// <summary>
@@ -307,7 +311,35 @@ namespace Live_In_Paris
 
         public void PeuplementCompteCuisinier()
         {
+            this.SortieConsole = "\nDébut insertion table CompteCuisinier";
 
+            try
+            {
+                string commande = "SELECT No_Données FROM Données_Particulier;";
+                MySqlCommand codeCommande = Connexion.CreateCommand();
+                codeCommande.CommandText = commande;
+                List<int> valueDonneP = new List<int>();
+                MySqlDataReader reader = codeCommande.ExecuteReader();
+                while (reader.Read())
+                {
+                    valueDonneP.Add(reader.GetInt32(0));
+                }
+                reader.Close();
+                Random r = new Random();
+                foreach (int noDonnees in valueDonneP)
+                {
+                    string insertTable = $"INSERT INTO Compte_Cuisinier (No_Données,Disponibilité) VALUES ({noDonnees},{r.Next(0,2)})";
+                    MySqlCommand insertCommande = Connexion.CreateCommand();
+                    insertCommande.CommandText = insertTable;
+                    try
+                    {
+                        insertCommande.ExecuteNonQuery();
+                    }
+                    catch (MySqlException e) { Console.WriteLine("\nErreur Insertion : " + e.ToString()); return; }
+                }
+                this.SortieConsole = "\n Insertion réussie.";
+            }
+            catch (MySqlException e) { Console.WriteLine("\nErreur Insertion : " + e.ToString()); return; }
         }
 
         public void PeuplementElementDeCommande()
@@ -410,8 +442,142 @@ namespace Live_In_Paris
 
         }
 
+        public void PeuplementCommande()
+        {
+            this.SortieConsole = "\nDébut insertion table Commande.";
+            //Lecture fichier et traitements données
+            string[] texte = null;
+            string Chemin = "Peuplement/PeuplementCommande.txt";
+            try
+            {
+                texte = File.ReadAllText(Chemin).Split('\n');
+            }
+            catch (FileNotFoundException e) { this.SortieConsole = "\nEchec lors de la lecture du fichier" + e.Message; return; }
 
+            var donneesElements = new List<string[]>();
+            foreach (var ligne in texte)
+            {
+                var colonnes = ligne.Split(',').Select(c => c.Trim().Trim('"')).ToArray();
+                donneesElements.Add(colonnes);
+
+            }
+
+            //insertion SQL 
+            try
+            {
+
+
+                //Insertion
+
+                for (int i = 0; i < donneesElements.Count; i++)
+                {
+                    string insertTable = $"INSERT INTO Commande (Date_Achat,No_Compte_Client,No_Compte_Cuisinier) VALUES ('{donneesElements[i][0]}',{donneesElements[i][1]},{donneesElements[i][2]})";
+                    MySqlCommand insertCommande = Connexion.CreateCommand();
+                    insertCommande.CommandText = insertTable;
+                    try
+                    {
+                        insertCommande.ExecuteNonQuery();
+                    }
+                    catch (MySqlException e) { Console.WriteLine("\nErreur Insertion : " + e.ToString()); return; }
+                }
+                this.SortieConsole = "\n Insertion réussie.";
+            }
+            catch (MySqlException e) { Console.WriteLine("\nErreur Insertion : " + e.ToString()); return; }
+        }
+
+        public void PeuplementComporte()
+        {
+            this.SortieConsole = "\nDébut insertion table Comporte.";
+            //Lecture fichier et traitements données
+            string[] texte = null;
+            string Chemin = "Peuplement/PeuplementComporte.txt";
+            try
+            {
+                texte = File.ReadAllText(Chemin).Split('\n');
+            }
+            catch (FileNotFoundException e) { this.SortieConsole = "\nEchec lors de la lecture du fichier" + e.Message; return; }
+
+            var donneesElements = new List<string[]>();
+            foreach (var ligne in texte)
+            {
+                var colonnes = ligne.Split(',').Select(c => c.Trim().Trim('"')).ToArray();
+                donneesElements.Add(colonnes);
+
+            }
+
+            //insertion SQL 
+            try
+            {
+
+
+                //Insertion
+
+                for (int i = 0; i < donneesElements.Count; i++)
+                {
+                    string insertTable = $"INSERT INTO Comporte (No_Achat,No_Element) VALUES ({donneesElements[i][0]},{donneesElements[i][1]})";
+                    MySqlCommand insertCommande = Connexion.CreateCommand();
+                    insertCommande.CommandText = insertTable;
+                    try
+                    {
+                        insertCommande.ExecuteNonQuery();
+                    }
+                    catch (MySqlException e) { Console.WriteLine("\nErreur Insertion : " + e.ToString()); return; }
+                }
+                this.SortieConsole = "\n Insertion réussie.";
+            }
+            catch (MySqlException e) { Console.WriteLine("\nErreur Insertion : " + e.ToString()); return; }
+        }
+
+
+
+
+
+        public void PeuplementPropose()
+        {
+            this.SortieConsole = "\nDébut insertion table Propose.";
+            //Lecture fichier et traitements données
+            string[] texte = null;
+            string Chemin = "Peuplement/PeuplementPropose.txt";
+            try
+            {
+                texte = File.ReadAllText(Chemin).Split('\n');
+            }
+            catch (FileNotFoundException e) { this.SortieConsole = "\nEchec lors de la lecture du fichier" + e.Message; return; }
+
+            var donneesElements = new List<string[]>();
+            foreach (var ligne in texte)
+            {
+                var colonnes = ligne.Split(',').Select(c => c.Trim().Trim('"')).ToArray();
+                donneesElements.Add(colonnes);
+
+            }
+
+            //insertion SQL 
+            try
+            {
+
+
+                //Insertion
+
+                for (int i = 0; i < donneesElements.Count; i++)
+                {
+                    string insertTable = $"INSERT INTO Propose (No_Repas,No_Compte_Cuisinier) VALUES ({donneesElements[i][0]},{donneesElements[i][1]})";
+                    MySqlCommand insertCommande = Connexion.CreateCommand();
+                    insertCommande.CommandText = insertTable;
+                    try
+                    {
+                        insertCommande.ExecuteNonQuery();
+                    }
+                    catch (MySqlException e) { Console.WriteLine("\nErreur Insertion : " + e.ToString()); return; }
+                }
+                this.SortieConsole = "\n Insertion réussie.";
+            }
+            catch (MySqlException e) { Console.WriteLine("\nErreur Insertion : " + e.ToString()); return; }
+        }
+    }
+
+    
 
         #endregion
-    }
+    
 }
