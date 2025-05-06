@@ -1,0 +1,720 @@
+Porte de Clichy - Ligne 13, Porte de Clichy - Ligne 14, 2
+Porte de Clichy - Ligne 14, Porte de Clichy - Ligne 13, 2
+Saint-Lazare - Ligne 13, Saint-Lazare - Ligne 14, 2
+Saint-Lazare - Ligne 14, Saint-Lazare - Ligne 13, 2
+Champs-Elysees - Clemenceau - Ligne 1, Champs-Elysees - Clemenceau - Ligne 13, 2
+Champs-Elysees - Clemenceau - Ligne 13, Champs-Elysees - Clemenceau - Ligne 1, 2
+Invalides - Ligne 8, Invalides - Ligne 13, 2
+Invalides - Ligne 13, Invalides - Ligne 8, 2
+Duroc - Ligne 10, Duroc - Ligne 13, 2
+Duroc - Ligne 13, Duroc - Ligne 10, 2
+Montparnasse Bienvenue - Ligne 4, Montparnasse Bienvenue - Ligne 6, 2
+Montparnasse Bienvenue - Ligne 6, Montparnasse Bienvenue - Ligne 4, 2
+Montparnasse Bienvenue - Ligne 4, Montparnasse Bienvenue - Ligne 12, 2
+Montparnasse Bienvenue - Ligne 12, Montparnasse Bienvenue - Ligne 4, 2
+Montparnasse Bienvenue - Ligne 4, Montparnasse Bienvenue - Ligne 13, 2
+Montparnasse Bienvenue - Ligne 13, Montparnasse Bienvenue - Ligne 4, 2
+Montparnasse Bienvenue - Ligne 6, Montparnasse Bienvenue - Ligne 12, 2
+Montparnasse Bienvenue - Ligne 12, Montparnasse Bienvenue - Ligne 6, 2
+Montparnasse Bienvenue - Ligne 6, Montparnasse Bienvenue - Ligne 13, 2
+Montparnasse Bienvenue - Ligne 13, Montparnasse Bienvenue - Ligne 6, 2
+Montparnasse Bienvenue - Ligne 12, Montparnasse Bienvenue - Ligne 13, 2
+Montparnasse Bienvenue - Ligne 13, Montparnasse Bienvenue - Ligne 12, 2
+Madeleine - Ligne 8, Madeleine - Ligne 12, 2
+Madeleine - Ligne 12, Madeleine - Ligne 8, 2
+Madeleine - Ligne 8, Madeleine - Ligne 14, 2
+Madeleine - Ligne 14, Madeleine - Ligne 8, 2
+Madeleine - Ligne 12, Madeleine - Ligne 14, 2
+Madeleine - Ligne 14, Madeleine - Ligne 12, 2
+Pyramides - Ligne 7, Pyramides - Ligne 14, 2
+Pyramides - Ligne 14, Pyramides - Ligne 7, 2
+Chatelet L04 - Ligne 1, Chatelet L04 - Ligne 4, 2
+Chatelet L04 - Ligne 4, Chatelet L04 - Ligne 1, 2
+Chatelet L04 - Ligne 1, Chatelet L04 - Ligne 7, 2
+Chatelet L04 - Ligne 7, Chatelet L04 - Ligne 1, 2
+Chatelet L04 - Ligne 1, Chatelet L04 - Ligne 11, 2
+Chatelet L04 - Ligne 11, Chatelet L04 - Ligne 1, 2
+Chatelet L04 - Ligne 1, Chatelet L04 - Ligne 14, 2
+Chatelet L04 - Ligne 14, Chatelet L04 - Ligne 1, 2
+Chatelet L04 - Ligne 4, Chatelet L04 - Ligne 7, 2
+Chatelet L04 - Ligne 7, Chatelet L04 - Ligne 4, 2
+Chatelet L04 - Ligne 4, Chatelet L04 - Ligne 11, 2
+Chatelet L04 - Ligne 11, Chatelet L04 - Ligne 4, 2
+Chatelet L04 - Ligne 4, Chatelet L04 - Ligne 14, 2
+Chatelet L04 - Ligne 14, Chatelet L04 - Ligne 4, 2
+Chatelet L04 - Ligne 7, Chatelet L04 - Ligne 11, 2
+Chatelet L04 - Ligne 11, Chatelet L04 - Ligne 7, 2
+Chatelet L04 - Ligne 7, Chatelet L04 - Ligne 14, 2
+Chatelet L04 - Ligne 14, Chatelet L04 - Ligne 7, 2
+Chatelet L04 - Ligne 11, Chatelet L04 - Ligne 14, 2
+Chatelet L04 - Ligne 14, Chatelet L04 - Ligne 11, 2
+Gare de Lyon - Ligne 1, Gare de Lyon - Ligne 14, 2
+Gare de Lyon - Ligne 14, Gare de Lyon - Ligne 1, 2
+Bercy - Ligne 6, Bercy - Ligne 14, 2
+Bercy - Ligne 14, Bercy - Ligne 6, 2
+
+Porte Maillot - Ligne 1,,0
+Argentine - Ligne 1,Porte Maillot - Ligne 1,3
+Charles de Gaulle - Etoile - Ligne 1,Argentine - Ligne 1,2
+George V - Ligne 1,Charles de Gaulle - Etoile - Ligne 1,3
+Franklin D. Roosevelt - Ligne 1,George V - Ligne 1,2
+Champs-Elysees - Clemenceau - Ligne 1,Franklin D. Roosevelt - Ligne 1,3
+Concorde - Ligne 1,Champs-Elysees - Clemenceau - Ligne 1,2
+Tuileries - Ligne 1,Concorde - Ligne 1,4
+Palais Royal - Musee du Louvre - Ligne 1,Tuileries - Ligne 1,2
+Louvre - Rivoli - Ligne 1,Palais Royal - Musee du Louvre - Ligne 1,3
+Chatelet - Ligne 1,Louvre - Rivoli - Ligne 1,2
+Hotel de Ville - Ligne 1,Chatelet - Ligne 1,3
+Saint-Paul (Le Marais) - Ligne 1,Hotel de Ville - Ligne 1,2
+Bastille - Ligne 1,Saint-Paul (Le Marais) - Ligne 1,4
+Gare de Lyon - Ligne 1,Bastille - Ligne 1,2
+Reuilly - Diderot - Ligne 1,Gare de Lyon - Ligne 1,2
+Nation - Ligne 1,Reuilly - Diderot - Ligne 1,2
+Porte de Vincennes - Ligne 1,Nation - Ligne 1,2
+Chateau de Vincennes - Ligne 1,Porte de Vincennes - Ligne 1,1
+Porte Dauphine - Ligne 2,,0
+Victor Hugo - Ligne 2,Porte Dauphine - Ligne 2,2
+Charles de Gaulle - Etoile - Ligne 2,Victor Hugo - Ligne 2,1
+Ternes - Ligne 2,Charles de Gaulle - Etoile - Ligne 2,2
+Courcelles - Ligne 2,Ternes - Ligne 2,1
+Monceau - Ligne 2,Courcelles - Ligne 2,2
+Villiers - Ligne 2,Monceau - Ligne 2,1
+Rome - Ligne 2,Villiers - Ligne 2,3
+Place de Clichy - Ligne 2,Rome - Ligne 2,2
+Blanche - Ligne 2,Place de Clichy - Ligne 2,1
+Pigalle - Ligne 2,Blanche - Ligne 2,2
+Anvers - Ligne 2,Pigalle - Ligne 2,3
+Barbes - Rochechouart - Ligne 2,Anvers - Ligne 2,2
+La Chapelle - Ligne 2,Barbes - Rochechouart - Ligne 2,5
+Stalingrad - Ligne 2,La Chapelle - Ligne 2,2
+Jaures - Ligne 2,Stalingrad - Ligne 2,2
+Colonel Fabien - Ligne 2,Jaures - Ligne 2,2
+Belleville - Ligne 2,Colonel Fabien - Ligne 2,2
+Couronnes - Ligne 2,Belleville - Ligne 2,2
+Menilmontant - Ligne 2,Couronnes - Ligne 2,1
+Pere Lachaise - Ligne 2,Menilmontant - Ligne 2,1
+Philippe Auguste - Ligne 2,Pere Lachaise - Ligne 2,1
+Alexandre Dumas - Ligne 2,Philippe Auguste - Ligne 2,2
+Avron - Ligne 2,Alexandre Dumas - Ligne 2,1
+Nation - Ligne 2,Avron - Ligne 2,2
+Porte de Champerret - Ligne 3,,0
+Pereire - Ligne 3,Porte de Champerret - Ligne 3,4
+Wagram - Ligne 3,Pereire - Ligne 3,1
+Malesherbes - Ligne 3,Wagram - Ligne 3,4
+Villiers - Ligne 3,Malesherbes - Ligne 3,4
+Europe - Ligne 3,Villiers - Ligne 3,3
+Saint-Lazare - Ligne 3,Europe - Ligne 3,4
+Havre-Caumartin - Ligne 3,Saint-Lazare - Ligne 3,3
+Opera - Ligne 3,Havre-Caumartin - Ligne 3,1
+Quatre Septembre - Ligne 3,Opera - Ligne 3,4
+Bourse - Ligne 3,Quatre Septembre - Ligne 3,1
+Sentier - Ligne 3,Bourse - Ligne 3,3
+Reaumur - Sebastopol - Ligne 3,Sentier - Ligne 3,3
+Arts et Metiers - Ligne 3,Reaumur - Sebastopol - Ligne 3,3
+Temple - Ligne 3,Arts et Metiers - Ligne 3,1
+Republique - Ligne 3,Temple - Ligne 3,2
+Parmentier - Ligne 3,Republique - Ligne 3,2
+Rue Saint-Maur - Ligne 3,Parmentier - Ligne 3,1
+Pere Lachaise - Ligne 3,Rue Saint-Maur - Ligne 3,1
+Gambetta - Ligne 3,Pere Lachaise - Ligne 3,3
+Porte de Bagnolet - Ligne 3,Gambetta - Ligne 3,2
+Porte des Lilas - Ligne 3b,,0
+Saint-Fargeau - Ligne 3b,Porte des Lilas - Ligne 3b,3
+Pelleport - Ligne 3b,Saint-Fargeau - Ligne 3b,2
+Gambetta - Ligne 3b,Pelleport - Ligne 3b,2
+Porte de Clignancourt - Ligne 4,,0
+Simplon - Ligne 4,Porte de Clignancourt - Ligne 4,3
+Marcadet Poissonniers - Ligne 4,Simplon - Ligne 4,1
+Chateau Rouge - Ligne 4,Marcadet Poissonniers - Ligne 4,3
+Barbes - Rochechouart - Ligne 4,Chateau Rouge - Ligne 4,3
+Gare du Nord - Ligne 4,Barbes - Rochechouart - Ligne 4,3
+Gare de l'Est - Ligne 4,Gare du Nord - Ligne 4,2
+Chateau d'Eau - Ligne 4,Gare de l'Est - Ligne 4,4
+Strasbourg - Saint-Denis - Ligne 4,Chateau d'Eau - Ligne 4,4
+Reaumur - Sebastopol - Ligne 4,Strasbourg - Saint-Denis - Ligne 4,3
+Etienne Marcel - Ligne 4,Reaumur - Sebastopol - Ligne 4,3
+Les Halles - Ligne 4,Etienne Marcel - Ligne 4,2
+Chatelet - Ligne 4,Les Halles - Ligne 4,4
+Cite - Ligne 4,Chatelet - Ligne 4,2
+Saint-Michel - Ligne 4,Cite - Ligne 4,2
+Odeon - Ligne 4,Saint-Michel - Ligne 4,4
+Saint-Germain-des-Pres - Ligne 4,Odeon - Ligne 4,2
+Saint-Sulpice - Ligne 4,Saint-Germain-des-Pres - Ligne 4,4
+Saint-Placide - Ligne 4,Saint-Sulpice - Ligne 4,4
+Montparnasse Bienvenue - Ligne 4,Saint-Placide - Ligne 4,3
+Vavin - Ligne 4,Montparnasse Bienvenue - Ligne 4,1
+Raspail - Ligne 4,Vavin - Ligne 4,3
+Denfert-Rochereau - Ligne 4,Raspail - Ligne 4,3
+Mouton-Duvernet - Ligne 4,Denfert-Rochereau - Ligne 4,2
+Alesia - Ligne 4,Mouton-Duvernet - Ligne 4,1
+Porte d'Orleans - Ligne 4,Alesia - Ligne 4,2
+Porte de Pantin - Ligne 5,,0
+Ourcq - Ligne 5,Porte de Pantin - Ligne 5,4
+Laumiere - Ligne 5,Ourcq - Ligne 5,3
+Jaures - Ligne 5,Laumiere - Ligne 5,1
+Stalingrad - Ligne 5,Jaures - Ligne 5,4
+Gare du Nord - Ligne 5,Stalingrad - Ligne 5,4
+Gare de l'Est - Ligne 5,Gare du Nord - Ligne 5,1
+Jacques Bonsergent - Ligne 5,Gare de l'Est - Ligne 5,3
+Republique - Ligne 5,Jacques Bonsergent - Ligne 5,3
+Oberkampf - Ligne 5,Republique - Ligne 5,4
+Richard-Lenoir - Ligne 5,Oberkampf - Ligne 5,1
+Breguet-Sabin - Ligne 5,Richard-Lenoir - Ligne 5,3
+Bastille - Ligne 5,Breguet-Sabin - Ligne 5,1
+Quai de la Rapee - Ligne 5,Bastille - Ligne 5,3
+Gare d'Austerlitz - Ligne 5,Quai de la Rapee - Ligne 5,2
+Saint-Marcel - Ligne 5,Gare d'Austerlitz - Ligne 5,2
+Campo-Formio - Ligne 5,Saint-Marcel - Ligne 5,2
+Place d'Italie - Ligne 5,Campo-Formio - Ligne 5,4
+Charles de Gaulle - Etoile - Ligne 6,,0
+Kleber - Ligne 6,Charles de Gaulle - Etoile - Ligne 6,1
+Boissiere - Ligne 6,Kleber - Ligne 6,4
+Trocadero - Ligne 6,Boissiere - Ligne 6,1
+Passy - Ligne 6,Trocadero - Ligne 6,4
+Bir-Hakeim - Ligne 6,Passy - Ligne 6,1
+Dupleix - Ligne 6,Bir-Hakeim - Ligne 6,2
+La Motte-Picquet - Grenelle - Ligne 6,Dupleix - Ligne 6,1
+Cambronne - Ligne 6,La Motte-Picquet - Grenelle - Ligne 6,2
+Sevres-Lecourbe - Ligne 6,Cambronne - Ligne 6,2
+Pasteur - Ligne 6,Sevres-Lecourbe - Ligne 6,1
+Montparnasse Bienvenue - Ligne 6,Pasteur - Ligne 6,4
+Edgar Quinet - Ligne 6,Montparnasse Bienvenue - Ligne 6,2
+Raspail - Ligne 6,Edgar Quinet - Ligne 6,3
+Denfert-Rochereau - Ligne 6,Raspail - Ligne 6,4
+Saint-Jacques - Ligne 6,Denfert-Rochereau - Ligne 6,2
+Glaciere - Ligne 6,Saint-Jacques - Ligne 6,1
+Corvisart - Ligne 6,Glaciere - Ligne 6,2
+Place d'Italie - Ligne 6,Corvisart - Ligne 6,2
+Nationale - Ligne 6,Place d'Italie - Ligne 6,1
+Chevaleret - Ligne 6,Nationale - Ligne 6,2
+Quai de la Gare - Ligne 6,Chevaleret - Ligne 6,2
+Bercy - Ligne 6,Quai de la Gare - Ligne 6,4
+Dugommier - Ligne 6,Bercy - Ligne 6,2
+Daumesnil - Ligne 6,Dugommier - Ligne 6,3
+Bel-Air - Ligne 6,Daumesnil - Ligne 6,2
+Picpus - Ligne 6,Bel-Air - Ligne 6,4
+Nation - Ligne 6,Picpus - Ligne 6,1
+Porte de la Villette - Ligne 7,,0
+Corentin Cariou - Ligne 7,Porte de la Villette - Ligne 7,2
+Crimee - Ligne 7,Corentin Cariou - Ligne 7,4
+Riquet - Ligne 7,Crimee - Ligne 7,4
+Stalingrad - Ligne 7,Riquet - Ligne 7,3
+Louis Blanc - Ligne 7,Stalingrad - Ligne 7,1
+Chateau Landon - Ligne 7,Louis Blanc - Ligne 7,2
+Gare de l'Est - Ligne 7,Chateau Landon - Ligne 7,1
+Poissonniere - Ligne 7,Gare de l'Est - Ligne 7,2
+Cadet - Ligne 7,Poissonniere - Ligne 7,3
+Le Peletier - Ligne 7,Cadet - Ligne 7,1
+Chaussee d'Antin - La Fayette - Ligne 7,Le Peletier - Ligne 7,2
+Opera - Ligne 7,Chaussee d'Antin - La Fayette - Ligne 7,4
+Pyramides - Ligne 7,Opera - Ligne 7,2
+Palais Royal - Musee du Louvre - Ligne 7,Pyramides - Ligne 7,4
+Pont Neuf - Ligne 7,Palais Royal - Musee du Louvre - Ligne 7,4
+Chatelet - Ligne 7,Pont Neuf - Ligne 7,3
+Pont Marie (Cite des Arts) - Ligne 7,Chatelet - Ligne 7,3
+Sully - Morland - Ligne 7,Pont Marie (Cite des Arts) - Ligne 7,2
+Jussieu - Ligne 7,Sully - Morland - Ligne 7,4
+Place Monge - Ligne 7,Jussieu - Ligne 7,3
+Censier - Daubenton - Ligne 7,Place Monge - Ligne 7,3
+Les Gobelins - Ligne 7,Censier - Daubenton - Ligne 7,4
+Place d'Italie - Ligne 7,Les Gobelins - Ligne 7,3
+Tolbiac - Ligne 7,Place d'Italie - Ligne 7,4
+Maison Blanche - Ligne 7,Tolbiac - Ligne 7,3
+Porte d'Italie - Ligne 7,Maison Blanche - Ligne 7,3
+Porte de Choisy - Ligne 7,Porte d'Italie - Ligne 7,1
+Porte d'Ivry - Ligne 7,Porte de Choisy - Ligne 7,4
+Maison Blanche - Ligne 7,Porte d'Ivry - Ligne 7,3
+Louis Blanc - Ligne 7b,,0
+Jaures - Ligne 7b,Louis Blanc - Ligne 7b,1
+Bolivar - Ligne 7b,Jaures - Ligne 7b,1
+Buttes Chaumont - Ligne 7b,Bolivar - Ligne 7b,1
+Botzaris - Ligne 7b,Buttes Chaumont - Ligne 7b,2
+Place des Fetes - Ligne 7b,Botzaris - Ligne 7b,4
+Pre-Saint-Gervais - Ligne 7b,Place des Fetes - Ligne 7b,3
+Danube - Ligne 7b,Pre-Saint-Gervais - Ligne 7b,2
+Botzaris - Ligne 7b,Danube - Ligne 7b,1
+Balard - Ligne 8,,0
+Lourmel - Ligne 8,Balard - Ligne 8,2
+Boucicaut - Ligne 8,Lourmel - Ligne 8,3
+Felix Faure - Ligne 8,Boucicaut - Ligne 8,1
+Commerce - Ligne 8,Felix Faure - Ligne 8,4
+La Motte-Picquet - Grenelle - Ligne 8,Commerce - Ligne 8,2
+Ecole Militaire - Ligne 8,La Motte-Picquet - Grenelle - Ligne 8,4
+La Tour-Maubourg - Ligne 8,Ecole Militaire - Ligne 8,2
+Invalides - Ligne 8,La Tour-Maubourg - Ligne 8,2
+Concorde - Ligne 8,Invalides - Ligne 8,3
+Madeleine - Ligne 8,Concorde - Ligne 8,1
+Opera - Ligne 8,Madeleine - Ligne 8,3
+Richelieu - Drouot - Ligne 8,Opera - Ligne 8,1
+Grands Boulevards - Ligne 8,Richelieu - Drouot - Ligne 8,4
+Bonne Nouvelle - Ligne 8,Grands Boulevards - Ligne 8,1
+Strasbourg - Saint-Denis - Ligne 8,Bonne Nouvelle - Ligne 8,1
+Republique - Ligne 8,Strasbourg - Saint-Denis - Ligne 8,2
+Filles du Calvaire - Ligne 8,Republique - Ligne 8,2
+Saint-Sebastien - Froissart - Ligne 8,Filles du Calvaire - Ligne 8,2
+Chemin Vert - Ligne 8,Saint-Sebastien - Froissart - Ligne 8,2
+Bastille - Ligne 8,Chemin Vert - Ligne 8,1
+Ledru-Rollin - Ligne 8,Bastille - Ligne 8,3
+Faidherbe - Chaligny - Ligne 8,Ledru-Rollin - Ligne 8,1
+Reuilly - Diderot - Ligne 8,Faidherbe - Chaligny - Ligne 8,4
+Montgallet - Ligne 8,Reuilly - Diderot - Ligne 8,1
+Daumesnil - Ligne 8,Montgallet - Ligne 8,4
+Michel Bizot - Ligne 8,Daumesnil - Ligne 8,3
+Porte Doree - Ligne 8,Michel Bizot - Ligne 8,3
+Porte de Charenton - Ligne 8,Porte Doree - Ligne 8,3
+Porte de Saint-Cloud - Ligne 9,,0
+Exelmans - Ligne 9,Porte de Saint-Cloud - Ligne 9,2
+Michel-Ange - Molitor - Ligne 9,Exelmans - Ligne 9,4
+Michel-Ange - Auteuil - Ligne 9,Michel-Ange - Molitor - Ligne 9,3
+Jasmin - Ligne 9,Michel-Ange - Auteuil - Ligne 9,4
+Ranelagh - Ligne 9,Jasmin - Ligne 9,1
+La Muette - Ligne 9,Ranelagh - Ligne 9,1
+Rue de la Pompe - Ligne 9,La Muette - Ligne 9,2
+Trocadero - Ligne 9,Rue de la Pompe - Ligne 9,4
+Iena - Ligne 9,Trocadero - Ligne 9,3
+Alma - Marceau - Ligne 9,Iena - Ligne 9,3
+Franklin D. Roosevelt - Ligne 9,Alma - Marceau - Ligne 9,4
+Saint-Philippe du Roule - Ligne 9,Franklin D. Roosevelt - Ligne 9,4
+Miromesnil - Ligne 9,Saint-Philippe du Roule - Ligne 9,1
+Saint-Augustin - Ligne 9,Miromesnil - Ligne 9,4
+Havre-Caumartin - Ligne 9,Saint-Augustin - Ligne 9,3
+Chaussee d'Antin - La Fayette - Ligne 9,Havre-Caumartin - Ligne 9,1
+Richelieu - Drouot - Ligne 9,Chaussee d'Antin - La Fayette - Ligne 9,3
+Grands Boulevards - Ligne 9,Richelieu - Drouot - Ligne 9,2
+Bonne Nouvelle - Ligne 9,Grands Boulevards - Ligne 9,3
+Strasbourg - Saint-Denis - Ligne 9,Bonne Nouvelle - Ligne 9,3
+Republique - Ligne 9,Strasbourg - Saint-Denis - Ligne 9,4
+Oberkampf - Ligne 9,Republique - Ligne 9,2
+Saint-Ambroise - Ligne 9,Oberkampf - Ligne 9,1
+Voltaire - Ligne 9,Saint-Ambroise - Ligne 9,3
+Charonne - Ligne 9,Voltaire - Ligne 9,3
+Rue des Boulets - Ligne 9,Charonne - Ligne 9,4
+Nation - Ligne 9,Rue des Boulets - Ligne 9,1
+Buzenval - Ligne 9,Nation - Ligne 9,4
+Maraichers - Ligne 9,Buzenval - Ligne 9,3
+Porte de Montreuil - Ligne 9,Maraichers - Ligne 9,3
+Gare d'Austerlitz - Ligne 10,,0
+Jussieu - Ligne 10,Gare d'Austerlitz - Ligne 10,2
+Cardinal Lemoine - Ligne 10,Jussieu - Ligne 10,1
+Maubert - Mutualite - Ligne 10,Cardinal Lemoine - Ligne 10,2
+Cluny - La Sorbonne - Ligne 10,Maubert - Mutualite - Ligne 10,1
+Odeon - Ligne 10,Cluny - La Sorbonne - Ligne 10,3
+Mabillon - Ligne 10,Odeon - Ligne 10,3
+Sevres - Babylone - Ligne 10,Mabillon - Ligne 10,4
+Vaneau - Ligne 10,Sevres - Babylone - Ligne 10,1
+Duroc - Ligne 10,Vaneau - Ligne 10,3
+Segur - Ligne 10,Duroc - Ligne 10,1
+La Motte-Picquet - Grenelle - Ligne 10,Segur - Ligne 10,2
+Avenue Emile Zola - Ligne 10,La Motte-Picquet - Grenelle - Ligne 10,2
+Charles Michels - Ligne 10,Avenue Emile Zola - Ligne 10,2
+Javel Andre Citroen - Ligne 10,Charles Michels - Ligne 10,1
+Eglise d'Auteuil - Ligne 10,Javel - Andre Citroen - Ligne 10,4
+Michel-Ange - Auteuil - Ligne 10,Eglise d'Auteuil - Ligne 10,4
+Porte d'Auteuil - Ligne 10,Michel-Ange - Auteuil - Ligne 10,4
+Michel-Ange - Molitor - Ligne 10,Porte d'Auteuil - Ligne 10,3
+Chardon Lagache - Ligne 10,Michel-Ange - Molitor - Ligne 10,1
+Mirabeau - Ligne 10,Chardon Lagache - Ligne 10,2
+Chatelet - Ligne 11,,0
+Hotel de Ville - Ligne 11,Chatelet - Ligne 11,1
+Rambuteau - Ligne 11,Hotel de Ville - Ligne 11,1
+Arts et Metiers - Ligne 11,Rambuteau - Ligne 11,1
+Republique - Ligne 11,Arts et Metiers - Ligne 11,3
+Goncourt - Ligne 11,Republique - Ligne 11,2
+Belleville - Ligne 11,Goncourt - Ligne 11,4
+Pyrenees - Ligne 11,Belleville - Ligne 11,2
+Jourdain - Ligne 11,Pyrenees - Ligne 11,4
+Place des Fetes - Ligne 11,Jourdain - Ligne 11,3
+Telegraphe - Ligne 11,Place des Fetes - Ligne 11,4
+Porte des Lilas - Ligne 11,Telegraphe - Ligne 11,3
+Porte de la Chapelle - Ligne 12,,0
+Marx Dormoy - Ligne 12,Porte de la Chapelle - Ligne 12,1
+Marcadet Poissonniers - Ligne 12,Marx Dormoy - Ligne 12,2
+Jules Joffrin - Ligne 12,Marcadet Poissonniers - Ligne 12,2
+Lamarck - Caulaincourt - Ligne 12,Jules Joffrin - Ligne 12,4
+Abbesses - Ligne 12,Lamarck - Caulaincourt - Ligne 12,1
+Pigalle - Ligne 12,Abbesses - Ligne 12,2
+Saint-Georges - Ligne 12,Pigalle - Ligne 12,1
+Notre-Dame-de-Lorette - Ligne 12,Saint-Georges - Ligne 12,2
+Trinite - d'Estienne d'Orves - Ligne 12,Notre-Dame-de-Lorette - Ligne 12,2
+Saint-Lazare - Ligne 12,Trinite - d'Estienne d'Orves - Ligne 12,2
+Madeleine - Ligne 12,Saint-Lazare - Ligne 12,2
+Concorde - Ligne 12,Madeleine - Ligne 12,4
+Assemblee Nationale - Ligne 12,Concorde - Ligne 12,3
+Solferino - Ligne 12,Assemblee Nationale - Ligne 12,3
+Rue du Bac - Ligne 12,Solferino - Ligne 12,4
+Sevres - Babylone - Ligne 12,Rue du Bac - Ligne 12,4
+Rennes - Ligne 12,Sevres - Babylone - Ligne 12,1
+Notre-Dame des Champs - Ligne 12,Rennes - Ligne 12,3
+Montparnasse Bienvenue - Ligne 12,Notre-Dame des Champs - Ligne 12,2
+Falguiere - Ligne 12,Montparnasse Bienvenue - Ligne 12,1
+Pasteur - Ligne 12,Falguiere - Ligne 12,3
+Volontaires - Ligne 12,Pasteur - Ligne 12,4
+Vaugirard - Ligne 12,Volontaires - Ligne 12,4
+Convention - Ligne 12,Vaugirard - Ligne 12,4
+Porte de Versailles - Ligne 12,Convention - Ligne 12,1
+Porte de Vanves - Ligne 13,,0
+Plaisance - Ligne 13,Porte de Vanves - Ligne 13,1
+Pernety - Ligne 13,Plaisance - Ligne 13,2
+Gaite - Ligne 13,Pernety - Ligne 13,1
+Montparnasse Bienvenue - Ligne 13,Gaite - Ligne 13,2
+Duroc - Ligne 13,Montparnasse Bienvenue - Ligne 13,1
+Saint-Francois-Xavier - Ligne 13,Duroc - Ligne 13,3
+Varenne - Ligne 13,Saint-Francois-Xavier - Ligne 13,4
+Invalides - Ligne 13,Varenne - Ligne 13,1
+Champs-Elysees - Clemenceau - Ligne 13,Invalides - Ligne 13,3
+Miromesnil - Ligne 13,Champs-Elysees - Clemenceau - Ligne 13,3
+Saint-Lazare - Ligne 13,Miromesnil - Ligne 13,1
+Liege - Ligne 13,Saint-Lazare - Ligne 13,1
+Place de Clichy - Ligne 13,Liege - Ligne 13,2
+La Fourche - Ligne 13,Place de Clichy - Ligne 13,4
+Guy Moquet - Ligne 13,La Fourche - Ligne 13,2
+Porte de Saint-Ouen - Ligne 13,Guy Moquet - Ligne 13,3
+La Fourche - Ligne 13,Porte de Saint-Ouen - Ligne 13,2
+Brochant - Ligne 13,La Fourche - Ligne 13,3
+Porte de Clichy - Ligne 13,Brochant - Ligne 13,1
+Porte de Clichy - Ligne 14,,0
+Pont Cardinet - Ligne 14,Porte de Clichy - Ligne 14,4
+Saint-Lazare - Ligne 14,Pont Cardinet - Ligne 14,1
+Madeleine - Ligne 14,Saint-Lazare - Ligne 14,4
+Pyramides - Ligne 14,Madeleine - Ligne 14,1
+Chatelet - Ligne 14,Pyramides - Ligne 14,3
+Gare de Lyon - Ligne 14,Chatelet - Ligne 14,4
+Bercy - Ligne 14,Gare de Lyon - Ligne 14,2
+Cour Saint-Emilion - Ligne 14,Bercy - Ligne 14,3
+Bibliotheque Francois Mitterrand - Ligne 14,Cour Saint-Emilion - Ligne 14,2
+Olympiades - Ligne 14,Bibliotheque Francois Mitterrand - Ligne 14,1
+Olympiades - Ligne 14,Olympiades - Ligne 14,2
+Maison Blanche - Ligne 14,Olympiades - Ligne 14,2
+Porte Maillot - Ligne 1,Argentine - Ligne 1,3
+Argentine - Ligne 1,Charles de Gaulle - Etoile - Ligne 1,3
+Charles de Gaulle - Etoile - Ligne 1,George V - Ligne 1,3
+George V - Ligne 1,Franklin D. Roosevelt - Ligne 1,2
+Franklin D. Roosevelt - Ligne 1,Champs-Elysees - Clemenceau - Ligne 1,2
+Champs-Elysees - Clemenceau - Ligne 1,Concorde - Ligne 1,5
+Concorde - Ligne 1,Tuileries - Ligne 1,2
+Tuileries - Ligne 1,Palais Royal - Musee du Louvre - Ligne 1,4
+Palais Royal - Musee du Louvre - Ligne 1,Louvre - Rivoli - Ligne 1,1
+Louvre - Rivoli - Ligne 1,Chatelet - Ligne 1,1
+Chatelet - Ligne 1,Hotel de Ville - Ligne 1,4
+Hotel de Ville - Ligne 1,Saint-Paul (Le Marais) - Ligne 1,2
+Saint-Paul (Le Marais) - Ligne 1,Bastille - Ligne 1,5
+Bastille - Ligne 1,Gare de Lyon - Ligne 1,1
+Gare de Lyon - Ligne 1,Reuilly - Diderot - Ligne 1,2
+Reuilly - Diderot - Ligne 1,Nation - Ligne 1,2
+Nation - Ligne 1,Porte de Vincennes - Ligne 1,1
+Porte de Vincennes - Ligne 1,Chateau de Vincennes - Ligne 1,5
+Chateau de Vincennes - Ligne 1,,4
+Porte Dauphine - Ligne 2,Victor Hugo - Ligne 2,2
+Victor Hugo - Ligne 2,Charles de Gaulle - Etoile - Ligne 2,3
+Charles de Gaulle - Etoile - Ligne 2,Ternes - Ligne 2,3
+Ternes - Ligne 2,Courcelles - Ligne 2,1
+Courcelles - Ligne 2,Monceau - Ligne 2,1
+Monceau - Ligne 2,Villiers - Ligne 2,2
+Villiers - Ligne 2,Rome - Ligne 2,2
+Rome - Ligne 2,Place de Clichy - Ligne 2,4
+Place de Clichy - Ligne 2,Blanche - Ligne 2,2
+Blanche - Ligne 2,Pigalle - Ligne 2,2
+Pigalle - Ligne 2,Anvers - Ligne 2,1
+Anvers - Ligne 2,Barbes - Rochechouart - Ligne 2,2
+Barbes - Rochechouart - Ligne 2,La Chapelle - Ligne 2,2
+La Chapelle - Ligne 2,Stalingrad - Ligne 2,1
+Stalingrad - Ligne 2,Jaures - Ligne 2,2
+Jaures - Ligne 2,Colonel Fabien - Ligne 2,4
+Colonel Fabien - Ligne 2,Belleville - Ligne 2,4
+Belleville - Ligne 2,Couronnes - Ligne 2,5
+Couronnes - Ligne 2,Menilmontant - Ligne 2,2
+Menilmontant - Ligne 2,Pere Lachaise - Ligne 2,2
+Pere Lachaise - Ligne 2,Philippe Auguste - Ligne 2,4
+Philippe Auguste - Ligne 2,Alexandre Dumas - Ligne 2,2
+Alexandre Dumas - Ligne 2,Avron - Ligne 2,5
+Avron - Ligne 2,Nation - Ligne 2,1
+Nation - Ligne 2,,5
+Porte de Champerret - Ligne 3,Pereire - Ligne 3,2
+Pereire - Ligne 3,Wagram - Ligne 3,2
+Wagram - Ligne 3,Malesherbes - Ligne 3,1
+Malesherbes - Ligne 3,Villiers - Ligne 3,2
+Villiers - Ligne 3,Europe - Ligne 3,3
+Europe - Ligne 3,Saint-Lazare - Ligne 3,2
+Saint-Lazare - Ligne 3,Havre-Caumartin - Ligne 3,4
+Havre-Caumartin - Ligne 3,Opera - Ligne 3,3
+Opera - Ligne 3,Quatre Septembre - Ligne 3,5
+Quatre Septembre - Ligne 3,Bourse - Ligne 3,2
+Bourse - Ligne 3,Sentier - Ligne 3,1
+Sentier - Ligne 3,Reaumur - Sebastopol - Ligne 3,2
+Reaumur - Sebastopol - Ligne 3,Arts et Metiers - Ligne 3,3
+Arts et Metiers - Ligne 3,Temple - Ligne 3,3
+Temple - Ligne 3,Republique - Ligne 3,1
+Republique - Ligne 3,Parmentier - Ligne 3,2
+Parmentier - Ligne 3,Rue Saint-Maur - Ligne 3,2
+Rue Saint-Maur - Ligne 3,Pere Lachaise - Ligne 3,2
+Pere Lachaise - Ligne 3,Gambetta - Ligne 3,2
+Gambetta - Ligne 3,Porte de Bagnolet - Ligne 3,3
+Porte de Bagnolet - Ligne 3,,2
+Porte des Lilas - Ligne 3b,Saint-Fargeau - Ligne 3b,2
+Saint-Fargeau - Ligne 3b,Pelleport - Ligne 3b,5
+Pelleport - Ligne 3b,Gambetta - Ligne 3b,1
+Gambetta - Ligne 3b,,2
+Porte de Clignancourt - Ligne 4,Simplon - Ligne 4,4
+Simplon - Ligne 4,Marcadet Poissonniers - Ligne 4,2
+Marcadet Poissonniers - Ligne 4,Chateau Rouge - Ligne 4,2
+Chateau Rouge - Ligne 4,Barbes - Rochechouart - Ligne 4,2
+Barbes - Rochechouart - Ligne 4,Gare du Nord - Ligne 4,5
+Gare du Nord - Ligne 4,Gare de l'Est - Ligne 4,4
+Gare de l'Est - Ligne 4,Chateau d'Eau - Ligne 4,2
+Chateau d'Eau - Ligne 4,Strasbourg - Saint-Denis - Ligne 4,2
+Strasbourg - Saint-Denis - Ligne 4,Reaumur - Sebastopol - Ligne 4,2
+Reaumur - Sebastopol - Ligne 4,Etienne Marcel - Ligne 4,3
+Etienne Marcel - Ligne 4,Les Halles - Ligne 4,2
+Les Halles - Ligne 4,Chatelet - Ligne 4,1
+Chatelet - Ligne 4,Cite - Ligne 4,1
+Cite - Ligne 4,Saint-Michel - Ligne 4,5
+Saint-Michel - Ligne 4,Odeon - Ligne 4,2
+Odeon - Ligne 4,Saint-Germain-des-Pres - Ligne 4,5
+Saint-Germain-des-Pres - Ligne 4,Saint-Sulpice - Ligne 4,2
+Saint-Sulpice - Ligne 4,Saint-Placide - Ligne 4,2
+Saint-Placide - Ligne 4,Montparnasse Bienvenue - Ligne 4,2
+Montparnasse Bienvenue - Ligne 4,Vavin - Ligne 4,2
+Vavin - Ligne 4,Raspail - Ligne 4,4
+Raspail - Ligne 4,Denfert-Rochereau - Ligne 4,5
+Denfert-Rochereau - Ligne 4,Mouton-Duvernet - Ligne 4,3
+Mouton-Duvernet - Ligne 4,Alesia - Ligne 4,5
+Alesia - Ligne 4,Porte d'Orleans - Ligne 4,4
+Porte d'Orleans - Ligne 4,,1
+Porte de Pantin - Ligne 5,Ourcq - Ligne 5,3
+Ourcq - Ligne 5,Laumiere - Ligne 5,1
+Laumiere - Ligne 5,Jaures - Ligne 5,5
+Jaures - Ligne 5,Stalingrad - Ligne 5,4
+Stalingrad - Ligne 5,Gare du Nord - Ligne 5,1
+Gare du Nord - Ligne 5,Gare de l'Est - Ligne 5,4
+Gare de l'Est - Ligne 5,Jacques Bonsergent - Ligne 5,4
+Jacques Bonsergent - Ligne 5,Republique - Ligne 5,3
+Republique - Ligne 5,Oberkampf - Ligne 5,2
+Oberkampf - Ligne 5,Richard-Lenoir - Ligne 5,4
+Richard-Lenoir - Ligne 5,Breguet-Sabin - Ligne 5,5
+Breguet-Sabin - Ligne 5,Bastille - Ligne 5,3
+Bastille - Ligne 5,Quai de la Rapee - Ligne 5,5
+Quai de la Rapee - Ligne 5,Gare d'Austerlitz - Ligne 5,1
+Gare d'Austerlitz - Ligne 5,Saint-Marcel - Ligne 5,4
+Saint-Marcel - Ligne 5,Campo-Formio - Ligne 5,1
+Campo-Formio - Ligne 5,Place d'Italie - Ligne 5,4
+Place d'Italie - Ligne 5,,1
+Charles de Gaulle - Etoile - Ligne 6,Kleber - Ligne 6,2
+Kleber - Ligne 6,Boissiere - Ligne 6,1
+Boissiere - Ligne 6,Trocadero - Ligne 6,5
+Trocadero - Ligne 6,Passy - Ligne 6,2
+Passy - Ligne 6,Bir-Hakeim - Ligne 6,3
+Bir-Hakeim - Ligne 6,Dupleix - Ligne 6,5
+Dupleix - Ligne 6,La Motte-Picquet - Grenelle - Ligne 6,2
+La Motte-Picquet - Grenelle - Ligne 6,Cambronne - Ligne 6,2
+Cambronne - Ligne 6,Sevres-Lecourbe - Ligne 6,2
+Sevres-Lecourbe - Ligne 6,Pasteur - Ligne 6,2
+Pasteur - Ligne 6,Montparnasse Bienvenue - Ligne 6,5
+Montparnasse Bienvenue - Ligne 6,Edgar Quinet - Ligne 6,2
+Edgar Quinet - Ligne 6,Raspail - Ligne 6,2
+Raspail - Ligne 6,Denfert-Rochereau - Ligne 6,2
+Denfert-Rochereau - Ligne 6,Saint-Jacques - Ligne 6,2
+Saint-Jacques - Ligne 6,Glaciere - Ligne 6,2
+Glaciere - Ligne 6,Corvisart - Ligne 6,2
+Corvisart - Ligne 6,Place d'Italie - Ligne 6,5
+Place d'Italie - Ligne 6,Nationale - Ligne 6,5
+Nationale - Ligne 6,Chevaleret - Ligne 6,2
+Chevaleret - Ligne 6,Quai de la Gare - Ligne 6,3
+Quai de la Gare - Ligne 6,Bercy - Ligne 6,4
+Bercy - Ligne 6,Dugommier - Ligne 6,2
+Dugommier - Ligne 6,Daumesnil - Ligne 6,4
+Daumesnil - Ligne 6,Bel-Air - Ligne 6,1
+Bel-Air - Ligne 6,Picpus - Ligne 6,2
+Picpus - Ligne 6,Nation - Ligne 6,2
+Nation - Ligne 6,,1
+Porte de la Villette - Ligne 7,Corentin Cariou - Ligne 7,2
+Corentin Cariou - Ligne 7,Crimee - Ligne 7,2
+Crimee - Ligne 7,Riquet - Ligne 7,4
+Riquet - Ligne 7,Stalingrad - Ligne 7,4
+Stalingrad - Ligne 7,Louis Blanc - Ligne 7,2
+Louis Blanc - Ligne 7,Chateau Landon - Ligne 7,5
+Chateau Landon - Ligne 7,Gare de l'Est - Ligne 7,5
+Gare de l'Est - Ligne 7,Poissonniere - Ligne 7,2
+Poissonniere - Ligne 7,Cadet - Ligne 7,1
+Cadet - Ligne 7,Le Peletier - Ligne 7,4
+Le Peletier - Ligne 7,Chaussee d'Antin - La Fayette - Ligne 7,1
+Chaussee d'Antin - La Fayette - Ligne 7,Opera - Ligne 7,1
+Opera - Ligne 7,Pyramides - Ligne 7,1
+Pyramides - Ligne 7,Palais Royal - Musee du Louvre - Ligne 7,2
+Palais Royal - Musee du Louvre - Ligne 7,Pont Neuf - Ligne 7,1
+Pont Neuf - Ligne 7,Chatelet - Ligne 7,2
+Chatelet - Ligne 7,Pont Marie (Cite des Arts) - Ligne 7,2
+Pont Marie (Cite des Arts) - Ligne 7,Sully - Morland - Ligne 7,2
+Sully - Morland - Ligne 7,Jussieu - Ligne 7,4
+Jussieu - Ligne 7,Place Monge - Ligne 7,5
+Place Monge - Ligne 7,Censier - Daubenton - Ligne 7,2
+Censier - Daubenton - Ligne 7,Les Gobelins - Ligne 7,2
+Les Gobelins - Ligne 7,Place d'Italie - Ligne 7,1
+Place d'Italie - Ligne 7,Tolbiac - Ligne 7,5
+Tolbiac - Ligne 7,Maison Blanche - Ligne 7,2
+Maison Blanche - Ligne 7,Porte d'Italie - Ligne 7,5
+Porte d'Italie - Ligne 7,Porte de Choisy - Ligne 7,3
+Porte de Choisy - Ligne 7,Porte d'Ivry - Ligne 7,4
+Porte d'Ivry - Ligne 7,,3
+Maison Blanche - Ligne 7,,1
+Louis Blanc - Ligne 7b,Jaures - Ligne 7b,2
+Jaures - Ligne 7b,Bolivar - Ligne 7b,2
+Bolivar - Ligne 7b,Buttes Chaumont - Ligne 7b,4
+Buttes Chaumont - Ligne 7b,Botzaris - Ligne 7b,2
+Botzaris - Ligne 7b,Place des Fetes - Ligne 7b,4
+Place des Fetes - Ligne 7b,Pre-Saint-Gervais - Ligne 7b,4
+Pre-Saint-Gervais - Ligne 7b,Danube - Ligne 7b,5
+Danube - Ligne 7b,Botzaris - Ligne 7b,1
+Botzaris - Ligne 7b,,2
+Balard - Ligne 8,Lourmel - Ligne 8,3
+Lourmel - Ligne 8,Boucicaut - Ligne 8,3
+Boucicaut - Ligne 8,Felix Faure - Ligne 8,4
+Felix Faure - Ligne 8,Commerce - Ligne 8,5
+Commerce - Ligne 8,La Motte-Picquet - Grenelle - Ligne 8,4
+La Motte-Picquet - Grenelle - Ligne 8,Ecole Militaire - Ligne 8,1
+Ecole Militaire - Ligne 8,La Tour-Maubourg - Ligne 8,3
+La Tour-Maubourg - Ligne 8,Invalides - Ligne 8,5
+Invalides - Ligne 8,Concorde - Ligne 8,4
+Concorde - Ligne 8,Madeleine - Ligne 8,4
+Madeleine - Ligne 8,Opera - Ligne 8,2
+Opera - Ligne 8,Richelieu - Drouot - Ligne 8,5
+Richelieu - Drouot - Ligne 8,Grands Boulevards - Ligne 8,5
+Grands Boulevards - Ligne 8,Bonne Nouvelle - Ligne 8,2
+Bonne Nouvelle - Ligne 8,Strasbourg - Saint-Denis - Ligne 8,1
+Strasbourg - Saint-Denis - Ligne 8,Republique - Ligne 8,2
+Republique - Ligne 8,Filles du Calvaire - Ligne 8,1
+Filles du Calvaire - Ligne 8,Saint-Sebastien - Froissart - Ligne 8,3
+Saint-Sebastien - Froissart - Ligne 8,Chemin Vert - Ligne 8,4
+Chemin Vert - Ligne 8,Bastille - Ligne 8,4
+Bastille - Ligne 8,Ledru-Rollin - Ligne 8,2
+Ledru-Rollin - Ligne 8,Faidherbe - Chaligny - Ligne 8,1
+Faidherbe - Chaligny - Ligne 8,Reuilly - Diderot - Ligne 8,3
+Reuilly - Diderot - Ligne 8,Montgallet - Ligne 8,2
+Montgallet - Ligne 8,Daumesnil - Ligne 8,5
+Daumesnil - Ligne 8,Michel Bizot - Ligne 8,5
+Michel Bizot - Ligne 8,Porte Doree - Ligne 8,4
+Porte Doree - Ligne 8,Porte de Charenton - Ligne 8,3
+Porte de Charenton - Ligne 8,,5
+Porte de Saint-Cloud - Ligne 9,Exelmans - Ligne 9,5
+Exelmans - Ligne 9,Michel-Ange - Molitor - Ligne 9,5
+Michel-Ange - Molitor - Ligne 9,Michel-Ange - Auteuil - Ligne 9,5
+Michel-Ange - Auteuil - Ligne 9,Jasmin - Ligne 9,2
+Jasmin - Ligne 9,Ranelagh - Ligne 9,2
+Ranelagh - Ligne 9,La Muette - Ligne 9,2
+La Muette - Ligne 9,Rue de la Pompe - Ligne 9,5
+Rue de la Pompe - Ligne 9,Trocadero - Ligne 9,4
+Trocadero - Ligne 9,Iena - Ligne 9,3
+Iena - Ligne 9,Alma - Marceau - Ligne 9,4
+Alma - Marceau - Ligne 9,Franklin D. Roosevelt - Ligne 9,2
+Franklin D. Roosevelt - Ligne 9,Saint-Philippe du Roule - Ligne 9,1
+Saint-Philippe du Roule - Ligne 9,Miromesnil - Ligne 9,5
+Miromesnil - Ligne 9,Saint-Augustin - Ligne 9,2
+Saint-Augustin - Ligne 9,Havre-Caumartin - Ligne 9,4
+Havre-Caumartin - Ligne 9,Chaussee d'Antin - La Fayette - Ligne 9,3
+Chaussee d'Antin - La Fayette - Ligne 9,Richelieu - Drouot - Ligne 9,5
+Richelieu - Drouot - Ligne 9,Grands Boulevards - Ligne 9,1
+Grands Boulevards - Ligne 9,Bonne Nouvelle - Ligne 9,2
+Bonne Nouvelle - Ligne 9,Strasbourg - Saint-Denis - Ligne 9,2
+Strasbourg - Saint-Denis - Ligne 9,Republique - Ligne 9,1
+Republique - Ligne 9,Oberkampf - Ligne 9,1
+Oberkampf - Ligne 9,Saint-Ambroise - Ligne 9,2
+Saint-Ambroise - Ligne 9,Voltaire - Ligne 9,5
+Voltaire - Ligne 9,Charonne - Ligne 9,2
+Charonne - Ligne 9,Rue des Boulets - Ligne 9,4
+Rue des Boulets - Ligne 9,Nation - Ligne 9,4
+Nation - Ligne 9,Buzenval - Ligne 9,2
+Buzenval - Ligne 9,Maraichers - Ligne 9,1
+Maraichers - Ligne 9,Porte de Montreuil - Ligne 9,5
+Porte de Montreuil - Ligne 9,,4
+Gare d'Austerlitz - Ligne 10,Jussieu - Ligne 10,1
+Jussieu - Ligne 10,Cardinal Lemoine - Ligne 10,2
+Cardinal Lemoine - Ligne 10,Maubert - Mutualite - Ligne 10,4
+Maubert - Mutualite - Ligne 10,Cluny - La Sorbonne - Ligne 10,2
+Cluny - La Sorbonne - Ligne 10,Odeon - Ligne 10,2
+Odeon - Ligne 10,Mabillon - Ligne 10,3
+Mabillon - Ligne 10,Sevres - Babylone - Ligne 10,5
+Sevres - Babylone - Ligne 10,Vaneau - Ligne 10,2
+Vaneau - Ligne 10,Duroc - Ligne 10,3
+Duroc - Ligne 10,Segur - Ligne 10,3
+Segur - Ligne 10,La Motte-Picquet - Grenelle - Ligne 10,1
+La Motte-Picquet - Grenelle - Ligne 10,Avenue Emile Zola - Ligne 10,5
+Avenue Emile Zola - Ligne 10,Charles Michels - Ligne 10,4
+Charles Michels - Ligne 10,Javel Andre Citroen - Ligne 10,2
+Javel Andre Citroen - Ligne 10,Eglise d'Auteuil - Ligne 10,2
+Eglise d'Auteuil - Ligne 10,Michel-Ange - Auteuil - Ligne 10,5
+Michel-Ange - Auteuil - Ligne 10,Porte d'Auteuil - Ligne 10,2
+Porte d'Auteuil - Ligne 10,Michel-Ange - Molitor - Ligne 10,2
+Michel-Ange - Molitor - Ligne 10,Chardon Lagache - Ligne 10,2
+Chardon Lagache - Ligne 10,Mirabeau - Ligne 10,1
+Mirabeau - Ligne 10,,1
+Chatelet - Ligne 11,Hotel de Ville - Ligne 11,2
+Hotel de Ville - Ligne 11,Rambuteau - Ligne 11,2
+Rambuteau - Ligne 11,Arts et Metiers - Ligne 11,2
+Arts et Metiers - Ligne 11,Republique - Ligne 11,2
+Republique - Ligne 11,Goncourt - Ligne 11,1
+Goncourt - Ligne 11,Belleville - Ligne 11,1
+Belleville - Ligne 11,Pyrenees - Ligne 11,1
+Pyrenees - Ligne 11,Jourdain - Ligne 11,4
+Jourdain - Ligne 11,Place des Fetes - Ligne 11,3
+Place des Fetes - Ligne 11,Telegraphe - Ligne 11,2
+Telegraphe - Ligne 11,Porte des Lilas - Ligne 11,4
+Porte des Lilas - Ligne 11,,3
+Porte de la Chapelle - Ligne 12,Marx Dormoy - Ligne 12,2
+Marx Dormoy - Ligne 12,Marcadet Poissonniers - Ligne 12,4
+Marcadet Poissonniers - Ligne 12,Jules Joffrin - Ligne 12,1
+Jules Joffrin - Ligne 12,Lamarck - Caulaincourt - Ligne 12,2
+Lamarck - Caulaincourt - Ligne 12,Abbesses - Ligne 12,2
+Abbesses - Ligne 12,Pigalle - Ligne 12,3
+Pigalle - Ligne 12,Saint-Georges - Ligne 12,3
+Saint-Georges - Ligne 12,Notre-Dame-de-Lorette - Ligne 12,4
+Notre-Dame-de-Lorette - Ligne 12,Trinite - d'Estienne d'Orves - Ligne 12,2
+Trinite - d'Estienne d'Orves - Ligne 12,Saint-Lazare - Ligne 12,3
+Saint-Lazare - Ligne 12,Madeleine - Ligne 12,3
+Madeleine - Ligne 12,Concorde - Ligne 12,5
+Concorde - Ligne 12,Assemblee Nationale - Ligne 12,4
+Assemblee Nationale - Ligne 12,Solferino - Ligne 12,2
+Solferino - Ligne 12,Rue du Bac - Ligne 12,3
+Rue du Bac - Ligne 12,Sevres - Babylone - Ligne 12,2
+Sevres - Babylone - Ligne 12,Rennes - Ligne 12,3
+Rennes - Ligne 12,Notre-Dame des Champs - Ligne 12,4
+Notre-Dame des Champs - Ligne 12,Montparnasse Bienvenue - Ligne 12,4
+Montparnasse Bienvenue - Ligne 12,Falguiere - Ligne 12,2
+Falguiere - Ligne 12,Pasteur - Ligne 12,4
+Pasteur - Ligne 12,Volontaires - Ligne 12,5
+Volontaires - Ligne 12,Vaugirard - Ligne 12,2
+Vaugirard - Ligne 12,Convention - Ligne 12,5
+Convention - Ligne 12,Porte de Versailles - Ligne 12,2
+Porte de Versailles - Ligne 12,,4
+Porte de Vanves - Ligne 13,Plaisance - Ligne 13,4
+Plaisance - Ligne 13,Pernety - Ligne 13,2
+Pernety - Ligne 13,Gaite - Ligne 13,3
+Gaite - Ligne 13,Montparnasse Bienvenue - Ligne 13,2
+Montparnasse Bienvenue - Ligne 13,Duroc - Ligne 13,2
+Duroc - Ligne 13,Saint-Francois-Xavier - Ligne 13,2
+Saint-Francois-Xavier - Ligne 13,Varenne - Ligne 13,2
+Varenne - Ligne 13,Invalides - Ligne 13,5
+Invalides - Ligne 13,Champs-Elysees - Clemenceau - Ligne 13,2
+Champs-Elysees Clemenceau - Ligne 13,Miromesnil - Ligne 13,3
+Miromesnil - Ligne 13,Saint-Lazare - Ligne 13,2
+Saint-Lazare - Ligne 13,Liege - Ligne 13,4
+Liege - Ligne 13,Place de Clichy - Ligne 13,1
+Place de Clichy - Ligne 13,La Fourche - Ligne 13,5
+La Fourche - Ligne 13,Guy Moquet - Ligne 13,4
+Guy Moquet - Ligne 13,Porte de Saint-Ouen - Ligne 13,3
+Porte de Saint-Ouen - Ligne 13,La Fourche - Ligne 13,2
+La Fourche - Ligne 13,Brochant - Ligne 13,1
+Brochant - Ligne 13,Porte de Clichy - Ligne 13,2
+Porte de Clichy - Ligne 13,,2
+Porte de Clichy - Ligne 14,Pont Cardinet - Ligne 14,1
+Pont Cardinet - Ligne 14,Saint-Lazare - Ligne 14,4
+Saint-Lazare - Ligne 14,Madeleine - Ligne 14,4
+Madeleine - Ligne 14,Pyramides - Ligne 14,2
+Pyramides - Ligne 14,Chatelet - Ligne 14,2
+Chatelet - Ligne 14,Gare de Lyon - Ligne 14,2
+Gare de Lyon - Ligne 14,Bercy - Ligne 14,4
+Bercy - Ligne 14,Cour Saint-Emilion - Ligne 14,5
+Cour Saint-Emilion - Ligne 14,Bibliotheque Francois Mitterrand - Ligne 14,2
+Bibliotheque Francois Mitterrand - Ligne 14,Olympiades - Ligne 14,5
+Olympiades - Ligne 14,Olympiades - Ligne 14,1
+Olympiades - Ligne 14,Maison Blanche - Ligne 14,2
+Maison Blanche - Ligne 14,,3
+

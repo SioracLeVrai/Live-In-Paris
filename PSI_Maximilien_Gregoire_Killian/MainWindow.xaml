@@ -1,0 +1,407 @@
+﻿<Window x:Class="PSI_Maximilien_Gregoire_Killian.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PSI_Maximilien_Gregoire_Killian"
+        mc:Ignorable="d"
+        Title="PSI Maximilien Grégoire Killian" Height="1000" Width="1400">
+    <Grid Background="Beige">
+        <Grid x:Name="Connexion" Visibility="Collapsed">
+            <StackPanel  Visibility="Visible"  Margin="0,0,0,0">
+                <TextBlock HorizontalAlignment="Center" FontWeight="Bold" FontSize="36" Margin="0,100,0,0" Height="100" VerticalAlignment="Top" Text="Connexion"/>
+                <TextBox x:Name="Identifiant" TextWrapping="Wrap" Margin="0,100,0,0" Width="450" Text="Adresse mail"  FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Top" Height="50"/>
+                <TextBox x:Name="MotDePasse" TextWrapping="Wrap" Margin="0,10,0,0" Width="450" Text="Mot de passe" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Top" Height="50"/>
+                <CheckBox x:Name="EstEntreprise" Content="Ce compte appartient à une entreprise" HorizontalAlignment="Center" Margin="0,10,0,0" FontSize="18" Checked="EstEntreprise_Checked" Unchecked="EstEntreprise_Checked" IsChecked="False" BorderThickness="6,6,6,6" BorderBrush="White"/>
+                <Button Content="Se connecter" HorizontalAlignment="Center" FontSize="18" Foreground="Black" BorderBrush="Transparent" Padding="2" Click="SeConnecter_Click" Width="450" Height="40" Margin="0,10,0,0"/>
+                <Button Content="Créer un compte" HorizontalAlignment="Center" FontSize="18" Foreground="Black" BorderBrush="Transparent" Padding="2" Click="GoTo_NouveauCompte_Click" Width="200" Margin="0,10,0,0" Background="Beige"/>
+            </StackPanel>
+        </Grid>
+        <Grid x:Name="NouveauCompte" Visibility="Collapsed" >
+            <StackPanel  Visibility="Visible"  Margin="0,0,0,0">
+                <TextBlock HorizontalAlignment="Center" FontWeight="Bold" FontSize="36" Margin="0,100,0,0" Height="100" VerticalAlignment="Top" Text="Créer un nouveau compte"/>
+                <TextBlock Text="" HorizontalAlignment="Center"/>
+                <StackPanel x:Name="NouveauCompte_Particulier" Visibility="Visible">
+                    <TextBox x:Name="Nom" Width="450" Height="40" Text="Nom" HorizontalAlignment="Center" Margin="0,0,0,0" FontSize="20"/>
+                    <TextBox x:Name="Prenom" Width="450" Height="40" Text="Prénom" HorizontalAlignment="Center" Margin="0,10,0,0" FontSize="20"/>
+                    <TextBox x:Name="Num" Width="450" Height="40" Text="Numéro de téléphone" HorizontalAlignment="Center" Margin="0,10,0,0" FontSize="20"/>
+                    <TextBox x:Name="Mail" Width="450" Height="40" Text="Adresse Mail" HorizontalAlignment="Center" Margin="0,10,0,0" FontSize="20"/>
+                </StackPanel>
+                <StackPanel x:Name="NouveauCompte_Entreprise" Visibility="Collapsed">
+                    <TextBox x:Name="NomEntreprise" Width="450" Height="40" Text="Nom de l'entreprise" HorizontalAlignment="Center" Margin="0,10,0,0" FontSize="20"/>
+                    <TextBox x:Name="NomReferent" Width="450" Height="40" Text="Nom du référent" HorizontalAlignment="Center" Margin="0,10,0,0" FontSize="20"/>
+                </StackPanel>
+                <TextBox x:Name="NomRue" Width="450" Height="40" Text="Nom de rue" HorizontalAlignment="Center" Margin="0,10,0,0" FontSize="20"/>
+                <TextBox x:Name="NoRue" Width="450" Height="40" Text="Numéro de rue" HorizontalAlignment="Center" Margin="0,10,0,0" FontSize="20"/>
+                <TextBox x:Name="CodePostal" Width="450" Height="40" Text="Code postal" HorizontalAlignment="Center" Margin="0,10,0,0" FontSize="20"/>
+                <TextBox x:Name="Ville" Width="450" Height="40" Text="Ville" HorizontalAlignment="Center" Margin="0,10,0,0" FontSize="20"/>
+                <ComboBox x:Name="Metro"  Width="450" Height="40" HorizontalAlignment="Center" Margin="0,10,0,0" FontSize="20" BorderBrush="White" VerticalAlignment="Top"/>
+                <TextBox x:Name="MdP" Width="450" Height="40" Text="Mot de passe" HorizontalAlignment="Center" Margin="0,10,0,0" FontSize="20"/>
+                <CheckBox x:Name="EstEntreprise2" Content="Ce compte appartient à une entreprise" HorizontalAlignment="Center" Margin="0,10,0,0" FontSize="18" Checked="EstEntreprise2_Checked" Unchecked="EstEntreprise2_Checked" IsChecked="False" BorderThickness="6,6,6,6" BorderBrush="White"/>
+                <Button Content="Nouveau compte" HorizontalAlignment="Center" FontSize="18" Foreground="Black" BorderBrush="Transparent" Padding="2" Click="NouveauCompte_Click" Width="450" Height="40" Margin="0,10,0,0"/>
+                <Button Content="Se connecter" HorizontalAlignment="Center" FontSize="18" Foreground="Black" BorderBrush="Transparent" Padding="2" Click="GoTo_SeConnecter_Click" Width="200" Margin="0,10,0,0" Background="Beige"/>
+
+            </StackPanel>
+        </Grid>
+        <Grid x:Name="Menu_Barre" Visibility="Collapsed" Margin="0,0,0,0" Height="100" VerticalAlignment="Top">
+
+            <TextBlock x:Name="Bonjour" HorizontalAlignment="Left" FontWeight="Bold" FontSize="36" Width="285" Height="50" VerticalAlignment="Top" Text="Bonjour Client"/>
+            <StackPanel Orientation="Horizontal" Margin="0,50,0,0">
+                <Button Content="Menu Client" HorizontalAlignment="Left" FontSize="18" Foreground="Black" BorderBrush="Transparent" Padding="2" Click="GoTo_Menu_Client_Click" Width="150" Height="40" Margin="10,0,0,0"/>
+                <Button Content="Menu Cuisinier" HorizontalAlignment="Left" FontSize="18" Foreground="Black" BorderBrush="Transparent" Padding="2" Click="GoTo_Menu_Cuisinier_Click" Width="150" Height="40" Margin="10,0,0,0"/>
+                <Button Content="Menu_Graphe" HorizontalAlignment="Left" FontSize="18" Foreground="Black" BorderBrush="Transparent" Padding="2" Click="GoTo_Menu_Graphe_Click" Width="150" Height="40" Margin="10,0,0,0"/>
+            </StackPanel>
+            <Button Content="Mon compte" HorizontalAlignment="Right" FontSize="18" Foreground="Black" BorderBrush="Transparent" Padding="2" Click="GoTo_Menu_Compte_Click" Width="150" Height="40" Margin="10,60,0,0"/>
+
+        </Grid>
+        <Grid x:Name="Menu_Client" Visibility="Collapsed" Margin="0,100,0,0">
+            <StackPanel Margin="0,0,0,0">
+                <StackPanel Orientation="Horizontal" Margin="100,0,0,0">
+                    <ComboBox x:Name="ClientViewSelector" Width="300" Height="40" FontSize="20" BorderBrush="White" Margin="0,0,20,0">
+                        <ComboBoxItem Content="Commander des plats" IsSelected="True"/>
+                        <ComboBoxItem Content="Mes commandes passées"/>
+                    </ComboBox>
+                </StackPanel>
+                <Grid x:Name="OrderView" Visibility="Visible" Margin="0,20,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="600"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    
+                    <StackPanel Grid.Column="0" Margin="100,0,700,0" Grid.ColumnSpan="2">
+                        <TextBlock Text="Plats disponibles" FontWeight="Bold" FontSize="24" Margin="0,0,0,10"/>
+                        <DataGrid x:Name="TableauPlats" AutoGenerateColumns="False" Height="400" CanUserAddRows="False" CanUserDeleteRows="False" SelectionMode="Single">
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="Nom du plat" Width="150" IsReadOnly="True" Binding="{Binding Nom}"/>
+                                <DataGridTextColumn Header="Prix (€)" Width="80" IsReadOnly="True" Binding="{Binding Prix}"/>
+                                <DataGridTextColumn Header="Origine" Width="80" IsReadOnly="True" Binding="{Binding Nature}"/>
+                                <DataGridTextColumn Header="Régime" Width="80" IsReadOnly="True" Binding="{Binding Regime}"/>
+                                <DataGridTemplateColumn Header="Détails" Width="80">
+                                    <DataGridTemplateColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <Button Content="Afficher" FontSize="14" Foreground="Black" BorderBrush="Transparent" Padding="2" Click="AfficherPlat_Click" Width="70" Height="30"/>
+                                        </DataTemplate>
+                                    </DataGridTemplateColumn.CellTemplate>
+                                </DataGridTemplateColumn>
+                                <DataGridTemplateColumn Header="Ajouter" Width="80">
+                                    <DataGridTemplateColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <Button Content="Ajouter" FontSize="14" Foreground="Black" BorderBrush="Transparent" Padding="2" Click="AjouterDansCommande_Click" Width="70" Height="30"/>
+                                        </DataTemplate>
+                                    </DataGridTemplateColumn.CellTemplate>
+                                </DataGridTemplateColumn>
+                            </DataGrid.Columns>
+                        </DataGrid>
+                        <StackPanel x:Name="DétailsPlat" Visibility="Collapsed">
+                            <TextBlock x:Name="DetailsPlatNom" Text="Détails du plat" FontWeight="Bold" FontSize="24" Margin="0,0,0,0"/>
+                            <TextBlock x:Name="DishDetailType" Width="400" Height="40" FontSize="20" Margin="0,0,0,0"/>
+                            <TextBlock x:Name="DishDetailPersonnes" Width="400" Height="40" FontSize="20" Margin="0,0,0,0"/>
+                            <TextBlock x:Name="DishDetailPrix" Width="400" Height="40" FontSize="20" Margin="0,0,0,0"/>
+                            <TextBlock x:Name="DishDetailRegime" Width="400" Height="40" FontSize="20" Margin="0,0,0,0"/>
+                            <TextBlock x:Name="DishDetailNature" Width="400" Height="40" FontSize="20" Margin="0,0,0,0"/>
+                            <TextBlock x:Name="DishDetailIngredients" Width="400" Height="80" FontSize="20" TextWrapping="Wrap" Margin="0,0,0,0"/>
+                        </StackPanel>
+                    </StackPanel>
+                    <StackPanel Grid.Column="1" Margin="105,0,100,0">
+                        <TextBlock Text="Votre commande" FontWeight="Bold" FontSize="24" Margin="0,0,0,10"/>
+                        <DataGrid x:Name="OrderDataGrid" AutoGenerateColumns="False" Height="300" CanUserAddRows="False" CanUserDeleteRows="False" SelectionMode="Single">
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="Plat" Width="150" IsReadOnly="True" Binding="{Binding Nom}"/>
+                                <DataGridTextColumn Header="Quantité" Width="80" IsReadOnly="True" Binding="{Binding Quantite}" />
+                                <DataGridTextColumn Header="Prix (€)" Width="80" IsReadOnly="True" Binding="{Binding PrixTotal}"/>
+                                <DataGridTemplateColumn Header="Action" Width="80">
+                                    <DataGridTemplateColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <Button Content="Supprimer" FontSize="14" Foreground="Black" BorderBrush="Transparent" Padding="2" Click="RetirerDeCommande_Click" Width="70" Height="30"/>
+                                        </DataTemplate>
+                                    </DataGridTemplateColumn.CellTemplate>
+                                </DataGridTemplateColumn>
+                            </DataGrid.Columns>
+                        </DataGrid>
+                        <TextBlock x:Name="OrderTotal" Text="Total: 0.00 €" FontSize="18" Margin="0,10,0,0"/>
+                        <Button Content="Valider la commande" FontSize="18" Foreground="Black" BorderBrush="Transparent" Padding="2" Click="ValidateOrder_Click" Width="200" Height="40" Margin="0,10,0,0"/>
+                    </StackPanel>
+                </Grid>
+                <Grid x:Name="PastOrdersView" Visibility="Collapsed" Margin="0,20,0,0">
+                    <StackPanel Margin="100,0,0,0">
+                        <TextBlock Text="Mes commandes passées" FontWeight="Bold" FontSize="24" Margin="0,0,0,10"/>
+                        <DataGrid x:Name="PastOrdersDataGrid" AutoGenerateColumns="False" Height="500" CanUserAddRows="False" CanUserDeleteRows="False" SelectionMode="Single">
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="N° Commande" Width="100" IsReadOnly="True" Binding="{Binding No_Achat}"/>
+                                <DataGridTextColumn Header="Plats (Quantité)" Width="300" IsReadOnly="True" Binding="{Binding Plats}"/>
+                                <DataGridTextColumn Header="Prix Total (€)" Width="100" IsReadOnly="True" Binding="{Binding PrixTotal}"/>
+                                <DataGridTextColumn Header="Statut" Width="100" IsReadOnly="True" Binding="{Binding Statut}"/>
+                                <DataGridTextColumn Header="Date" Width="100" IsReadOnly="True" Binding="{Binding Date_Achat, StringFormat=yyyy/MM/dd}"/>
+                                <DataGridTemplateColumn Header="Départ" Width="100">
+                                    <DataGridTemplateColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <Button Content="Ajouter Départ" FontSize="14" Foreground="Black" BorderBrush="Transparent" Padding="2" Click="AjouterDepart_Click" Width="90" Height="30"/>
+                                        </DataTemplate>
+                                    </DataGridTemplateColumn.CellTemplate>
+                                </DataGridTemplateColumn>
+                                <DataGridTemplateColumn Header="Arrivée" Width="100">
+                                    <DataGridTemplateColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <Button Content="Ajouter Arrivée" FontSize="14" Foreground="Black" BorderBrush="Transparent" Padding="2" Click="AjouterArrivee_Click" Width="90" Height="30"/>
+                                        </DataTemplate>
+                                    </DataGridTemplateColumn.CellTemplate>
+                                </DataGridTemplateColumn>
+                            </DataGrid.Columns>
+                        </DataGrid>
+                    </StackPanel>
+                </Grid>
+            </StackPanel>
+        </Grid>
+        <Grid x:Name="Menu_Cuisinier" Visibility="Collapsed" Margin="0,100,0,0">
+            <StackPanel Margin="0,0,0,0">
+                <StackPanel Orientation="Horizontal" Margin="100,0,0,0">
+                    <ComboBox x:Name="CuisinierViewSelector" Width="300" Height="40" FontSize="20" BorderBrush="White" Margin="0,0,20,0">
+                        <ComboBoxItem Content="Afficher mes plats" IsSelected="True"/>
+                        <ComboBoxItem Content="Afficher mes commandes"/>
+                    </ComboBox>
+                    <CheckBox x:Name="Disponibilite" Content="Disponible" FontSize="18" Margin="20,0,0,0" Checked="Disponibilite_Checked" Unchecked="Disponibilite_Checked" BorderThickness="6,6,6,6" BorderBrush="White"/>
+                </StackPanel>
+                <Grid x:Name="PlatsView" Visibility="Visible" Margin="0,20,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="600"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <StackPanel Grid.Column="0" Margin="100,0,0,0">
+                        <TextBlock Text="Mes plats proposés" FontWeight="Bold" FontSize="24" Margin="0,0,0,10"/>
+                        <DataGrid x:Name="PlatsDataGrid" AutoGenerateColumns="False" Height="400" CanUserAddRows="False" CanUserDeleteRows="False" SelectionMode="Single">
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="Nom du plat" Width="200" IsReadOnly="True" Binding="{Binding Nom}"/>
+                                <DataGridTextColumn Header="Prix (€)" Width="100" IsReadOnly="True" Binding="{Binding Prix}"/>
+                                <DataGridTemplateColumn Header="Détails" Width="100">
+                                    <DataGridTemplateColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <Button Content="Afficher" FontSize="14" Foreground="Black" BorderBrush="Transparent" Padding="2" Click="AfficherPlatCuisinier_Click" Width="80" Height="30"/>
+                                        </DataTemplate>
+                                    </DataGridTemplateColumn.CellTemplate>
+                                </DataGridTemplateColumn>
+                                <DataGridTemplateColumn Header="Action" Width="100">
+                                    <DataGridTemplateColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <Button Content="Supprimer" FontSize="14" Foreground="Black" BorderBrush="Transparent" Padding="2" Click="SupprimerPlat_Click" Width="80" Height="30"/>
+                                        </DataTemplate>
+                                    </DataGridTemplateColumn.CellTemplate>
+                                </DataGridTemplateColumn>
+                            </DataGrid.Columns>
+                        </DataGrid>
+                        <StackPanel x:Name="PlatDetails" Visibility="Visible">
+                            <TextBlock x:Name="DetailNom" Text="Détails du plat" FontWeight="Bold" FontSize="24" Margin="0,0,0,0"/>
+                            <TextBlock x:Name="DetailType" Width="400" Height="40" FontSize="20" Margin="0,0,0,0"/>
+                            <TextBlock x:Name="DetailPersonnes" Width="400" Height="40" FontSize="20" Margin="0,0,0,0"/>
+                            <TextBlock x:Name="DetailPrix" Width="400" Height="40" FontSize="20" Margin="0,0,0,0"/>
+                            <TextBlock x:Name="DetailRegime" Width="400" Height="40" FontSize="20" Margin="0,0,0,0"/>
+                            <TextBlock x:Name="DetailNature" Width="400" Height="40" FontSize="20" Margin="0,0,0,0"/>
+                            <TextBlock x:Name="DetailIngredients" Width="400" Height="80" FontSize="20" TextWrapping="Wrap" Margin="0,0,0,0"/>
+                        </StackPanel>
+                    </StackPanel>
+                    <StackPanel Grid.Column="1" Margin="20,0,100,0">
+                        <TextBlock Text="Ajouter un plat" FontWeight="Bold" FontSize="24" Margin="0,20,0,10"/>
+                        <ComboBox x:Name="PlatExistant" Width="400" Height="40" FontSize="20" BorderBrush="White" Margin="0,10,0,0">
+                            <ComboBoxItem Content="Sélectionner un plat existant" IsSelected="True"/>
+                        </ComboBox>
+                        <Button Content="Ajouter plat existant" FontSize="18" Foreground="Black" BorderBrush="Transparent" Padding="2" Click="AjouterPlatExistant_Click" Width="200" Height="40" Margin="0,10,0,0"/>
+                        <TextBlock Text="Ou créer un nouveau plat :" FontSize="18" Margin="0,20,0,10"/>
+                        <TextBox x:Name="NouveauNom" Width="400" Height="40" Text="Nom du plat" FontSize="20" Margin="0,10,0,0"/>
+                        <ComboBox x:Name="NouveauType" Width="400" Height="40" FontSize="20" BorderBrush="White" Margin="0,10,0,0">
+                            <ComboBoxItem Content="Entrée"/>
+                            <ComboBoxItem Content="Plat"/>
+                            <ComboBoxItem Content="Dessert"/>
+                        </ComboBox>
+                        <TextBox x:Name="NouveauPersonnes" Width="400" Height="40" Text="Pour n personnes" FontSize="20" Margin="0,10,0,0"/>
+                        <TextBox x:Name="NouveauPrix" Width="400" Height="40" Text="Prix (€)" FontSize="20" Margin="0,10,0,0"/>
+                        <TextBox x:Name="NouveauRegime" Width="400" Height="40" Text="Régime alimentaire" FontSize="20" Margin="0,10,0,0"/>
+                        <TextBox x:Name="NouveauNature" Width="400" Height="40" Text="Nature" FontSize="20" Margin="0,10,0,0"/>
+                        <TextBox x:Name="NouveauIngredients" Width="400" Height="80" Text="Ingrédients (nom:quantité, séparés par ;)" FontSize="20" TextWrapping="Wrap" Margin="0,10,0,0"/>
+                        <Button Content="Créer nouveau plat" FontSize="18" Foreground="Black" BorderBrush="Transparent" Padding="2" Click="CreerNouveauPlat_Click" Width="200" Height="40" Margin="0,10,0,0"/>
+                    </StackPanel>
+                </Grid>
+                <Grid x:Name="CommandesView" Visibility="Collapsed" Margin="0,20,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="900"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <StackPanel Grid.Column="0" Margin="100,0,0,0">
+                        <TextBlock Text="Mes commandes en cours" FontWeight="Bold" FontSize="24" Margin="0,0,0,10"/>
+                        <DataGrid x:Name="CommandesDataGrid" AutoGenerateColumns="False" Height="500" CanUserAddRows="False" CanUserDeleteRows="False" SelectionMode="Single">
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="N° Commande" Width="100" IsReadOnly="True" Binding="{Binding No_Achat}"/>
+                                <DataGridTextColumn Header="Plats (Quantité)" Width="200" IsReadOnly="True" Binding="{Binding Plats}"/>
+                                <DataGridTextColumn Header="Prix Total (€)" Width="100" IsReadOnly="True" Binding="{Binding PrixTotal}"/>
+                                <DataGridTextColumn Header="Statut" Width="100" IsReadOnly="True" Binding="{Binding Statut}">
+                                    <DataGridTextColumn.ElementStyle>
+                                        <Style TargetType="TextBlock">
+                                            <Setter Property="Foreground" Value="Black"/>
+                                            <Style.Triggers>
+                                                <DataTrigger Binding="{Binding Statut}" Value="En cours">
+                                                    <Setter Property="Foreground" Value="Red"/>
+                                                </DataTrigger>
+                                            </Style.Triggers>
+                                        </Style>
+                                    </DataGridTextColumn.ElementStyle>
+                                </DataGridTextColumn>
+                                <DataGridTemplateColumn Header="Détails" Width="100">
+                                    <DataGridTemplateColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <Button Content="Afficher" FontSize="14" Foreground="Black" BorderBrush="Transparent" Padding="2" Click="AfficherCommande_Click" Width="80" Height="30"/>
+                                        </DataTemplate>
+                                    </DataGridTemplateColumn.CellTemplate>
+                                </DataGridTemplateColumn>
+                                <DataGridTemplateColumn Header="Action" Width="180">
+                                    <DataGridTemplateColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <StackPanel Orientation="Horizontal">
+                                                <Button Content="Valider" FontSize="14" Foreground="Black" BorderBrush="Transparent" Padding="2" Click="ValiderCommande_Click" Width="80" Height="30" Margin="0,0,5,0"/>
+                                                <Button Content="Refuser" FontSize="14" Foreground="Black" BorderBrush="Transparent" Padding="2" Click="RefuserCommande_Click" Width="80" Height="30"/>
+                                            </StackPanel>
+                                        </DataTemplate>
+                                    </DataGridTemplateColumn.CellTemplate>
+                                </DataGridTemplateColumn>
+                            </DataGrid.Columns>
+                        </DataGrid>
+                    </StackPanel>
+                    <StackPanel Grid.Column="1" Margin="20,0,100,0">
+                        <StackPanel x:Name="CommandeDetails" Visibility="Collapsed">
+                            <TextBlock x:Name="CommandeDetailTitre" Text="Détails de la commande" FontWeight="Bold" FontSize="24" Margin="0,0,0,10"/>
+                            <TextBlock x:Name="CommandeDetailClient" Width="400" Height="40" FontSize="20" Margin="0,0,0,0"/>
+                            <TextBlock x:Name="CommandeDetailPlats" Width="400" Height="120" FontSize="20" TextWrapping="Wrap" Margin="0,0,0,0"/>
+                            <TextBlock x:Name="CommandeDetailPrix" Width="400" Height="40" FontSize="20" Margin="0,0,0,0"/>
+                            <TextBlock x:Name="CommandeDetailFabrication" Width="400" Height="40" FontSize="20" Margin="0,0,0,0"/>
+                            <TextBlock x:Name="CommandeDetailPeremption" Width="400" Height="40" FontSize="20" Margin="0,0,0,0"/>
+                            <TextBlock x:Name="CommandeDetailStatut" Width="400" Height="40" FontSize="20" Margin="0,0,0,0"/>
+                        </StackPanel>
+                    </StackPanel>
+                </Grid>
+            </StackPanel>
+        </Grid>
+        <Grid x:Name="Menu_Graphe" Visibility="Collapsed" Margin="0,100,0,0">
+            <StackPanel Orientation="Vertical">
+                <StackPanel Orientation="Horizontal" >
+                    <TextBlock Text="Station de départ :"  FontSize="20" Foreground="Black" TextAlignment="Left" Margin="10,10,0,0"/>
+                    <ComboBox x:Name="MetroDepart"  Width="300" Height="40" HorizontalAlignment="Center" Margin="10,0,0,0" FontSize="20" BorderBrush="White" VerticalAlignment="Top"/>
+                    <TextBlock Text="Station d'arrivee :" FontSize="15" Foreground="Black" TextAlignment="Left" Margin="10,10,0,0"/>
+                    <ComboBox x:Name="MetroArrivee"  Width="300" Height="40" HorizontalAlignment="Center" Margin="10,0,0,0" FontSize="20" BorderBrush="White" VerticalAlignment="Top"/>
+                    <Button Content="Calculer le trajet" HorizontalAlignment="Center" FontSize="18" Foreground="Black" BorderBrush="Black" Padding="2" Click="UpdateTrajet_Click" Width="300" Height="40" Margin="10,0,0,0"/>
+                </StackPanel>
+                <TextBlock x:Name="TitreGraphe" Text="Carte du métro parisien :" FontWeight="Bold" FontSize="24" Margin="10,0,0,0"/>
+                <StackPanel Orientation="Horizontal">
+                    <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" Margin="10" Height="766" Width="1100">
+                        <Image x:Name="Img" Stretch="None" HorizontalAlignment="Left" VerticalAlignment="Top">
+                            <Image.RenderTransform>
+                                <ScaleTransform ScaleX="0.4" ScaleY="0.4"/>
+                            </Image.RenderTransform>
+                        </Image>
+                    </ScrollViewer>
+                    <StackPanel x:Name="Trajet" Orientation="Vertical" Margin="0,0,0,0" Visibility="Collapsed">
+                        <TextBlock Text="Chemin :" FontWeight="Bold" FontSize="24" Margin="0,0,0,0"/>
+                        <ScrollViewer VerticalScrollBarVisibility="Auto" Margin="0,0,0,0" RenderTransformOrigin="0,0" Width="301">
+                            <TextBlock x:Name="Chemin" FontSize="15" Foreground="Black" Text="" TextAlignment="Left" Visibility="Visible" Height="632"/>
+                        </ScrollViewer>
+                    </StackPanel>
+                </StackPanel>
+            </StackPanel>
+        </Grid>
+        <Grid x:Name="Menu_Compte" Visibility="Collapsed" Margin="0,100,0,0">
+            <StackPanel Visibility="Visible" Margin="0,0,0,0">
+                <TextBlock HorizontalAlignment="Left" FontWeight="Bold" FontSize="36" Margin="100,0,0,0" Height="60" Text="Modifier mon compte"/>
+
+                <StackPanel x:Name="Compte_Particulier" Visibility="Visible">
+                    <TextBlock Width="450" Height="40" Text="Nom" HorizontalAlignment="Left" Margin="100,0,0,0" FontSize="20"/>
+                    <TextBox x:Name="Nom2" Width="450" Height="40" Text="Nom" HorizontalAlignment="Left" Margin="100,-15,0,0" FontSize="20"/>
+                    <TextBlock Width="450" Height="40" Text="Prénom" HorizontalAlignment="Left" Margin="100,0,0,0" FontSize="20"/>
+                    <TextBox x:Name="Prenom2" Width="450" Height="40" Text="Prénom" HorizontalAlignment="Left" Margin="100,-15,0,0" FontSize="20"/>
+                    <TextBlock Width="450" Height="40" Text="Numéro de téléphone" HorizontalAlignment="Left" Margin="100,0,0,0" FontSize="20"/>
+                    <TextBox x:Name="Telephone2" Width="450" Height="40" Text="Numéro de téléphone" HorizontalAlignment="Left" Margin="100,-15,0,0" FontSize="20"/>
+                    <TextBlock Width="450" Height="40" Text="Adresse mail" HorizontalAlignment="Left" Margin="100,0,0,0" FontSize="20"/>
+                    <TextBox x:Name="Email" Width="450" Height="40" Text="Adresse Mail" HorizontalAlignment="Left" Margin="100,-15,0,0" FontSize="20"/>
+                </StackPanel>
+
+                <StackPanel x:Name="Compte_Entreprise2" Visibility="Collapsed">
+                    <TextBlock Width="450" Height="40" Text="Nom de l'entreprise" HorizontalAlignment="Left" Margin="100,0,0,0" FontSize="20"/>
+                    <TextBox x:Name="NomEntreprise2" Width="450" Height="40" Text="Nom de l'entreprise" HorizontalAlignment="Left" Margin="100,-15,0,0" FontSize="20"/>
+                    <TextBlock Width="450" Height="40" Text="Nom du référent" HorizontalAlignment="Left" Margin="100,0,0,0" FontSize="20"/>
+                    <TextBox x:Name="NomReferent2" Width="450" Height="40" Text="Nom du référent" HorizontalAlignment="Left" Margin="100,-15,0,0" FontSize="20"/>
+                </StackPanel>
+
+                <TextBlock Width="450" Height="40" Text="Nom de rue" HorizontalAlignment="Left" Margin="100,0,0,0" FontSize="20"/>
+                <TextBox x:Name="NomRue2" Width="450" Height="40" Text="Nom de rue" HorizontalAlignment="Left" Margin="100,-15,0,0" FontSize="20"/>
+                <TextBlock Width="450" Height="40" Text="Numéro de rue" HorizontalAlignment="Left" Margin="100,0,0,0" FontSize="20"/>
+                <TextBox x:Name="NoRue2" Width="450" Height="40" Text="Numéro de rue" HorizontalAlignment="Left" Margin="100,-15,0,0" FontSize="20"/>
+                <TextBlock Width="450" Height="40" Text="Code postal" HorizontalAlignment="Left" Margin="100,0,0,0" FontSize="20"/>
+                <TextBox x:Name="CodePostal2" Width="450" Height="40" Text="Code postal" HorizontalAlignment="Left" Margin="100,-15,0,0" FontSize="20"/>
+                <TextBlock Width="450" Height="40" Text="Ville" HorizontalAlignment="Left" Margin="100,0,0,0" FontSize="20"/>
+                <TextBox x:Name="Ville2" Width="450" Height="40" Text="Ville" HorizontalAlignment="Left" Margin="100,-15,0,0" FontSize="20"/>
+                <TextBlock Width="450" Height="40" Text="Métro le plus proche" HorizontalAlignment="Left" Margin="100,0,0,0" FontSize="20"/>
+                <ComboBox x:Name="Metro2" Width="450" Height="40" HorizontalAlignment="Left" Margin="100,-15,0,0" FontSize="20" BorderBrush="White" VerticalAlignment="Top"/>
+                <TextBlock Width="450" Height="40" Text="Mot de passe" HorizontalAlignment="Left" Margin="100,0,0,0" FontSize="20"/>
+                <TextBox x:Name="MotDePasse2" Width="450" Height="40" Text="Mot de passe" HorizontalAlignment="Left" Margin="100,-15,0,0" FontSize="20"/>
+
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="100,10,0,0" Width="450">
+                    <Button Content="Mettre à jour" HorizontalAlignment="Left" FontSize="20" Foreground="Black" BorderBrush="Transparent" Padding="2" Click="MettreAJour_Click" Width="200" Height="40" Margin="0,0,50,0"/>
+                    <Button Content="Supprimer le compte" FontSize="18" Foreground="Black" BorderBrush="Transparent" Padding="2" Click="SupprimerCompte_Click" Width="200" Height="40" HorizontalAlignment="Right"/>
+                </StackPanel>
+            </StackPanel>
+        </Grid>
+        <Grid x:Name="Admin" Visibility="Collapsed" Margin="0,0,0,0">
+            <StackPanel Margin="100,0,0,0">
+                <TextBlock Text="Page Admin" FontWeight="Bold" FontSize="32" Margin="0,0,0,10"/>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="Page sélectionnée"  FontSize="20" Margin="0,0,0,10"/>
+                    <ComboBox x:Name="ChoixAdmin" Width="400" HorizontalAlignment="Left" Margin="10,0,0,10" SelectionChanged="Changement_ChoixAdmin" FontSize="20">
+                        <ComboBoxItem Content="Sélectionner une table" IsSelected="True"/>
+                        <ComboBoxItem Content="Repas"/>
+                        <ComboBoxItem Content="Données_Particulier"/>
+                        <ComboBoxItem Content="Données_Entreprise"/>
+                        <ComboBoxItem Content="Compte_Client"/>
+                        <ComboBoxItem Content="Compte_Cuisinier"/>
+                        <ComboBoxItem Content="Element_de_commande"/>
+                        <ComboBoxItem Content="Ingrédient"/>
+                        <ComboBoxItem Content="Commande"/>
+                        <ComboBoxItem Content="Comporte"/>
+                        <ComboBoxItem Content="Propose"/>
+                        <ComboBoxItem Content="Statistiques"/>
+                        <ComboBoxItem Content="Graphe"/>
+                        <ComboBoxItem Content="Sauvegarde/Charge"/>
+                    </ComboBox>
+                </StackPanel>
+                <DataGrid x:Name="AdminDataGrid" AutoGenerateColumns="True" Height="500" CanUserAddRows="False" CanUserDeleteRows="False" SelectionMode="Single" Margin="0,0,100,0" Visibility="Collapsed"/>
+                <Grid x:Name="Statistiques" Visibility="Collapsed" Margin="0,0,0,0" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+                    <StackPanel Margin="100,0,100,0">
+                        <TextBlock Text="Statistiques" FontWeight="Bold" FontSize="24" Margin="0,0,0,10"/>
+                        <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+                            <DatePicker x:Name="StatsStartDatePicker" Width="100" Margin="0,0,10,0"/>
+                            <DatePicker x:Name="StatsEndDatePicker" Width="100" Margin="0,0,10,0"/>
+                            <Button Content="Appliquer" Click="ApplyStats_Click" Width="80"/>
+                        </StackPanel>
+                        <DataGrid x:Name="StatsDataGrid" AutoGenerateColumns="True" Height="500" CanUserAddRows="False" CanUserDeleteRows="False" SelectionMode="Single"/>
+                    </StackPanel>
+                </Grid>
+                <Grid x:Name="GrapheAdmin" Visibility="Collapsed">
+                    <StackPanel Orientation="Vertical">
+                        <Image x:Name="ImgCouleur" Source="bin\Debug\net7.0-windows\Couleur.png" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                        <TextBlock x:Name="NbCouleur" Text="Nombre de couleurs pour la coloration : " FontSize="20" Foreground="Black" TextAlignment="Left" Margin="10,10,0,0"/>
+                        <TextBlock x:Name="Bipartie" Text="Le graphe n'est pas bipartie." FontSize="20" Foreground="Black" TextAlignment="Left" Margin="10,10,0,0"/>
+                        <TextBlock x:Name="Planaire" Text="Le graphe n'est pas bipartie." FontSize="20" Foreground="Black" TextAlignment="Left" Margin="10,10,0,0"/>
+                    </StackPanel>
+                </Grid>
+                <Grid x:Name="SauvegarderCharger" Visibility="Collapsed">
+                    <StackPanel Orientation="Vertical">
+                        <TextBlock Text="Charge / sauvergarde la base de donnée sous format XML dans le fichier 'BDD_XML.xml'." FontSize="20" Foreground="Black" TextAlignment="Left" Margin="10,10,0,0"/>
+                        <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                            <Button Content="Sauvegarder" Click="SauvegarderXML_Click" Height="40" Width="280" HorizontalAlignment="Left"/>
+                            <Button Content="Charger" Click="ChargerXML_Click" Width="280" HorizontalAlignment="Left" Margin="100,0,0,0"/>
+                        </StackPanel>
+                        <TextBlock Text="Charge / sauvergarde la base de donnée sous format JSON dans le fichier 'BDD_JSON.json'." FontSize="20" Foreground="Black" TextAlignment="Left" Margin="10,10,0,0"/>
+                        <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                            <Button Content="Sauvegarder" Click="SauvegarderJSON_Click" Height="40" Width="280" HorizontalAlignment="Left"/>
+                            <Button Content="Charger" Click="ChargerJSON_Click" Width="280" HorizontalAlignment="Left" Margin="100,0,0,0"/>
+                        </StackPanel>
+                    </StackPanel>
+                </Grid>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>

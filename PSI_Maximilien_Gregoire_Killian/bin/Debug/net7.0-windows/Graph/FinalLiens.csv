@@ -1,0 +1,333 @@
+Station Id;Station;Pr c dent;Suivant;Temps entre 2 stations;Temps de Changement;Est Bidirectionel
+1;Porte Maillot - Ligne 1;;Argentine - Ligne 1;0;3;1
+2;Argentine - Ligne 1;Porte Maillot - Ligne 1;Charles de Gaulle - Etoile - Ligne 1;3;3;1
+3;Charles de Gaulle - Etoile - Ligne 1;Argentine - Ligne 1;George V - Ligne 1;2;3;1
+4;George V - Ligne 1;Charles de Gaulle - Etoile - Ligne 1;Franklin D. Roosevelt - Ligne 1;3;6;1
+5;Franklin D. Roosevelt - Ligne 1;George V - Ligne 1;Champs-Elysées - Clemenceau - Ligne 1;2;6;1
+6;Champs-Elysées - Clemenceau - Ligne 1;Franklin D. Roosevelt - Ligne 1;Concorde - Ligne 1;3;5;1
+7;Concorde - Ligne 1;Champs-Elysées - Clemenceau - Ligne 1;Tuileries - Ligne 1;2;2;1
+8;Tuileries - Ligne 1;Concorde - Ligne 1;Palais Royal - Musée du Louvre - Ligne 1;4;4;1
+9;Palais Royal - Musée du Louvre - Ligne 1;Tuileries - Ligne 1;Louvre - Rivoli - Ligne 1;2;1;1
+10;Louvre - Rivoli - Ligne 1;Palais Royal - Musée du Louvre - Ligne 1;Châtelet - Ligne 1;3;1;1
+11;Châtelet - Ligne 1;Louvre - Rivoli - Ligne 1;Hôtel de Ville - Ligne 1;2;4;1
+12;Hôtel de Ville - Ligne 1;Châtelet - Ligne 1;Saint-Paul (Le Marais) - Ligne 1;3;6;1
+13;Saint-Paul (Le Marais) - Ligne 1;Hôtel de Ville - Ligne 1;Bastille - Ligne 1;2;5;1
+14;Bastille - Ligne 1;Saint-Paul (Le Marais) - Ligne 1;Gare de Lyon - Ligne 1;4;1;1
+15;Gare de Lyon - Ligne 1;Bastille - Ligne 1;Reuilly - Diderot - Ligne 1;2;2;1
+16;Reuilly - Diderot - Ligne 1;Gare de Lyon - Ligne 1;Nation - Ligne 1;2;2;1
+17;Nation - Ligne 1;Reuilly - Diderot - Ligne 1;Porte de Vincennes - Ligne 1;2;1;1
+18;Porte de Vincennes - Ligne 1;Nation - Ligne 1;Château de Vincennes - Ligne 1;2;5;1
+19;Château de Vincennes - Ligne 1;Porte de Vincennes - Ligne 1;;1;4;1
+20;Porte Dauphine - Ligne 2;;Victor Hugo - Ligne 2;0;2;1
+21;Victor Hugo - Ligne 2;Porte Dauphine - Ligne 2;Charles de Gaulle - Etoile - Ligne 2;2;3;1
+22;Charles de Gaulle - Etoile - Ligne 2;Victor Hugo - Ligne 2;Ternes - Ligne 2;1;3;1
+23;Ternes - Ligne 2;Charles de Gaulle - Etoile - Ligne 2;Courcelles - Ligne 2;2;1;1
+24;Courcelles - Ligne 2;Ternes - Ligne 2;Monceau - Ligne 2;1;1;1
+25;Monceau - Ligne 2;Courcelles - Ligne 2;Villiers - Ligne 2;2;2;1
+26;Villiers - Ligne 2;Monceau - Ligne 2;Rome - Ligne 2;1;6;1
+27;Rome - Ligne 2;Villiers - Ligne 2;Place de Clichy - Ligne 2;3;4;1
+28;Place de Clichy - Ligne 2;Rome - Ligne 2;Blanche - Ligne 2;2;6;1
+29;Blanche - Ligne 2;Place de Clichy - Ligne 2;Pigalle - Ligne 2;1;2;1
+30;Pigalle - Ligne 2;Blanche - Ligne 2;Anvers - Ligne 2;2;1;1
+31;Anvers - Ligne 2;Pigalle - Ligne 2;Barbès - Rochechouart - Ligne 2;3;2;1
+32;Barbès - Rochechouart - Ligne 2;Anvers - Ligne 2;La Chapelle - Ligne 2;2;6;1
+33;La Chapelle - Ligne 2;Barbès - Rochechouart - Ligne 2;Stalingrad - Ligne 2;5;1;1
+34;Stalingrad - Ligne 2;La Chapelle - Ligne 2;Jaurès - Ligne 2;2;2;1
+35;Jaurès - Ligne 2;Stalingrad - Ligne 2;Colonel Fabien - Ligne 2;2;4;1
+36;Colonel Fabien - Ligne 2;Jaurès - Ligne 2;Belleville - Ligne 2;2;4;1
+37;Belleville - Ligne 2;Colonel Fabien - Ligne 2;Couronnes - Ligne 2;2;5;1
+38;Couronnes - Ligne 2;Belleville - Ligne 2;Ménilmontant - Ligne 2;2;6;1
+39;Ménilmontant - Ligne 2;Couronnes - Ligne 2;Père Lachaise - Ligne 2;1;2;1
+40;Père Lachaise - Ligne 2;Ménilmontant - Ligne 2;Philippe Auguste - Ligne 2;1;4;1
+41;Philippe Auguste - Ligne 2;Père Lachaise - Ligne 2;Alexandre Dumas - Ligne 2;1;6;1
+42;Alexandre Dumas - Ligne 2;Philippe Auguste - Ligne 2;Avron - Ligne 2;2;5;1
+43;Avron - Ligne 2;Alexandre Dumas - Ligne 2;Nation - Ligne 2;1;1;1
+44;Nation - Ligne 2;Avron - Ligne 2;;2;5;1
+45;Porte de Champerret - Ligne 3;;Pereire - Ligne 3;0;2;1
+46;Pereire - Ligne 3;Porte de Champerret - Ligne 3;Wagram - Ligne 3;4;2;1
+47;Wagram - Ligne 3;Pereire - Ligne 3;Malesherbes - Ligne 3;1;1;1
+48;Malesherbes - Ligne 3;Wagram - Ligne 3;Villiers - Ligne 3;4;6;1
+49;Villiers - Ligne 3;Malesherbes - Ligne 3;Europe - Ligne 3;4;3;1
+50;Europe - Ligne 3;Villiers - Ligne 3;Saint-Lazare - Ligne 3;3;6;1
+51;Saint-Lazare - Ligne 3;Europe - Ligne 3;Havre-Caumartin - Ligne 3;4;4;1
+52;Havre-Caumartin - Ligne 3;Saint-Lazare - Ligne 3;Opéra - Ligne 3;3;3;1
+53;Opéra - Ligne 3;Havre-Caumartin - Ligne 3;Quatre Septembre - Ligne 3;1;5;1
+54;Quatre Septembre - Ligne 3;Opéra - Ligne 3;Bourse - Ligne 3;4;2;1
+55;Bourse - Ligne 3;Quatre Septembre - Ligne 3;Sentier - Ligne 3;1;1;1
+56;Sentier - Ligne 3;Bourse - Ligne 3;Réaumur - Sébastopol - Ligne 3;3;2;1
+57;Réaumur - Sébastopol - Ligne 3;Sentier - Ligne 3;Arts et Métiers - Ligne 3;3;3;1
+58;Arts et Métiers - Ligne 3;Réaumur - Sébastopol - Ligne 3;Temple - Ligne 3;3;3;1
+59;Temple - Ligne 3;Arts et Métiers - Ligne 3;République - Ligne 3;1;1;1
+60;République - Ligne 3;Temple - Ligne 3;Parmentier - Ligne 3;2;6;1
+61;Parmentier - Ligne 3;République - Ligne 3;Rue Saint-Maur - Ligne 3;2;6;1
+62;Rue Saint-Maur - Ligne 3;Parmentier - Ligne 3;Père Lachaise - Ligne 3;1;2;1
+63;Père Lachaise - Ligne 3;Rue Saint-Maur - Ligne 3;Gambetta - Ligne 3;1;2;1
+64;Gambetta - Ligne 3;Père Lachaise - Ligne 3;Porte de Bagnolet - Ligne 3;3;3;1
+65;Porte de Bagnolet - Ligne 3;Gambetta - Ligne 3;;2;2;1
+66;Porte des Lilas - Ligne 3b;;Saint-Fargeau - Ligne 3b;0;6;1
+67;Saint-Fargeau - Ligne 3b;Porte des Lilas - Ligne 3b;Pelleport - Ligne 3b;3;5;1
+68;Pelleport - Ligne 3b;Saint-Fargeau - Ligne 3b;Gambetta - Ligne 3b;2;1;1
+69;Gambetta - Ligne 3b;Pelleport - Ligne 3b;;2;2;1
+70;Porte de Clignancourt - Ligne 4;;Simplon - Ligne 4;0;4;1
+71;Simplon - Ligne 4;Porte de Clignancourt - Ligne 4;Marcadet - Poissonniers - Ligne 4;3;6;1
+72;Marcadet - Poissonniers - Ligne 4;Simplon - Ligne 4;Château Rouge - Ligne 4;1;6;1
+73;Château Rouge - Ligne 4;Marcadet - Poissonniers - Ligne 4;Barbès - Rochechouart - Ligne 4;3;2;1
+74;Barbès - Rochechouart - Ligne 4;Château Rouge - Ligne 4;Gare du Nord - Ligne 4;3;5;1
+75;Gare du Nord - Ligne 4;Barbès - Rochechouart - Ligne 4;Gare de l'Est - Ligne 4;3;4;1
+76;Gare de l'Est - Ligne 4;Gare du Nord - Ligne 4;Château d'Eau - Ligne 4;2;6;1
+77;Château d'Eau - Ligne 4;Gare de l'Est - Ligne 4;Strasbourg - Saint-Denis - Ligne 4;4;6;1
+78;Strasbourg - Saint-Denis - Ligne 4;Château d'Eau - Ligne 4;Réaumur - Sébastopol - Ligne 4;4;6;1
+79;Réaumur - Sébastopol - Ligne 4;Strasbourg - Saint-Denis - Ligne 4;Etienne Marcel - Ligne 4;3;3;1
+80;Etienne Marcel - Ligne 4;Réaumur - Sébastopol - Ligne 4;Les Halles - Ligne 4;3;6;1
+81;Les Halles - Ligne 4;Etienne Marcel - Ligne 4;Châtelet - Ligne 4;2;1;1
+82;Châtelet - Ligne 4;Les Halles - Ligne 4;Cité - Ligne 4;4;1;1
+83;Cité - Ligne 4;Châtelet - Ligne 4;Saint-Michel - Ligne 4;2;5;1
+84;Saint-Michel - Ligne 4;Cité - Ligne 4;Odéon - Ligne 4;2;6;1
+85;Odéon - Ligne 4;Saint-Michel - Ligne 4;Saint-Germain-des-Prés - Ligne 4;4;5;1
+86;Saint-Germain-des-Prés - Ligne 4;Odéon - Ligne 4;Saint-Sulpice - Ligne 4;2;2;1
+87;Saint-Sulpice - Ligne 4;Saint-Germain-des-Prés - Ligne 4;Saint-Placide - Ligne 4;4;2;1
+88;Saint-Placide - Ligne 4;Saint-Sulpice - Ligne 4;Montparnasse Bienvenue - Ligne 4;4;6;1
+89;Montparnasse Bienvenue - Ligne 4;Saint-Placide - Ligne 4;Vavin - Ligne 4;3;6;1
+90;Vavin - Ligne 4;Montparnasse Bienvenue - Ligne 4;Raspail - Ligne 4;1;4;1
+91;Raspail - Ligne 4;Vavin - Ligne 4;Denfert-Rochereau - Ligne 4;3;5;1
+92;Denfert-Rochereau - Ligne 4;Raspail - Ligne 4;Mouton-Duvernet - Ligne 4;3;3;1
+93;Mouton-Duvernet - Ligne 4;Denfert-Rochereau - Ligne 4;Alésia - Ligne 4;2;5;1
+94;Alésia - Ligne 4;Mouton-Duvernet - Ligne 4;Porte d'Orléans - Ligne 4;1;4;1
+95;Porte d'Orléans - Ligne 4;Alésia - Ligne 4;;2;1;1
+96;Porte de Pantin - Ligne 5;;Ourcq - Ligne 5;0;3;1
+97;Ourcq - Ligne 5;Porte de Pantin - Ligne 5;Laumière - Ligne 5;4;1;1
+98;Laumière - Ligne 5;Ourcq - Ligne 5;Jaurès - Ligne 5;3;5;1
+99;Jaurès - Ligne 5;Laumière - Ligne 5;Stalingrad - Ligne 5;1;4;1
+100;Stalingrad - Ligne 5;Jaurès - Ligne 5;Gare du Nord - Ligne 5;4;1;1
+101;Gare du Nord - Ligne 5;Stalingrad - Ligne 5;Gare de l'Est - Ligne 5;4;4;1
+102;Gare de l'Est - Ligne 5;Gare du Nord - Ligne 5;Jacques Bonsergent - Ligne 5;1;4;1
+103;Jacques Bonsergent - Ligne 5;Gare de l'Est - Ligne 5;République - Ligne 5;3;3;1
+104;République - Ligne 5;Jacques Bonsergent - Ligne 5;Oberkampf - Ligne 5;3;2;1
+105;Oberkampf - Ligne 5;République - Ligne 5;Richard-Lenoir - Ligne 5;4;4;1
+106;Richard-Lenoir - Ligne 5;Oberkampf - Ligne 5;Bréguet-Sabin - Ligne 5;1;5;1
+107;Bréguet-Sabin - Ligne 5;Richard-Lenoir - Ligne 5;Bastille - Ligne 5;3;3;1
+108;Bastille - Ligne 5;Bréguet-Sabin - Ligne 5;Quai de la Rapée - Ligne 5;1;5;1
+109;Quai de la Rapée - Ligne 5;Bastille - Ligne 5;Gare d'Austerlitz - Ligne 5;3;1;1
+110;Gare d'Austerlitz - Ligne 5;Quai de la Rapée - Ligne 5;Saint-Marcel - Ligne 5;2;4;1
+111;Saint-Marcel - Ligne 5;Gare d'Austerlitz - Ligne 5;Campo-Formio - Ligne 5;2;1;1
+112;Campo-Formio - Ligne 5;Saint-Marcel - Ligne 5;Place d'Italie - Ligne 5;2;4;1
+113;Place d'Italie - Ligne 5;Campo-Formio - Ligne 5;;4;1;1
+114;Charles de Gaulle - Etoile - Ligne 6;;Kléber - Ligne 6;0;6;1
+115;Kléber - Ligne 6;Charles de Gaulle - Etoile - Ligne 6;Boissière - Ligne 6;1;1;1
+116;Boissière - Ligne 6;Kléber - Ligne 6;Trocadéro - Ligne 6;4;5;1
+117;Trocadéro - Ligne 6;Boissière - Ligne 6;Passy - Ligne 6;1;6;1
+118;Passy - Ligne 6;Trocadéro - Ligne 6;Bir-Hakeim - Ligne 6;4;3;1
+119;Bir-Hakeim - Ligne 6;Passy - Ligne 6;Dupleix - Ligne 6;1;5;1
+120;Dupleix - Ligne 6;Bir-Hakeim - Ligne 6;La Motte-Picquet - Grenelle - Ligne 6;2;6;1
+121;La Motte-Picquet - Grenelle - Ligne 6;Dupleix - Ligne 6;Cambronne - Ligne 6;1;2;1
+122;Cambronne - Ligne 6;La Motte-Picquet - Grenelle - Ligne 6;Sèvres-Lecourbe - Ligne 6;2;2;1
+123;Sèvres-Lecourbe - Ligne 6;Cambronne - Ligne 6;Pasteur - Ligne 6;2;6;1
+124;Pasteur - Ligne 6;Sèvres-Lecourbe - Ligne 6;Montparnasse Bienvenue - Ligne 6;1;5;1
+125;Montparnasse Bienvenue - Ligne 6;Pasteur - Ligne 6;Edgar Quinet - Ligne 6;4;6;1
+126;Edgar Quinet - Ligne 6;Montparnasse Bienvenue - Ligne 6;Raspail - Ligne 6;2;2;1
+127;Raspail - Ligne 6;Edgar Quinet - Ligne 6;Denfert-Rochereau - Ligne 6;3;6;1
+128;Denfert-Rochereau - Ligne 6;Raspail - Ligne 6;Saint-Jacques - Ligne 6;4;6;1
+129;Saint-Jacques - Ligne 6;Denfert-Rochereau - Ligne 6;Glacière - Ligne 6;2;6;1
+130;Glacière - Ligne 6;Saint-Jacques - Ligne 6;Corvisart - Ligne 6;1;2;1
+131;Corvisart - Ligne 6;Glacière - Ligne 6;Place d'Italie - Ligne 6;2;5;1
+132;Place d'Italie - Ligne 6;Corvisart - Ligne 6;Nationale - Ligne 6;2;5;1
+133;Nationale - Ligne 6;Place d'Italie - Ligne 6;Chevaleret - Ligne 6;1;2;1
+134;Chevaleret - Ligne 6;Nationale - Ligne 6;Quai de la Gare - Ligne 6;2;3;1
+135;Quai de la Gare - Ligne 6;Chevaleret - Ligne 6;Bercy - Ligne 6;2;4;1
+136;Bercy - Ligne 6;Quai de la Gare - Ligne 6;Dugommier - Ligne 6;4;2;1
+137;Dugommier - Ligne 6;Bercy - Ligne 6;Daumesnil - Ligne 6;2;4;1
+138;Daumesnil - Ligne 6;Dugommier - Ligne 6;Bel-Air - Ligne 6;3;1;1
+139;Bel-Air - Ligne 6;Daumesnil - Ligne 6;Picpus - Ligne 6;2;2;1
+140;Picpus - Ligne 6;Bel-Air - Ligne 6;Nation - Ligne 6;4;2;1
+141;Nation - Ligne 6;Picpus - Ligne 6;;1;1;1
+142;Porte de la Villette - Ligne 7;;Corentin Cariou - Ligne 7;0;6;1
+143;Corentin Cariou - Ligne 7;Porte de la Villette - Ligne 7;Crimée - Ligne 7;2;6;1
+144;Crimée - Ligne 7;Corentin Cariou - Ligne 7;Riquet - Ligne 7;4;4;1
+145;Riquet - Ligne 7;Crimée - Ligne 7;Stalingrad - Ligne 7;4;4;1
+146;Stalingrad - Ligne 7;Riquet - Ligne 7;Louis Blanc - Ligne 7;3;6;1
+147;Louis Blanc - Ligne 7;Stalingrad - Ligne 7;Château Landon - Ligne 7;1;5;1
+148;Château Landon - Ligne 7;Louis Blanc - Ligne 7;Gare de l'Est - Ligne 7;2;5;1
+149;Gare de l'Est - Ligne 7;Château Landon - Ligne 7;Poissonnière - Ligne 7;1;6;1
+150;Poissonnière - Ligne 7;Gare de l'Est - Ligne 7;Cadet - Ligne 7;2;1;1
+151;Cadet - Ligne 7;Poissonnière - Ligne 7;Le Peletier - Ligne 7;3;4;1
+152;Le Peletier - Ligne 7;Cadet - Ligne 7;Chaussée d'Antin - La Fayette - Ligne 7;1;1;1
+153;Chaussée d'Antin - La Fayette - Ligne 7;Le Peletier - Ligne 7;Opéra - Ligne 7;2;1;1
+154;Opéra - Ligne 7;Chaussée d'Antin - La Fayette - Ligne 7;Pyramides - Ligne 7;4;1;1
+155;Pyramides - Ligne 7;Opéra - Ligne 7;Palais Royal - Musée du Louvre - Ligne 7;2;6;1
+156;Palais Royal - Musée du Louvre - Ligne 7;Pyramides - Ligne 7;Pont Neuf - Ligne 7;4;1;1
+157;Pont Neuf - Ligne 7;Palais Royal - Musée du Louvre - Ligne 7;Châtelet - Ligne 7;4;2;1
+158;Châtelet - Ligne 7;Pont Neuf - Ligne 7;Pont Marie (Cité des Arts) - Ligne 7;3;2;1
+159;Pont Marie (Cité des Arts) - Ligne 7;Châtelet - Ligne 7;Sully - Morland - Ligne 7;3;2;1
+160;Sully - Morland - Ligne 7;Pont Marie (Cité des Arts) - Ligne 7;Jussieu - Ligne 7;2;4;1
+161;Jussieu - Ligne 7;Sully - Morland - Ligne 7;Place Monge - Ligne 7;4;5;1
+162;Place Monge - Ligne 7;Jussieu - Ligne 7;Censier - Daubenton - Ligne 7;3;6;1
+163;Censier - Daubenton - Ligne 7;Place Monge - Ligne 7;Les Gobelins - Ligne 7;3;2;1
+164;Les Gobelins - Ligne 7;Censier - Daubenton - Ligne 7;Place d'Italie - Ligne 7;4;1;1
+165;Place d'Italie - Ligne 7;Les Gobelins - Ligne 7;Tolbiac - Ligne 7;3;5;1
+166;Tolbiac - Ligne 7;Place d'Italie - Ligne 7;Maison Blanche - Ligne 7;4;2;1
+167;Maison Blanche - Ligne 7;Tolbiac - Ligne 7;Porte d'Italie - Ligne 7;3;5;1
+168;Porte d'Italie - Ligne 7;Maison Blanche - Ligne 7;Porte de Choisy - Ligne 7;3;3;1
+169;Porte de Choisy - Ligne 7;Porte d'Italie - Ligne 7;Porte d'Ivry - Ligne 7;1;4;1
+170;Porte d'Ivry - Ligne 7;Porte de Choisy - Ligne 7;;4;3;1
+171;Maison Blanche - Ligne 7;Porte d'Ivry - Ligne 7;;3;1;1
+172;Louis Blanc - Ligne 7b;;Jaurès - Ligne 7b;0;6;1
+173;Jaurès - Ligne 7b;Louis Blanc - Ligne 7b;Bolivar - Ligne 7b;1;2;1
+174;Bolivar - Ligne 7b;Jaurès - Ligne 7b;Buttes Chaumont - Ligne 7b;1;4;1
+175;Buttes Chaumont - Ligne 7b;Bolivar - Ligne 7b;Botzaris - Ligne 7b;1;6;1
+176;Botzaris - Ligne 7b;Buttes Chaumont - Ligne 7b;Place des Fêtes - Ligne 7b;2;4;1
+177;Place des Fêtes - Ligne 7b;Botzaris - Ligne 7b;Pré-Saint-Gervais - Ligne 7b;4;4;0
+178;Pré-Saint-Gervais - Ligne 7b;Place des Fêtes - Ligne 7b;Danube - Ligne 7b;3;5;0
+179;Danube - Ligne 7b;Pré-Saint-Gervais - Ligne 7b;Botzaris - Ligne 7b;2;1;0
+180;Botzaris - Ligne 7b;Danube - Ligne 7b;;1;2;1
+181;Balard - Ligne 8;;Lourmel - Ligne 8;0;3;1
+182;Lourmel - Ligne 8;Balard - Ligne 8;Boucicaut - Ligne 8;2;3;1
+183;Boucicaut - Ligne 8;Lourmel - Ligne 8;Félix Faure - Ligne 8;3;4;1
+184;Félix Faure - Ligne 8;Boucicaut - Ligne 8;Commerce - Ligne 8;1;5;1
+185;Commerce - Ligne 8;Félix Faure - Ligne 8;La Motte-Picquet - Grenelle - Ligne 8;4;4;1
+186;La Motte-Picquet - Grenelle - Ligne 8;Commerce - Ligne 8;Ecole Militaire - Ligne 8;2;1;1
+187;Ecole Militaire - Ligne 8;La Motte-Picquet - Grenelle - Ligne 8;La Tour-Maubourg - Ligne 8;4;3;1
+188;La Tour-Maubourg - Ligne 8;Ecole Militaire - Ligne 8;Invalides - Ligne 8;2;5;1
+189;Invalides - Ligne 8;La Tour-Maubourg - Ligne 8;Concorde - Ligne 8;2;4;1
+190;Concorde - Ligne 8;Invalides - Ligne 8;Madeleine - Ligne 8;3;4;1
+191;Madeleine - Ligne 8;Concorde - Ligne 8;Opéra - Ligne 8;1;2;1
+192;Opéra - Ligne 8;Madeleine - Ligne 8;Richelieu - Drouot - Ligne 8;3;5;1
+193;Richelieu - Drouot - Ligne 8;Opéra - Ligne 8;Grands Boulevards - Ligne 8;1;5;1
+194;Grands Boulevards - Ligne 8;Richelieu - Drouot - Ligne 8;Bonne Nouvelle - Ligne 8;4;2;1
+195;Bonne Nouvelle - Ligne 8;Grands Boulevards - Ligne 8;Strasbourg - Saint-Denis - Ligne 8;1;1;1
+196;Strasbourg - Saint-Denis - Ligne 8;Bonne Nouvelle - Ligne 8;République - Ligne 8;1;2;1
+197;République - Ligne 8;Strasbourg - Saint-Denis - Ligne 8;Filles du Calvaire - Ligne 8;2;1;1
+198;Filles du Calvaire - Ligne 8;République - Ligne 8;Saint-Sébastien - Froissart - Ligne 8;2;3;1
+199;Saint-Sébastien - Froissart - Ligne 8;Filles du Calvaire - Ligne 8;Chemin Vert - Ligne 8;2;4;1
+200;Chemin Vert - Ligne 8;Saint-Sébastien - Froissart - Ligne 8;Bastille - Ligne 8;2;4;1
+201;Bastille - Ligne 8;Chemin Vert - Ligne 8;Ledru-Rollin - Ligne 8;1;6;1
+202;Ledru-Rollin - Ligne 8;Bastille - Ligne 8;Faidherbe - Chaligny - Ligne 8;3;1;1
+203;Faidherbe - Chaligny - Ligne 8;Ledru-Rollin - Ligne 8;Reuilly - Diderot - Ligne 8;1;3;1
+204;Reuilly - Diderot - Ligne 8;Faidherbe - Chaligny - Ligne 8;Montgallet - Ligne 8;4;6;1
+205;Montgallet - Ligne 8;Reuilly - Diderot - Ligne 8;Daumesnil - Ligne 8;1;5;1
+206;Daumesnil - Ligne 8;Montgallet - Ligne 8;Michel Bizot - Ligne 8;4;5;1
+207;Michel Bizot - Ligne 8;Daumesnil - Ligne 8;Porte Dorée - Ligne 8;3;4;1
+208;Porte Dorée - Ligne 8;Michel Bizot - Ligne 8;Porte de Charenton - Ligne 8;3;3;1
+209;Porte de Charenton - Ligne 8;Porte Dorée - Ligne 8;;3;5;1
+210;Porte de Saint-Cloud - Ligne 9;;Exelmans - Ligne 9;0;5;1
+211;Exelmans - Ligne 9;Porte de Saint-Cloud - Ligne 9;Michel-Ange - Molitor - Ligne 9;2;5;1
+212;Michel-Ange - Molitor - Ligne 9;Exelmans - Ligne 9;Michel-Ange - Auteuil - Ligne 9;4;5;1
+213;Michel-Ange - Auteuil - Ligne 9;Michel-Ange - Molitor - Ligne 9;Jasmin - Ligne 9;3;2;1
+214;Jasmin - Ligne 9;Michel-Ange - Auteuil - Ligne 9;Ranelagh - Ligne 9;4;6;1
+215;Ranelagh - Ligne 9;Jasmin - Ligne 9;La Muette - Ligne 9;1;6;1
+216;La Muette - Ligne 9;Ranelagh - Ligne 9;Rue de la Pompe - Ligne 9;1;5;1
+217;Rue de la Pompe - Ligne 9;La Muette - Ligne 9;Trocadéro - Ligne 9;2;4;1
+218;Trocadéro - Ligne 9;Rue de la Pompe - Ligne 9;Iéna - Ligne 9;4;3;1
+219;Iéna - Ligne 9;Trocadéro - Ligne 9;Alma - Marceau - Ligne 9;3;4;1
+220;Alma - Marceau - Ligne 9;Iéna - Ligne 9;Franklin D. Roosevelt - Ligne 9;3;6;1
+221;Franklin D. Roosevelt - Ligne 9;Alma - Marceau - Ligne 9;Saint-Philippe du Roule - Ligne 9;4;1;1
+222;Saint-Philippe du Roule - Ligne 9;Franklin D. Roosevelt - Ligne 9;Miromesnil - Ligne 9;4;5;1
+223;Miromesnil - Ligne 9;Saint-Philippe du Roule - Ligne 9;Saint-Augustin - Ligne 9;1;2;1
+224;Saint-Augustin - Ligne 9;Miromesnil - Ligne 9;Havre-Caumartin - Ligne 9;4;4;1
+225;Havre-Caumartin - Ligne 9;Saint-Augustin - Ligne 9;Chaussée d'Antin - La Fayette - Ligne 9;3;3;1
+226;Chaussée d'Antin - La Fayette - Ligne 9;Havre-Caumartin - Ligne 9;Richelieu - Drouot - Ligne 9;1;5;1
+227;Richelieu - Drouot - Ligne 9;Chaussée d'Antin - La Fayette - Ligne 9;Grands Boulevards - Ligne 9;3;1;1
+228;Grands Boulevards - Ligne 9;Richelieu - Drouot - Ligne 9;Bonne Nouvelle - Ligne 9;2;6;1
+229;Bonne Nouvelle - Ligne 9;Grands Boulevards - Ligne 9;Strasbourg - Saint-Denis - Ligne 9;3;6;1
+230;Strasbourg - Saint-Denis - Ligne 9;Bonne Nouvelle - Ligne 9;République - Ligne 9;3;1;1
+231;République - Ligne 9;Strasbourg - Saint-Denis - Ligne 9;Oberkampf - Ligne 9;4;1;1
+232;Oberkampf - Ligne 9;République - Ligne 9;Saint-Ambroise - Ligne 9;2;6;1
+233;Saint-Ambroise - Ligne 9;Oberkampf - Ligne 9;Voltaire - Ligne 9;1;5;1
+234;Voltaire - Ligne 9;Saint-Ambroise - Ligne 9;Charonne - Ligne 9;3;2;1
+235;Charonne - Ligne 9;Voltaire - Ligne 9;Rue des Boulets - Ligne 9;3;4;1
+236;Rue des Boulets - Ligne 9;Charonne - Ligne 9;Nation - Ligne 9;4;4;1
+237;Nation - Ligne 9;Rue des Boulets - Ligne 9;Buzenval - Ligne 9;1;2;1
+238;Buzenval - Ligne 9;Nation - Ligne 9;Maraîchers - Ligne 9;4;1;1
+239;Maraîchers - Ligne 9;Buzenval - Ligne 9;Porte de Montreuil - Ligne 9;3;5;1
+240;Porte de Montreuil - Ligne 9;Maraîchers - Ligne 9;;3;4;1
+241;Gare d'Austerlitz - Ligne 10;;Jussieu - Ligne 10;0;1;1
+242;Jussieu - Ligne 10;Gare d'Austerlitz - Ligne 10;Cardinal Lemoine - Ligne 10;2;2;1
+243;Cardinal Lemoine - Ligne 10;Jussieu - Ligne 10;Maubert - Mutualité - Ligne 10;1;4;1
+244;Maubert - Mutualité - Ligne 10;Cardinal Lemoine - Ligne 10;Cluny - La Sorbonne - Ligne 10;2;6;1
+245;Cluny - La Sorbonne - Ligne 10;Maubert - Mutualité - Ligne 10;Odéon - Ligne 10;1;2;1
+246;Odéon - Ligne 10;Cluny - La Sorbonne - Ligne 10;Mabillon - Ligne 10;3;3;1
+247;Mabillon - Ligne 10;Odéon - Ligne 10;Sèvres - Babylone - Ligne 10;3;5;1
+248;Sèvres - Babylone - Ligne 10;Mabillon - Ligne 10;Vaneau - Ligne 10;4;6;1
+249;Vaneau - Ligne 10;Sèvres - Babylone - Ligne 10;Duroc - Ligne 10;1;3;1
+250;Duroc - Ligne 10;Vaneau - Ligne 10;Ségur - Ligne 10;3;3;1
+251;Ségur - Ligne 10;Duroc - Ligne 10;La Motte-Picquet - Grenelle - Ligne 10;1;1;1
+252;La Motte-Picquet - Grenelle - Ligne 10;Ségur - Ligne 10;Avenue Emile Zola - Ligne 10;2;5;1
+253;Avenue Emile Zola - Ligne 10;La Motte-Picquet - Grenelle - Ligne 10;Charles Michels - Ligne 10;2;4;1
+254;Charles Michels - Ligne 10;Avenue Emile Zola - Ligne 10;Javel - André Citroën - Ligne 10;2;6;1
+255;Javel - André Citroën - Ligne 10;Charles Michels - Ligne 10;Eglise d'Auteuil - Ligne 10;1;6;1
+256;Eglise d'Auteuil - Ligne 10;Javel - André Citroën - Ligne 10;Michel-Ange - Auteuil - Ligne 10;4;5;0
+257;Michel-Ange - Auteuil - Ligne 10;Eglise d'Auteuil - Ligne 10;Porte d'Auteuil - Ligne 10;4;6;0
+258;Porte d'Auteuil - Ligne 10;Michel-Ange - Auteuil - Ligne 10;Michel-Ange - Molitor - Ligne 10;4;2;0
+259;Michel-Ange - Molitor - Ligne 10;Porte d'Auteuil - Ligne 10;Chardon Lagache - Ligne 10;3;6;0
+260;Chardon Lagache - Ligne 10;Michel-Ange - Molitor - Ligne 10;Mirabeau - Ligne 10;1;1;0
+261;Mirabeau - Ligne 10;Chardon Lagache - Ligne 10;;2;1;0
+262;Châtelet - Ligne 11;;Hôtel de Ville - Ligne 11;0;2;1
+263;Hôtel de Ville - Ligne 11;Châtelet - Ligne 11;Rambuteau - Ligne 11;1;2;1
+264;Rambuteau - Ligne 11;Hôtel de Ville - Ligne 11;Arts et Métiers - Ligne 11;1;6;1
+265;Arts et Métiers - Ligne 11;Rambuteau - Ligne 11;République - Ligne 11;1;2;1
+266;République - Ligne 11;Arts et Métiers - Ligne 11;Goncourt - Ligne 11;3;1;1
+267;Goncourt - Ligne 11;République - Ligne 11;Belleville - Ligne 11;2;1;1
+268;Belleville - Ligne 11;Goncourt - Ligne 11;Pyrénées - Ligne 11;4;1;1
+269;Pyrénées - Ligne 11;Belleville - Ligne 11;Jourdain - Ligne 11;2;4;1
+270;Jourdain - Ligne 11;Pyrénées - Ligne 11;Place des FÃªtes - Ligne 11;4;3;1
+271;Place des FÃªtes - Ligne 11;Jourdain - Ligne 11;Télégraphe - Ligne 11;3;6;1
+272;Télégraphe - Ligne 11;Place des FÃªtes - Ligne 11;Porte des Lilas - Ligne 11;4;4;1
+273;Porte des Lilas - Ligne 11;Télégraphe - Ligne 11;;3;3;1
+274;Porte de la Chapelle - Ligne 12;;Marx Dormoy - Ligne 12;0;2;1
+275;Marx Dormoy - Ligne 12;Porte de la Chapelle - Ligne 12;Marcadet - Poissonniers - Ligne 12;1;4;1
+276;Marcadet - Poissonniers - Ligne 12;Marx Dormoy - Ligne 12;Jules Joffrin - Ligne 12;2;1;1
+277;Jules Joffrin - Ligne 12;Marcadet - Poissonniers - Ligne 12;Lamarck - Caulaincourt - Ligne 12;2;2;1
+278;Lamarck - Caulaincourt - Ligne 12;Jules Joffrin - Ligne 12;Abbesses - Ligne 12;4;6;1
+279;Abbesses - Ligne 12;Lamarck - Caulaincourt - Ligne 12;Pigalle - Ligne 12;1;3;1
+280;Pigalle - Ligne 12;Abbesses - Ligne 12;Saint-Georges - Ligne 12;2;3;1
+281;Saint-Georges - Ligne 12;Pigalle - Ligne 12;Notre-Dame-de-Lorette - Ligne 12;1;4;1
+282;Notre-Dame-de-Lorette - Ligne 12;Saint-Georges - Ligne 12;Trinité - d'Estienne d'Orves - Ligne 12;2;2;1
+283;Trinité - d'Estienne d'Orves - Ligne 12;Notre-Dame-de-Lorette - Ligne 12;Saint-Lazare - Ligne 12;2;3;1
+284;Saint-Lazare - Ligne 12;Trinité - d'Estienne d'Orves - Ligne 12;Madeleine - Ligne 12;2;3;1
+285;Madeleine - Ligne 12;Saint-Lazare - Ligne 12;Concorde - Ligne 12;2;5;1
+286;Concorde - Ligne 12;Madeleine - Ligne 12;Assemblée Nationale - Ligne 12;4;4;1
+287;Assemblée Nationale - Ligne 12;Concorde - Ligne 12;Solférino - Ligne 12;3;2;1
+288;Solférino - Ligne 12;Assemblée Nationale - Ligne 12;Rue du Bac - Ligne 12;3;3;1
+289;Rue du Bac - Ligne 12;Solférino - Ligne 12;Sèvres - Babylone - Ligne 12;4;2;1
+290;Sèvres - Babylone - Ligne 12;Rue du Bac - Ligne 12;Rennes - Ligne 12;4;3;1
+291;Rennes - Ligne 12;Sèvres - Babylone - Ligne 12;Notre-Dame des Champs - Ligne 12;1;4;1
+292;Notre-Dame des Champs - Ligne 12;Rennes - Ligne 12;Montparnasse Bienvenue - Ligne 12;3;4;1
+293;Montparnasse Bienvenue - Ligne 12;Notre-Dame des Champs - Ligne 12;Falguière - Ligne 12;2;2;1
+294;Falguière - Ligne 12;Montparnasse Bienvenue - Ligne 12;Pasteur - Ligne 12;1;4;1
+295;Pasteur - Ligne 12;Falguière - Ligne 12;Volontaires - Ligne 12;3;5;1
+296;Volontaires - Ligne 12;Pasteur - Ligne 12;Vaugirard - Ligne 12;4;2;1
+297;Vaugirard - Ligne 12;Volontaires - Ligne 12;Convention - Ligne 12;4;5;1
+298;Convention - Ligne 12;Vaugirard - Ligne 12;Porte de Versailles - Ligne 12;4;2;1
+299;Porte de Versailles - Ligne 12;Convention - Ligne 12;;1;4;1
+300;Porte de Vanves - Ligne 13;;Plaisance - Ligne 13;0;4;1
+301;Plaisance - Ligne 13;Porte de Vanves - Ligne 13;Pernety - Ligne 13;1;2;1
+302;Pernety - Ligne 13;Plaisance - Ligne 13;Gaîté - Ligne 13;2;3;1
+303;Gaîté - Ligne 13;Pernety - Ligne 13;Montparnasse Bienvenue - Ligne 13;1;6;1
+304;Montparnasse Bienvenue - Ligne 13;Gaîté - Ligne 13;Duroc - Ligne 13;2;2;1
+305;Duroc - Ligne 13;Montparnasse Bienvenue - Ligne 13;Saint-François-Xavier - Ligne 13;1;6;1
+306;Saint-François-Xavier - Ligne 13;Duroc - Ligne 13;Varenne - Ligne 13;3;6;1
+307;Varenne - Ligne 13;Saint-François-Xavier - Ligne 13;Invalides - Ligne 13;4;5;1
+308;Invalides - Ligne 13;Varenne - Ligne 13;Champs-Elysées - Clemenceau - Ligne 13;1;6;1
+309;Champs-Elysées - Clemenceau - Ligne 13;Invalides - Ligne 13;Miromesnil - Ligne 13;3;3;1
+310;Miromesnil - Ligne 13;Champs-Elysées - Clemenceau - Ligne 13;Saint-Lazare - Ligne 13;3;6;1
+311;Saint-Lazare - Ligne 13;Miromesnil - Ligne 13;Liège - Ligne 13;1;4;1
+312;Liège - Ligne 13;Saint-Lazare - Ligne 13;Place de Clichy - Ligne 13;1;1;1
+313;Place de Clichy - Ligne 13;Liège - Ligne 13;La Fourche - Ligne 13;2;5;1
+314;La Fourche - Ligne 13;Place de Clichy - Ligne 13;Guy Môquet - Ligne 13;4;4;1
+315;Guy Môquet - Ligne 13;La Fourche - Ligne 13;Porte de Saint-Ouen - Ligne 13;2;3;1
+316;Porte de Saint-Ouen - Ligne 13;Guy Môquet - Ligne 13;La Fourche - Ligne 13;3;2;1
+317;La Fourche - Ligne 13;Porte de Saint-Ouen - Ligne 13;Brochant - Ligne 13;2;1;1
+318;Brochant - Ligne 13;La Fourche - Ligne 13;Porte de Clichy - Ligne 13;3;6;1
+319;Porte de Clichy - Ligne 13;Brochant - Ligne 13;;1;6;1
+320;Porte de Clichy - Ligne 14;;Pont Cardinet - Ligne 14;0;1;1
+321;Pont Cardinet - Ligne 14;Porte de Clichy - Ligne 14;Saint-Lazare - Ligne 14;4;4;1
+322;Saint-Lazare - Ligne 14;Pont Cardinet - Ligne 14;Madeleine - Ligne 14;1;4;1
+323;Madeleine - Ligne 14;Saint-Lazare - Ligne 14;Pyramides - Ligne 14;4;2;1
+324;Pyramides - Ligne 14;Madeleine - Ligne 14;Châtelet - Ligne 14;1;2;1
+325;Châtelet - Ligne 14;Pyramides - Ligne 14;Gare de Lyon - Ligne 14;3;2;1
+326;Gare de Lyon - Ligne 14;Châtelet - Ligne 14;Bercy - Ligne 14;4;4;1
+327;Bercy - Ligne 14;Gare de Lyon - Ligne 14;Cour Saint-Emilion - Ligne 14;2;5;1
+328;Cour Saint-Emilion - Ligne 14;Bercy - Ligne 14;Bibliothèque François Mitterrand - Ligne 14;3;2;1
+329;Bibliothèque François Mitterrand - Ligne 14;Cour Saint-Emilion - Ligne 14;Olympiades - Ligne 14;2;5;1
+330;Olympiades - Ligne 14;Bibliothèque François Mitterrand - Ligne 14;Olympiades - Ligne 14;1;1;1
+331;Olympiades - Ligne 14;Olympiades - Ligne 14;Maison Blanche - Ligne 14;2;6;1
+332;Maison Blanche - Ligne 14;Olympiades - Ligne 14;;2;3;1

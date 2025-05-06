@@ -1,0 +1,2795 @@
+<LiveInParis>
+  <Repas>
+    <Row>
+      <No_Repas>1</No_Repas>
+      <Nom>Burger</Nom>
+      <Type_de_plat__entrée__plat__dessert_>Plat</Type_de_plat__entrée__plat__dessert_>
+      <Pour_n_personnes>1</Pour_n_personnes>
+      <Prix_par_personnes>10,5</Prix_par_personnes>
+      <Régime_alimentaire>végétarien</Régime_alimentaire>
+      <Nature>France</Nature>
+      <No_Photo>
+      </No_Photo>
+    </Row>
+    <Row>
+      <No_Repas>2</No_Repas>
+      <Nom>Salade César</Nom>
+      <Type_de_plat__entrée__plat__dessert_>Entrée</Type_de_plat__entrée__plat__dessert_>
+      <Pour_n_personnes>2</Pour_n_personnes>
+      <Prix_par_personnes>7</Prix_par_personnes>
+      <Régime_alimentaire>aucun</Régime_alimentaire>
+      <Nature>Italie</Nature>
+      <No_Photo>
+      </No_Photo>
+    </Row>
+    <Row>
+      <No_Repas>3</No_Repas>
+      <Nom>Tarte aux pommes</Nom>
+      <Type_de_plat__entrée__plat__dessert_>Dessert</Type_de_plat__entrée__plat__dessert_>
+      <Pour_n_personnes>4</Pour_n_personnes>
+      <Prix_par_personnes>6,5</Prix_par_personnes>
+      <Régime_alimentaire>aucun</Régime_alimentaire>
+      <Nature>France</Nature>
+      <No_Photo>
+      </No_Photo>
+    </Row>
+    <Row>
+      <No_Repas>4</No_Repas>
+      <Nom>Sushi saumon</Nom>
+      <Type_de_plat__entrée__plat__dessert_>Plat</Type_de_plat__entrée__plat__dessert_>
+      <Pour_n_personnes>2</Pour_n_personnes>
+      <Prix_par_personnes>15</Prix_par_personnes>
+      <Régime_alimentaire>aucun</Régime_alimentaire>
+      <Nature>Japon</Nature>
+      <No_Photo>
+      </No_Photo>
+    </Row>
+    <Row>
+      <No_Repas>5</No_Repas>
+      <Nom>Soupe miso</Nom>
+      <Type_de_plat__entrée__plat__dessert_>Entrée</Type_de_plat__entrée__plat__dessert_>
+      <Pour_n_personnes>1</Pour_n_personnes>
+      <Prix_par_personnes>5,5</Prix_par_personnes>
+      <Régime_alimentaire>végétalien</Régime_alimentaire>
+      <Nature>Japon</Nature>
+      <No_Photo>
+      </No_Photo>
+    </Row>
+    <Row>
+      <No_Repas>6</No_Repas>
+      <Nom>Mousse au chocolat</Nom>
+      <Type_de_plat__entrée__plat__dessert_>Dessert</Type_de_plat__entrée__plat__dessert_>
+      <Pour_n_personnes>3</Pour_n_personnes>
+      <Prix_par_personnes>8</Prix_par_personnes>
+      <Régime_alimentaire>aucun</Régime_alimentaire>
+      <Nature>France</Nature>
+      <No_Photo>
+      </No_Photo>
+    </Row>
+    <Row>
+      <No_Repas>7</No_Repas>
+      <Nom>Tacos</Nom>
+      <Type_de_plat__entrée__plat__dessert_>Plat</Type_de_plat__entrée__plat__dessert_>
+      <Pour_n_personnes>2</Pour_n_personnes>
+      <Prix_par_personnes>12</Prix_par_personnes>
+      <Régime_alimentaire>aucun</Régime_alimentaire>
+      <Nature>Mexique</Nature>
+      <No_Photo>
+      </No_Photo>
+    </Row>
+    <Row>
+      <No_Repas>8</No_Repas>
+      <Nom>Bruschetta</Nom>
+      <Type_de_plat__entrée__plat__dessert_>Entrée</Type_de_plat__entrée__plat__dessert_>
+      <Pour_n_personnes>2</Pour_n_personnes>
+      <Prix_par_personnes>6</Prix_par_personnes>
+      <Régime_alimentaire>végétarien</Régime_alimentaire>
+      <Nature>Italie</Nature>
+      <No_Photo>
+      </No_Photo>
+    </Row>
+    <Row>
+      <No_Repas>9</No_Repas>
+      <Nom>Cheesecake</Nom>
+      <Type_de_plat__entrée__plat__dessert_>Dessert</Type_de_plat__entrée__plat__dessert_>
+      <Pour_n_personnes>4</Pour_n_personnes>
+      <Prix_par_personnes>9</Prix_par_personnes>
+      <Régime_alimentaire>aucun</Régime_alimentaire>
+      <Nature>États-Unis</Nature>
+      <No_Photo>
+      </No_Photo>
+    </Row>
+    <Row>
+      <No_Repas>10</No_Repas>
+      <Nom>Ratatouille</Nom>
+      <Type_de_plat__entrée__plat__dessert_>Plat</Type_de_plat__entrée__plat__dessert_>
+      <Pour_n_personnes>3</Pour_n_personnes>
+      <Prix_par_personnes>10</Prix_par_personnes>
+      <Régime_alimentaire>végétalien</Régime_alimentaire>
+      <Nature>France</Nature>
+      <No_Photo>
+      </No_Photo>
+    </Row>
+    <Row>
+      <No_Repas>11</No_Repas>
+      <Nom>Foie gras</Nom>
+      <Type_de_plat__entrée__plat__dessert_>Entrée</Type_de_plat__entrée__plat__dessert_>
+      <Pour_n_personnes>2</Pour_n_personnes>
+      <Prix_par_personnes>18</Prix_par_personnes>
+      <Régime_alimentaire>aucun</Régime_alimentaire>
+      <Nature>France</Nature>
+      <No_Photo>
+      </No_Photo>
+    </Row>
+    <Row>
+      <No_Repas>12</No_Repas>
+      <Nom>Panna Cotta</Nom>
+      <Type_de_plat__entrée__plat__dessert_>Dessert</Type_de_plat__entrée__plat__dessert_>
+      <Pour_n_personnes>2</Pour_n_personnes>
+      <Prix_par_personnes>7,5</Prix_par_personnes>
+      <Régime_alimentaire>aucun</Régime_alimentaire>
+      <Nature>Italie</Nature>
+      <No_Photo>
+      </No_Photo>
+    </Row>
+    <Row>
+      <No_Repas>13</No_Repas>
+      <Nom>Biryani</Nom>
+      <Type_de_plat__entrée__plat__dessert_>Plat</Type_de_plat__entrée__plat__dessert_>
+      <Pour_n_personnes>3</Pour_n_personnes>
+      <Prix_par_personnes>14,5</Prix_par_personnes>
+      <Régime_alimentaire>halal</Régime_alimentaire>
+      <Nature>Inde</Nature>
+      <No_Photo>
+      </No_Photo>
+    </Row>
+    <Row>
+      <No_Repas>14</No_Repas>
+      <Nom>Gaspacho</Nom>
+      <Type_de_plat__entrée__plat__dessert_>Entrée</Type_de_plat__entrée__plat__dessert_>
+      <Pour_n_personnes>2</Pour_n_personnes>
+      <Prix_par_personnes>6</Prix_par_personnes>
+      <Régime_alimentaire>végétalien</Régime_alimentaire>
+      <Nature>Espagne</Nature>
+      <No_Photo>
+      </No_Photo>
+    </Row>
+    <Row>
+      <No_Repas>15</No_Repas>
+      <Nom>Brownie</Nom>
+      <Type_de_plat__entrée__plat__dessert_>Dessert</Type_de_plat__entrée__plat__dessert_>
+      <Pour_n_personnes>3</Pour_n_personnes>
+      <Prix_par_personnes>7</Prix_par_personnes>
+      <Régime_alimentaire>aucun</Régime_alimentaire>
+      <Nature>États-Unis</Nature>
+      <No_Photo>
+      </No_Photo>
+    </Row>
+    <Row>
+      <No_Repas>16</No_Repas>
+      <Nom>Falafel</Nom>
+      <Type_de_plat__entrée__plat__dessert_>Plat</Type_de_plat__entrée__plat__dessert_>
+      <Pour_n_personnes>2</Pour_n_personnes>
+      <Prix_par_personnes>9</Prix_par_personnes>
+      <Régime_alimentaire>végétalien</Régime_alimentaire>
+      <Nature>Moyen-Orient</Nature>
+      <No_Photo>
+      </No_Photo>
+    </Row>
+    <Row>
+      <No_Repas>17</No_Repas>
+      <Nom>Ceviche</Nom>
+      <Type_de_plat__entrée__plat__dessert_>Entrée</Type_de_plat__entrée__plat__dessert_>
+      <Pour_n_personnes>2</Pour_n_personnes>
+      <Prix_par_personnes>12,5</Prix_par_personnes>
+      <Régime_alimentaire>aucun</Régime_alimentaire>
+      <Nature>Pérou</Nature>
+      <No_Photo>
+      </No_Photo>
+    </Row>
+    <Row>
+      <No_Repas>18</No_Repas>
+      <Nom>Tiramisu</Nom>
+      <Type_de_plat__entrée__plat__dessert_>Dessert</Type_de_plat__entrée__plat__dessert_>
+      <Pour_n_personnes>4</Pour_n_personnes>
+      <Prix_par_personnes>8,5</Prix_par_personnes>
+      <Régime_alimentaire>aucun</Régime_alimentaire>
+      <Nature>Italie</Nature>
+      <No_Photo>
+      </No_Photo>
+    </Row>
+    <Row>
+      <No_Repas>19</No_Repas>
+      <Nom>Couscous royal</Nom>
+      <Type_de_plat__entrée__plat__dessert_>Plat</Type_de_plat__entrée__plat__dessert_>
+      <Pour_n_personnes>4</Pour_n_personnes>
+      <Prix_par_personnes>16</Prix_par_personnes>
+      <Régime_alimentaire>halal</Régime_alimentaire>
+      <Nature>Maroc</Nature>
+      <No_Photo>
+      </No_Photo>
+    </Row>
+    <Row>
+      <No_Repas>20</No_Repas>
+      <Nom>Oeufs mimosa</Nom>
+      <Type_de_plat__entrée__plat__dessert_>Entrée</Type_de_plat__entrée__plat__dessert_>
+      <Pour_n_personnes>2</Pour_n_personnes>
+      <Prix_par_personnes>5,5</Prix_par_personnes>
+      <Régime_alimentaire>aucun</Régime_alimentaire>
+      <Nature>France</Nature>
+      <No_Photo>
+      </No_Photo>
+    </Row>
+    <Row>
+      <No_Repas>21</No_Repas>
+      <Nom>Crème brûlée</Nom>
+      <Type_de_plat__entrée__plat__dessert_>Dessert</Type_de_plat__entrée__plat__dessert_>
+      <Pour_n_personnes>3</Pour_n_personnes>
+      <Prix_par_personnes>9,5</Prix_par_personnes>
+      <Régime_alimentaire>aucun</Régime_alimentaire>
+      <Nature>France</Nature>
+      <No_Photo>
+      </No_Photo>
+    </Row>
+    <Row>
+      <No_Repas>22</No_Repas>
+      <Nom>Ramen</Nom>
+      <Type_de_plat__entrée__plat__dessert_>Plat</Type_de_plat__entrée__plat__dessert_>
+      <Pour_n_personnes>1</Pour_n_personnes>
+      <Prix_par_personnes>13</Prix_par_personnes>
+      <Régime_alimentaire>aucun</Régime_alimentaire>
+      <Nature>Japon</Nature>
+      <No_Photo>
+      </No_Photo>
+    </Row>
+    <Row>
+      <No_Repas>23</No_Repas>
+      <Nom>Carpaccio de bœuf</Nom>
+      <Type_de_plat__entrée__plat__dessert_>Entrée</Type_de_plat__entrée__plat__dessert_>
+      <Pour_n_personnes>2</Pour_n_personnes>
+      <Prix_par_personnes>11</Prix_par_personnes>
+      <Régime_alimentaire>aucun</Régime_alimentaire>
+      <Nature>Italie</Nature>
+      <No_Photo>
+      </No_Photo>
+    </Row>
+    <Row>
+      <No_Repas>24</No_Repas>
+      <Nom>Macaron</Nom>
+      <Type_de_plat__entrée__plat__dessert_>Dessert</Type_de_plat__entrée__plat__dessert_>
+      <Pour_n_personnes>4</Pour_n_personnes>
+      <Prix_par_personnes>5</Prix_par_personnes>
+      <Régime_alimentaire>aucun</Régime_alimentaire>
+      <Nature>France</Nature>
+      <No_Photo>
+      </No_Photo>
+    </Row>
+    <Row>
+      <No_Repas>25</No_Repas>
+      <Nom>Pad Thaï</Nom>
+      <Type_de_plat__entrée__plat__dessert_>Plat</Type_de_plat__entrée__plat__dessert_>
+      <Pour_n_personnes>2</Pour_n_personnes>
+      <Prix_par_personnes>14</Prix_par_personnes>
+      <Régime_alimentaire>aucun</Régime_alimentaire>
+      <Nature>Thaïlande</Nature>
+      <No_Photo>
+      </No_Photo>
+    </Row>
+    <Row>
+      <No_Repas>26</No_Repas>
+      <Nom>Brie truffé</Nom>
+      <Type_de_plat__entrée__plat__dessert_>Entrée</Type_de_plat__entrée__plat__dessert_>
+      <Pour_n_personnes>2</Pour_n_personnes>
+      <Prix_par_personnes>15</Prix_par_personnes>
+      <Régime_alimentaire>aucun</Régime_alimentaire>
+      <Nature>France</Nature>
+      <No_Photo>
+      </No_Photo>
+    </Row>
+    <Row>
+      <No_Repas>27</No_Repas>
+      <Nom>Pudding au caramel</Nom>
+      <Type_de_plat__entrée__plat__dessert_>Dessert</Type_de_plat__entrée__plat__dessert_>
+      <Pour_n_personnes>3</Pour_n_personnes>
+      <Prix_par_personnes>7,5</Prix_par_personnes>
+      <Régime_alimentaire>aucun</Régime_alimentaire>
+      <Nature>Angleterre</Nature>
+      <No_Photo>
+      </No_Photo>
+    </Row>
+    <Row>
+      <No_Repas>28</No_Repas>
+      <Nom>Boeuf bourguignon</Nom>
+      <Type_de_plat__entrée__plat__dessert_>Plat</Type_de_plat__entrée__plat__dessert_>
+      <Pour_n_personnes>3</Pour_n_personnes>
+      <Prix_par_personnes>18</Prix_par_personnes>
+      <Régime_alimentaire>aucun</Régime_alimentaire>
+      <Nature>France</Nature>
+      <No_Photo>
+      </No_Photo>
+    </Row>
+    <Row>
+      <No_Repas>29</No_Repas>
+      <Nom>Antipasti</Nom>
+      <Type_de_plat__entrée__plat__dessert_>Entrée</Type_de_plat__entrée__plat__dessert_>
+      <Pour_n_personnes>4</Pour_n_personnes>
+      <Prix_par_personnes>9,5</Prix_par_personnes>
+      <Régime_alimentaire>végétarien</Régime_alimentaire>
+      <Nature>Italie</Nature>
+      <No_Photo>
+      </No_Photo>
+    </Row>
+    <Row>
+      <No_Repas>30</No_Repas>
+      <Nom>Gâteau au chocolat</Nom>
+      <Type_de_plat__entrée__plat__dessert_>Dessert</Type_de_plat__entrée__plat__dessert_>
+      <Pour_n_personnes>6</Pour_n_personnes>
+      <Prix_par_personnes>8</Prix_par_personnes>
+      <Régime_alimentaire>aucun</Régime_alimentaire>
+      <Nature>France</Nature>
+      <No_Photo>
+      </No_Photo>
+    </Row>
+    <Row>
+      <No_Repas>31</No_Repas>
+      <Nom>Paella</Nom>
+      <Type_de_plat__entrée__plat__dessert_>Plat</Type_de_plat__entrée__plat__dessert_>
+      <Pour_n_personnes>5</Pour_n_personnes>
+      <Prix_par_personnes>17</Prix_par_personnes>
+      <Régime_alimentaire>aucun</Régime_alimentaire>
+      <Nature>Espagne</Nature>
+      <No_Photo>
+      </No_Photo>
+    </Row>
+    <Row>
+      <No_Repas>32</No_Repas>
+      <Nom>Acras de morue</Nom>
+      <Type_de_plat__entrée__plat__dessert_>Entrée</Type_de_plat__entrée__plat__dessert_>
+      <Pour_n_personnes>3</Pour_n_personnes>
+      <Prix_par_personnes>6,5</Prix_par_personnes>
+      <Régime_alimentaire>aucun</Régime_alimentaire>
+      <Nature>Caraïbes</Nature>
+      <No_Photo>
+      </No_Photo>
+    </Row>
+    <Row>
+      <No_Repas>33</No_Repas>
+      <Nom>Mille-feuille</Nom>
+      <Type_de_plat__entrée__plat__dessert_>Dessert</Type_de_plat__entrée__plat__dessert_>
+      <Pour_n_personnes>2</Pour_n_personnes>
+      <Prix_par_personnes>8</Prix_par_personnes>
+      <Régime_alimentaire>aucun</Régime_alimentaire>
+      <Nature>France</Nature>
+      <No_Photo>
+      </No_Photo>
+    </Row>
+    <Row>
+      <No_Repas>34</No_Repas>
+      <Nom>Lasagnes</Nom>
+      <Type_de_plat__entrée__plat__dessert_>Plat</Type_de_plat__entrée__plat__dessert_>
+      <Pour_n_personnes>4</Pour_n_personnes>
+      <Prix_par_personnes>13,5</Prix_par_personnes>
+      <Régime_alimentaire>aucun</Régime_alimentaire>
+      <Nature>Italie</Nature>
+      <No_Photo>
+      </No_Photo>
+    </Row>
+    <Row>
+      <No_Repas>35</No_Repas>
+      <Nom>Foie de volaille</Nom>
+      <Type_de_plat__entrée__plat__dessert_>Entrée</Type_de_plat__entrée__plat__dessert_>
+      <Pour_n_personnes>2</Pour_n_personnes>
+      <Prix_par_personnes>9</Prix_par_personnes>
+      <Régime_alimentaire>aucun</Régime_alimentaire>
+      <Nature>France</Nature>
+      <No_Photo>
+      </No_Photo>
+    </Row>
+    <Row>
+      <No_Repas>36</No_Repas>
+      <Nom>Sorbet citron</Nom>
+      <Type_de_plat__entrée__plat__dessert_>Dessert</Type_de_plat__entrée__plat__dessert_>
+      <Pour_n_personnes>3</Pour_n_personnes>
+      <Prix_par_personnes>6</Prix_par_personnes>
+      <Régime_alimentaire>végétalien</Régime_alimentaire>
+      <Nature>France</Nature>
+      <No_Photo>
+      </No_Photo>
+    </Row>
+    <Row>
+      <No_Repas>37</No_Repas>
+      <Nom>Kimchi fried rice</Nom>
+      <Type_de_plat__entrée__plat__dessert_>Plat</Type_de_plat__entrée__plat__dessert_>
+      <Pour_n_personnes>2</Pour_n_personnes>
+      <Prix_par_personnes>11</Prix_par_personnes>
+      <Régime_alimentaire>aucun</Régime_alimentaire>
+      <Nature>Corée du Sud</Nature>
+      <No_Photo>
+      </No_Photo>
+    </Row>
+    <Row>
+      <No_Repas>38</No_Repas>
+      <Nom>Tapenade</Nom>
+      <Type_de_plat__entrée__plat__dessert_>Entrée</Type_de_plat__entrée__plat__dessert_>
+      <Pour_n_personnes>3</Pour_n_personnes>
+      <Prix_par_personnes>5</Prix_par_personnes>
+      <Régime_alimentaire>végétalien</Régime_alimentaire>
+      <Nature>France</Nature>
+      <No_Photo>
+      </No_Photo>
+    </Row>
+    <Row>
+      <No_Repas>39</No_Repas>
+      <Nom>Baklava</Nom>
+      <Type_de_plat__entrée__plat__dessert_>Dessert</Type_de_plat__entrée__plat__dessert_>
+      <Pour_n_personnes>4</Pour_n_personnes>
+      <Prix_par_personnes>7,5</Prix_par_personnes>
+      <Régime_alimentaire>aucun</Régime_alimentaire>
+      <Nature>Turquie</Nature>
+      <No_Photo>
+      </No_Photo>
+    </Row>
+    <Row>
+      <No_Repas>40</No_Repas>
+      <Nom>Goulash</Nom>
+      <Type_de_plat__entrée__plat__dessert_>Plat</Type_de_plat__entrée__plat__dessert_>
+      <Pour_n_personnes>3</Pour_n_personnes>
+      <Prix_par_personnes>14</Prix_par_personnes>
+      <Régime_alimentaire>aucun</Régime_alimentaire>
+      <Nature>Hongrie</Nature>
+      <No_Photo>
+      </No_Photo>
+    </Row>
+    <Row>
+      <No_Repas>41</No_Repas>
+      <Nom>Soupe à l’oignon</Nom>
+      <Type_de_plat__entrée__plat__dessert_>Entrée</Type_de_plat__entrée__plat__dessert_>
+      <Pour_n_personnes>2</Pour_n_personnes>
+      <Prix_par_personnes>7,5</Prix_par_personnes>
+      <Régime_alimentaire>aucun</Régime_alimentaire>
+      <Nature>France</Nature>
+      <No_Photo>
+      </No_Photo>
+    </Row>
+    <Row>
+      <No_Repas>42</No_Repas>
+      <Nom>Flan vanille</Nom>
+      <Type_de_plat__entrée__plat__dessert_>Dessert</Type_de_plat__entrée__plat__dessert_>
+      <Pour_n_personnes>3</Pour_n_personnes>
+      <Prix_par_personnes>6,5</Prix_par_personnes>
+      <Régime_alimentaire>aucun</Régime_alimentaire>
+      <Nature>Espagne</Nature>
+      <No_Photo>
+      </No_Photo>
+    </Row>
+    <Row>
+      <No_Repas>43</No_Repas>
+      <Nom>Tagine agneau</Nom>
+      <Type_de_plat__entrée__plat__dessert_>Plat</Type_de_plat__entrée__plat__dessert_>
+      <Pour_n_personnes>4</Pour_n_personnes>
+      <Prix_par_personnes>16,5</Prix_par_personnes>
+      <Régime_alimentaire>halal</Régime_alimentaire>
+      <Nature>Maroc</Nature>
+      <No_Photo>
+      </No_Photo>
+    </Row>
+    <Row>
+      <No_Repas>44</No_Repas>
+      <Nom>Hummus</Nom>
+      <Type_de_plat__entrée__plat__dessert_>Entrée</Type_de_plat__entrée__plat__dessert_>
+      <Pour_n_personnes>2</Pour_n_personnes>
+      <Prix_par_personnes>5,5</Prix_par_personnes>
+      <Régime_alimentaire>végétalien</Régime_alimentaire>
+      <Nature>Moyen-Orient</Nature>
+      <No_Photo>
+      </No_Photo>
+    </Row>
+    <Row>
+      <No_Repas>45</No_Repas>
+      <Nom>Tarte Tatin</Nom>
+      <Type_de_plat__entrée__plat__dessert_>Dessert</Type_de_plat__entrée__plat__dessert_>
+      <Pour_n_personnes>4</Pour_n_personnes>
+      <Prix_par_personnes>7,5</Prix_par_personnes>
+      <Régime_alimentaire>aucun</Régime_alimentaire>
+      <Nature>France</Nature>
+      <No_Photo>
+      </No_Photo>
+    </Row>
+    <Row>
+      <No_Repas>46</No_Repas>
+      <Nom>Chili con carne</Nom>
+      <Type_de_plat__entrée__plat__dessert_>Plat</Type_de_plat__entrée__plat__dessert_>
+      <Pour_n_personnes>3</Pour_n_personnes>
+      <Prix_par_personnes>12,5</Prix_par_personnes>
+      <Régime_alimentaire>aucun</Régime_alimentaire>
+      <Nature>Mexique</Nature>
+      <No_Photo>
+      </No_Photo>
+    </Row>
+    <Row>
+      <No_Repas>47</No_Repas>
+      <Nom>Nems</Nom>
+      <Type_de_plat__entrée__plat__dessert_>Entrée</Type_de_plat__entrée__plat__dessert_>
+      <Pour_n_personnes>2</Pour_n_personnes>
+      <Prix_par_personnes>6,5</Prix_par_personnes>
+      <Régime_alimentaire>aucun</Régime_alimentaire>
+      <Nature>Vietnam</Nature>
+      <No_Photo>
+      </No_Photo>
+    </Row>
+    <Row>
+      <No_Repas>48</No_Repas>
+      <Nom>Strudel aux pommes</Nom>
+      <Type_de_plat__entrée__plat__dessert_>Dessert</Type_de_plat__entrée__plat__dessert_>
+      <Pour_n_personnes>4</Pour_n_personnes>
+      <Prix_par_personnes>7</Prix_par_personnes>
+      <Régime_alimentaire>aucun</Régime_alimentaire>
+      <Nature>Autriche</Nature>
+      <No_Photo>
+      </No_Photo>
+    </Row>
+    <Row>
+      <No_Repas>49</No_Repas>
+      <Nom>Boeuf Wellington</Nom>
+      <Type_de_plat__entrée__plat__dessert_>Plat</Type_de_plat__entrée__plat__dessert_>
+      <Pour_n_personnes>3</Pour_n_personnes>
+      <Prix_par_personnes>20</Prix_par_personnes>
+      <Régime_alimentaire>aucun</Régime_alimentaire>
+      <Nature>Angleterre</Nature>
+      <No_Photo>
+      </No_Photo>
+    </Row>
+    <Row>
+      <No_Repas>50</No_Repas>
+      <Nom>Velouté de potiron</Nom>
+      <Type_de_plat__entrée__plat__dessert_>Entrée</Type_de_plat__entrée__plat__dessert_>
+      <Pour_n_personnes>3</Pour_n_personnes>
+      <Prix_par_personnes>6</Prix_par_personnes>
+      <Régime_alimentaire>végétalien</Régime_alimentaire>
+      <Nature>France</Nature>
+      <No_Photo>
+      </No_Photo>
+    </Row>
+  </Repas>
+  <Données_Particulier>
+    <Row>
+      <No_Données>1</No_Données>
+      <Nom>Amadori</Nom>
+      <Prénom>Nathan</Prénom>
+      <Nom_Rue>Rue de Rome</Nom_Rue>
+      <No_Rue>10</No_Rue>
+      <Code_Postal>75017</Code_Postal>
+      <Ville>Paris 17</Ville>
+      <Numéro_de_téléphone>658789515</Numéro_de_téléphone>
+      <Adresse_mail>nathan.amadori@edu.devinci.fr</Adresse_mail>
+      <Métro_le___proche>Porte Maillot</Métro_le___proche>
+      <Mot_de_Passe>AmadoriNathan</Mot_de_Passe>
+    </Row>
+    <Row>
+      <No_Données>2</No_Données>
+      <Nom>Dupont</Nom>
+      <Prénom>Alice</Prénom>
+      <Nom_Rue>Avenue des Champs-Élysées</Nom_Rue>
+      <No_Rue>50</No_Rue>
+      <Code_Postal>75008</Code_Postal>
+      <Ville>Paris 8</Ville>
+      <Numéro_de_téléphone>612345678</Numéro_de_téléphone>
+      <Adresse_mail>alice.dupont@example.com</Adresse_mail>
+      <Métro_le___proche>Menilmontant</Métro_le___proche>
+      <Mot_de_Passe>DupontAlice</Mot_de_Passe>
+    </Row>
+    <Row>
+      <No_Données>3</No_Données>
+      <Nom>Martin</Nom>
+      <Prénom>Lucas</Prénom>
+      <Nom_Rue>Boulevard Haussmann</Nom_Rue>
+      <No_Rue>28</No_Rue>
+      <Code_Postal>75009</Code_Postal>
+      <Ville>Paris 9</Ville>
+      <Numéro_de_téléphone>623456789</Numéro_de_téléphone>
+      <Adresse_mail>lucas.martin@example.com</Adresse_mail>
+      <Métro_le___proche>Invalides</Métro_le___proche>
+      <Mot_de_Passe>MartinLucas</Mot_de_Passe>
+    </Row>
+    <Row>
+      <No_Données>4</No_Données>
+      <Nom>Bernard</Nom>
+      <Prénom>Emma</Prénom>
+      <Nom_Rue>Rue de Rivoli</Nom_Rue>
+      <No_Rue>105</No_Rue>
+      <Code_Postal>75001</Code_Postal>
+      <Ville>Paris 1</Ville>
+      <Numéro_de_téléphone>634567890</Numéro_de_téléphone>
+      <Adresse_mail>emma.bernard@example.com</Adresse_mail>
+      <Métro_le___proche>Havre-Caumartin</Métro_le___proche>
+      <Mot_de_Passe>BernardEmma</Mot_de_Passe>
+    </Row>
+    <Row>
+      <No_Données>5</No_Données>
+      <Nom>Robert</Nom>
+      <Prénom>Louis</Prénom>
+      <Nom_Rue>Rue Saint-Honoré</Nom_Rue>
+      <No_Rue>200</No_Rue>
+      <Code_Postal>75001</Code_Postal>
+      <Ville>Paris 1</Ville>
+      <Numéro_de_téléphone>645678901</Numéro_de_téléphone>
+      <Adresse_mail>louis.robert@example.com</Adresse_mail>
+      <Métro_le___proche>Chateau d'Eau</Métro_le___proche>
+      <Mot_de_Passe>RobertLouis</Mot_de_Passe>
+    </Row>
+    <Row>
+      <No_Données>6</No_Données>
+      <Nom>Petit</Nom>
+      <Prénom>Clara</Prénom>
+      <Nom_Rue>Boulevard Saint-Michel</Nom_Rue>
+      <No_Rue>12</No_Rue>
+      <Code_Postal>75005</Code_Postal>
+      <Ville>Paris 5</Ville>
+      <Numéro_de_téléphone>656789012</Numéro_de_téléphone>
+      <Adresse_mail>clara.petit@example.com</Adresse_mail>
+      <Métro_le___proche>Saint-Placide</Métro_le___proche>
+      <Mot_de_Passe>PetitClara</Mot_de_Passe>
+    </Row>
+    <Row>
+      <No_Données>7</No_Données>
+      <Nom>Durand</Nom>
+      <Prénom>Gabriel</Prénom>
+      <Nom_Rue>Rue du Faubourg Saint-Antoine</Nom_Rue>
+      <No_Rue>78</No_Rue>
+      <Code_Postal>75011</Code_Postal>
+      <Ville>Paris 11</Ville>
+      <Numéro_de_téléphone>667890123</Numéro_de_téléphone>
+      <Adresse_mail>gabriel.durand@example.com</Adresse_mail>
+      <Métro_le___proche>Cambronne</Métro_le___proche>
+      <Mot_de_Passe>DurandGabriel</Mot_de_Passe>
+    </Row>
+    <Row>
+      <No_Données>8</No_Données>
+      <Nom>Leroy</Nom>
+      <Prénom>Zoé</Prénom>
+      <Nom_Rue>Rue de la Pompe</Nom_Rue>
+      <No_Rue>30</No_Rue>
+      <Code_Postal>75016</Code_Postal>
+      <Ville>Paris 16</Ville>
+      <Numéro_de_téléphone>678901234</Numéro_de_téléphone>
+      <Adresse_mail>zoe.leroy@example.com</Adresse_mail>
+      <Métro_le___proche>Voltaire</Métro_le___proche>
+      <Mot_de_Passe>LeroyZoé</Mot_de_Passe>
+    </Row>
+    <Row>
+      <No_Données>9</No_Données>
+      <Nom>Morel</Nom>
+      <Prénom>Jules</Prénom>
+      <Nom_Rue>Avenue de la République</Nom_Rue>
+      <No_Rue>45</No_Rue>
+      <Code_Postal>75011</Code_Postal>
+      <Ville>Paris 11</Ville>
+      <Numéro_de_téléphone>689012345</Numéro_de_téléphone>
+      <Adresse_mail>jules.morel@example.com</Adresse_mail>
+      <Métro_le___proche>Montparnasse Bienvenue</Métro_le___proche>
+      <Mot_de_Passe>MorelJules</Mot_de_Passe>
+    </Row>
+    <Row>
+      <No_Données>10</No_Données>
+      <Nom>Fournier</Nom>
+      <Prénom>Léa</Prénom>
+      <Nom_Rue>Rue de Rennes</Nom_Rue>
+      <No_Rue>60</No_Rue>
+      <Code_Postal>75006</Code_Postal>
+      <Ville>Paris 6</Ville>
+      <Numéro_de_téléphone>690123456</Numéro_de_téléphone>
+      <Adresse_mail>lea.fournier@example.com</Adresse_mail>
+      <Métro_le___proche>Pyramides</Métro_le___proche>
+      <Mot_de_Passe>FournierLéa</Mot_de_Passe>
+    </Row>
+    <Row>
+      <No_Données>11</No_Données>
+      <Nom>Girard</Nom>
+      <Prénom>Arthur</Prénom>
+      <Nom_Rue>Avenue Montaigne</Nom_Rue>
+      <No_Rue>90</No_Rue>
+      <Code_Postal>75008</Code_Postal>
+      <Ville>Paris 8</Ville>
+      <Numéro_de_téléphone>611223344</Numéro_de_téléphone>
+      <Adresse_mail>arthur.girard@example.com</Adresse_mail>
+      <Métro_le___proche>Opera</Métro_le___proche>
+      <Mot_de_Passe>GirardArthur</Mot_de_Passe>
+    </Row>
+    <Row>
+      <No_Données>12</No_Données>
+      <Nom>Moreau</Nom>
+      <Prénom>Chloé</Prénom>
+      <Nom_Rue>Rue Oberkampf</Nom_Rue>
+      <No_Rue>33</No_Rue>
+      <Code_Postal>75011</Code_Postal>
+      <Ville>Paris 11</Ville>
+      <Numéro_de_téléphone>622334455</Numéro_de_téléphone>
+      <Adresse_mail>chloe.moreau@example.com</Adresse_mail>
+      <Métro_le___proche>Oberkampf</Métro_le___proche>
+      <Mot_de_Passe>MoreauChloé</Mot_de_Passe>
+    </Row>
+    <Row>
+      <No_Données>13</No_Données>
+      <Nom>Laurent</Nom>
+      <Prénom>Hugo</Prénom>
+      <Nom_Rue>Boulevard de Sébastopol</Nom_Rue>
+      <No_Rue>88</No_Rue>
+      <Code_Postal>75003</Code_Postal>
+      <Ville>Paris 3</Ville>
+      <Numéro_de_téléphone>633445566</Numéro_de_téléphone>
+      <Adresse_mail>hugo.laurent@example.com</Adresse_mail>
+      <Métro_le___proche>Duroc</Métro_le___proche>
+      <Mot_de_Passe>LaurentHugo</Mot_de_Passe>
+    </Row>
+    <Row>
+      <No_Données>14</No_Données>
+      <Nom>Simon</Nom>
+      <Prénom>Louise</Prénom>
+      <Nom_Rue>Rue du Cherche-Midi</Nom_Rue>
+      <No_Rue>21</No_Rue>
+      <Code_Postal>75006</Code_Postal>
+      <Ville>Paris 6</Ville>
+      <Numéro_de_téléphone>644556677</Numéro_de_téléphone>
+      <Adresse_mail>louise.simon@example.com</Adresse_mail>
+      <Métro_le___proche>Marx Dormoy</Métro_le___proche>
+      <Mot_de_Passe>SimonLouise</Mot_de_Passe>
+    </Row>
+    <Row>
+      <No_Données>15</No_Données>
+      <Nom>Michel</Nom>
+      <Prénom>Adam</Prénom>
+      <Nom_Rue>Rue de Belleville</Nom_Rue>
+      <No_Rue>75</No_Rue>
+      <Code_Postal>75020</Code_Postal>
+      <Ville>Paris 20</Ville>
+      <Numéro_de_téléphone>655667788</Numéro_de_téléphone>
+      <Adresse_mail>adam.michel@example.com</Adresse_mail>
+      <Métro_le___proche>Lamarck Caulaincourt</Métro_le___proche>
+      <Mot_de_Passe>MichelAdam</Mot_de_Passe>
+    </Row>
+    <Row>
+      <No_Données>16</No_Données>
+      <Nom>Lefebvre</Nom>
+      <Prénom>Eva</Prénom>
+      <Nom_Rue>Rue de la Paix</Nom_Rue>
+      <No_Rue>9</No_Rue>
+      <Code_Postal>75002</Code_Postal>
+      <Ville>Paris 2</Ville>
+      <Numéro_de_téléphone>666778899</Numéro_de_téléphone>
+      <Adresse_mail>eva.lefebvre@example.com</Adresse_mail>
+      <Métro_le___proche>Place des Fetes</Métro_le___proche>
+      <Mot_de_Passe>LefebvreEva</Mot_de_Passe>
+    </Row>
+    <Row>
+      <No_Données>17</No_Données>
+      <Nom>Blanc</Nom>
+      <Prénom>Noah</Prénom>
+      <Nom_Rue>Boulevard Voltaire</Nom_Rue>
+      <No_Rue>55</No_Rue>
+      <Code_Postal>75011</Code_Postal>
+      <Ville>Paris 11</Ville>
+      <Numéro_de_téléphone>677889900</Numéro_de_téléphone>
+      <Adresse_mail>noah.blanc@example.com</Adresse_mail>
+      <Métro_le___proche>Poissonniere</Métro_le___proche>
+      <Mot_de_Passe>BlancNoah</Mot_de_Passe>
+    </Row>
+    <Row>
+      <No_Données>18</No_Données>
+      <Nom>David</Nom>
+      <Prénom>Manon</Prénom>
+      <Nom_Rue>Rue de Tolbiac</Nom_Rue>
+      <No_Rue>66</No_Rue>
+      <Code_Postal>75013</Code_Postal>
+      <Ville>Paris 13</Ville>
+      <Numéro_de_téléphone>688990011</Numéro_de_téléphone>
+      <Adresse_mail>manon.david@example.com</Adresse_mail>
+      <Métro_le___proche>Voltaire</Métro_le___proche>
+      <Mot_de_Passe>DavidManon</Mot_de_Passe>
+    </Row>
+    <Row>
+      <No_Données>19</No_Données>
+      <Nom>Richard</Nom>
+      <Prénom>Léo</Prénom>
+      <Nom_Rue>Rue de Charenton</Nom_Rue>
+      <No_Rue>111</No_Rue>
+      <Code_Postal>75012</Code_Postal>
+      <Ville>Paris 12</Ville>
+      <Numéro_de_téléphone>699001122</Numéro_de_téléphone>
+      <Adresse_mail>leo.richard@example.com</Adresse_mail>
+      <Métro_le___proche>Javel Andre Citroen</Métro_le___proche>
+      <Mot_de_Passe>RichardLéo</Mot_de_Passe>
+    </Row>
+    <Row>
+      <No_Données>20</No_Données>
+      <Nom>Roux</Nom>
+      <Prénom>Camille</Prénom>
+      <Nom_Rue>Boulevard Saint-Germain</Nom_Rue>
+      <No_Rue>25</No_Rue>
+      <Code_Postal>75005</Code_Postal>
+      <Ville>Paris 5</Ville>
+      <Numéro_de_téléphone>610112233</Numéro_de_téléphone>
+      <Adresse_mail>camille.roux@example.com</Adresse_mail>
+      <Métro_le___proche>Plaisance</Métro_le___proche>
+      <Mot_de_Passe>RouxCamille</Mot_de_Passe>
+    </Row>
+  </Données_Particulier>
+  <Données_entreprise>
+    <Row>
+      <No_Données>1</No_Données>
+      <Nom_Entreprise>Tech Solutions</Nom_Entreprise>
+      <Nom_Referent>Martin</Nom_Referent>
+      <No_Rue>12</No_Rue>
+      <Nom_Rue>Rue de Rivoli</Nom_Rue>
+      <Code_Postal>75001</Code_Postal>
+      <Ville>Paris 1</Ville>
+      <Métro_le___proche>Vaugirard</Métro_le___proche>
+      <Mot_de_Passe>TechSolutionsMartin</Mot_de_Passe>
+    </Row>
+    <Row>
+      <No_Données>2</No_Données>
+      <Nom_Entreprise>Innovatech</Nom_Entreprise>
+      <Nom_Referent>Durand</Nom_Referent>
+      <No_Rue>45</No_Rue>
+      <Nom_Rue>Avenue des Champs-Élysées</Nom_Rue>
+      <Code_Postal>75008</Code_Postal>
+      <Ville>Paris 8</Ville>
+      <Métro_le___proche>Chatelet</Métro_le___proche>
+      <Mot_de_Passe>InnovatechDurand</Mot_de_Passe>
+    </Row>
+    <Row>
+      <No_Données>3</No_Données>
+      <Nom_Entreprise>DataCorp</Nom_Entreprise>
+      <Nom_Referent>Lefebvre</Nom_Referent>
+      <No_Rue>78</No_Rue>
+      <Nom_Rue>Boulevard Haussmann</Nom_Rue>
+      <Code_Postal>75009</Code_Postal>
+      <Ville>Paris 9</Ville>
+      <Métro_le___proche>Porte de Saint-Cloud</Métro_le___proche>
+      <Mot_de_Passe>DataCorpLefebvre</Mot_de_Passe>
+    </Row>
+    <Row>
+      <No_Données>4</No_Données>
+      <Nom_Entreprise>WebDynamics</Nom_Entreprise>
+      <Nom_Referent>Morel</Nom_Referent>
+      <No_Rue>33</No_Rue>
+      <Nom_Rue>Rue Oberkampf</Nom_Rue>
+      <Code_Postal>75011</Code_Postal>
+      <Ville>Paris 11</Ville>
+      <Métro_le___proche>Stalingrad</Métro_le___proche>
+      <Mot_de_Passe>WebDynamicsMorel</Mot_de_Passe>
+    </Row>
+    <Row>
+      <No_Données>5</No_Données>
+      <Nom_Entreprise>CloudNet</Nom_Entreprise>
+      <Nom_Referent>Bernard</Nom_Referent>
+      <No_Rue>90</No_Rue>
+      <Nom_Rue>Rue de la Pompe</Nom_Rue>
+      <Code_Postal>75016</Code_Postal>
+      <Ville>Paris 16</Ville>
+      <Métro_le___proche>Chevaleret</Métro_le___proche>
+      <Mot_de_Passe>CloudNetBernard</Mot_de_Passe>
+    </Row>
+    <Row>
+      <No_Données>6</No_Données>
+      <Nom_Entreprise>CyberTech</Nom_Entreprise>
+      <Nom_Referent>Fournier</Nom_Referent>
+      <No_Rue>60</No_Rue>
+      <Nom_Rue>Rue de Rennes</Nom_Rue>
+      <Code_Postal>75006</Code_Postal>
+      <Ville>Paris 6</Ville>
+      <Métro_le___proche>Saint-Sulpice</Métro_le___proche>
+      <Mot_de_Passe>CyberTechFournier</Mot_de_Passe>
+    </Row>
+    <Row>
+      <No_Données>7</No_Données>
+      <Nom_Entreprise>SoftWareX</Nom_Entreprise>
+      <Nom_Referent>Simon</Nom_Referent>
+      <No_Rue>25</No_Rue>
+      <Nom_Rue>Rue du Cherche-Midi</Nom_Rue>
+      <Code_Postal>75006</Code_Postal>
+      <Ville>Paris 6</Ville>
+      <Métro_le___proche>Saint-Placide</Métro_le___proche>
+      <Mot_de_Passe>SoftWareXSimon</Mot_de_Passe>
+    </Row>
+    <Row>
+      <No_Données>8</No_Données>
+      <Nom_Entreprise>AI Solutions</Nom_Entreprise>
+      <Nom_Referent>Michel</Nom_Referent>
+      <No_Rue>75</No_Rue>
+      <Nom_Rue>Rue de Belleville</Nom_Rue>
+      <Code_Postal>75020</Code_Postal>
+      <Ville>Paris 20</Ville>
+      <Métro_le___proche>Ourcq</Métro_le___proche>
+      <Mot_de_Passe>AISolutionsMichel</Mot_de_Passe>
+    </Row>
+    <Row>
+      <No_Données>9</No_Données>
+      <Nom_Entreprise>NextGen</Nom_Entreprise>
+      <Nom_Referent>Richard</Nom_Referent>
+      <No_Rue>111</No_Rue>
+      <Nom_Rue>Rue de Charenton</Nom_Rue>
+      <Code_Postal>75012</Code_Postal>
+      <Ville>Paris 12</Ville>
+      <Métro_le___proche>Dupleix</Métro_le___proche>
+      <Mot_de_Passe>NextGenRichard</Mot_de_Passe>
+    </Row>
+    <Row>
+      <No_Données>10</No_Données>
+      <Nom_Entreprise>StartUp Hub</Nom_Entreprise>
+      <Nom_Referent>Roux</Nom_Referent>
+      <No_Rue>25</No_Rue>
+      <Nom_Rue>Boulevard Saint-Germain</Nom_Rue>
+      <Code_Postal>75005</Code_Postal>
+      <Ville>Paris 5</Ville>
+      <Métro_le___proche>Ecole Militaire</Métro_le___proche>
+      <Mot_de_Passe>StartUpHubRoux</Mot_de_Passe>
+    </Row>
+    <Row>
+      <No_Données>11</No_Données>
+      <Nom_Entreprise>GreenTech</Nom_Entreprise>
+      <Nom_Referent>Blanc</Nom_Referent>
+      <No_Rue>14</No_Rue>
+      <Nom_Rue>Avenue de la République</Nom_Rue>
+      <Code_Postal>75011</Code_Postal>
+      <Ville>Paris 11</Ville>
+      <Métro_le___proche>Oberkampf</Métro_le___proche>
+      <Mot_de_Passe>GreenTechBlanc</Mot_de_Passe>
+    </Row>
+    <Row>
+      <No_Données>12</No_Données>
+      <Nom_Entreprise>LogiTech</Nom_Entreprise>
+      <Nom_Referent>David</Nom_Referent>
+      <No_Rue>5</No_Rue>
+      <Nom_Rue>Rue de Tolbiac</Nom_Rue>
+      <Code_Postal>75013</Code_Postal>
+      <Ville>Paris 13</Ville>
+      <Métro_le___proche>Chardon Lagache</Métro_le___proche>
+      <Mot_de_Passe>LogiTechDavid</Mot_de_Passe>
+    </Row>
+    <Row>
+      <No_Données>13</No_Données>
+      <Nom_Entreprise>InnoSoft</Nom_Entreprise>
+      <Nom_Referent>Girard</Nom_Referent>
+      <No_Rue>39</No_Rue>
+      <Nom_Rue>Rue Lafayette</Nom_Rue>
+      <Code_Postal>75009</Code_Postal>
+      <Ville>Paris 9</Ville>
+      <Métro_le___proche>Goncourt</Métro_le___proche>
+      <Mot_de_Passe>InnoSoftGirard</Mot_de_Passe>
+    </Row>
+    <Row>
+      <No_Données>14</No_Données>
+      <Nom_Entreprise>VisionTech</Nom_Entreprise>
+      <Nom_Referent>Moreau</Nom_Referent>
+      <No_Rue>99</No_Rue>
+      <Nom_Rue>Boulevard Saint-Michel</Nom_Rue>
+      <Code_Postal>75005</Code_Postal>
+      <Ville>Paris 5</Ville>
+      <Métro_le___proche>Madeleine</Métro_le___proche>
+      <Mot_de_Passe>VisionTechMoreau</Mot_de_Passe>
+    </Row>
+    <Row>
+      <No_Données>15</No_Données>
+      <Nom_Entreprise>FinTech Solutions</Nom_Entreprise>
+      <Nom_Referent>Petit</Nom_Referent>
+      <No_Rue>22</No_Rue>
+      <Nom_Rue>Rue de la Paix</Nom_Rue>
+      <Code_Postal>75002</Code_Postal>
+      <Ville>Paris 2</Ville>
+      <Métro_le___proche>Porte de Vanves</Métro_le___proche>
+      <Mot_de_Passe>FinTechPetit</Mot_de_Passe>
+    </Row>
+    <Row>
+      <No_Données>16</No_Données>
+      <Nom_Entreprise>BioInnov</Nom_Entreprise>
+      <Nom_Referent>Laurent</Nom_Referent>
+      <No_Rue>18</No_Rue>
+      <Nom_Rue>Rue du Faubourg Saint-Honoré</Nom_Rue>
+      <Code_Postal>75008</Code_Postal>
+      <Ville>Paris 8</Ville>
+      <Métro_le___proche>Olympiades</Métro_le___proche>
+      <Mot_de_Passe>BioInnovLaurent</Mot_de_Passe>
+    </Row>
+    <Row>
+      <No_Données>17</No_Données>
+      <Nom_Entreprise>AI Nexus</Nom_Entreprise>
+      <Nom_Referent>Robert</Nom_Referent>
+      <No_Rue>66</No_Rue>
+      <Nom_Rue>Avenue Victor Hugo</Nom_Rue>
+      <Code_Postal>75016</Code_Postal>
+      <Ville>Paris 16</Ville>
+      <Métro_le___proche>Vaneau</Métro_le___proche>
+      <Mot_de_Passe>AINexusRobert</Mot_de_Passe>
+    </Row>
+    <Row>
+      <No_Données>18</No_Données>
+      <Nom_Entreprise>MedTech</Nom_Entreprise>
+      <Nom_Referent>Lemoine</Nom_Referent>
+      <No_Rue>72</No_Rue>
+      <Nom_Rue>Rue de Sèvres</Nom_Rue>
+      <Code_Postal>75006</Code_Postal>
+      <Ville>Paris 6</Ville>
+      <Métro_le___proche>Lourmel</Métro_le___proche>
+      <Mot_de_Passe>MedTechLemoine</Mot_de_Passe>
+    </Row>
+    <Row>
+      <No_Données>19</No_Données>
+      <Nom_Entreprise>EcomSolutions</Nom_Entreprise>
+      <Nom_Referent>Durant</Nom_Referent>
+      <No_Rue>55</No_Rue>
+      <Nom_Rue>Boulevard de Magenta</Nom_Rue>
+      <Code_Postal>75010</Code_Postal>
+      <Ville>Paris 10</Ville>
+      <Métro_le___proche>Chaussee d'Antin La Fayette</Métro_le___proche>
+      <Mot_de_Passe>EcomSolutionsDurant</Mot_de_Passe>
+    </Row>
+    <Row>
+      <No_Données>20</No_Données>
+      <Nom_Entreprise>CloudSynergy</Nom_Entreprise>
+      <Nom_Referent>Fontaine</Nom_Referent>
+      <No_Rue>41</No_Rue>
+      <Nom_Rue>Rue de la Convention</Nom_Rue>
+      <Code_Postal>75015</Code_Postal>
+      <Ville>Paris 15</Ville>
+      <Métro_le___proche>Louis Blanc</Métro_le___proche>
+      <Mot_de_Passe>CloudSynergyFontaine</Mot_de_Passe>
+    </Row>
+  </Données_entreprise>
+  <Compte_Client>
+    <Row>
+      <No_Compte_Client>1</No_Compte_Client>
+      <No_Données>1</No_Données>
+      <Type_de_Compte>False</Type_de_Compte>
+      <No_Données_1>
+      </No_Données_1>
+      <No_Données_2>
+      </No_Données_2>
+    </Row>
+    <Row>
+      <No_Compte_Client>2</No_Compte_Client>
+      <No_Données>2</No_Données>
+      <Type_de_Compte>False</Type_de_Compte>
+      <No_Données_1>
+      </No_Données_1>
+      <No_Données_2>
+      </No_Données_2>
+    </Row>
+    <Row>
+      <No_Compte_Client>3</No_Compte_Client>
+      <No_Données>3</No_Données>
+      <Type_de_Compte>False</Type_de_Compte>
+      <No_Données_1>
+      </No_Données_1>
+      <No_Données_2>
+      </No_Données_2>
+    </Row>
+    <Row>
+      <No_Compte_Client>4</No_Compte_Client>
+      <No_Données>4</No_Données>
+      <Type_de_Compte>False</Type_de_Compte>
+      <No_Données_1>
+      </No_Données_1>
+      <No_Données_2>
+      </No_Données_2>
+    </Row>
+    <Row>
+      <No_Compte_Client>5</No_Compte_Client>
+      <No_Données>5</No_Données>
+      <Type_de_Compte>False</Type_de_Compte>
+      <No_Données_1>
+      </No_Données_1>
+      <No_Données_2>
+      </No_Données_2>
+    </Row>
+    <Row>
+      <No_Compte_Client>6</No_Compte_Client>
+      <No_Données>6</No_Données>
+      <Type_de_Compte>False</Type_de_Compte>
+      <No_Données_1>
+      </No_Données_1>
+      <No_Données_2>
+      </No_Données_2>
+    </Row>
+    <Row>
+      <No_Compte_Client>7</No_Compte_Client>
+      <No_Données>7</No_Données>
+      <Type_de_Compte>False</Type_de_Compte>
+      <No_Données_1>
+      </No_Données_1>
+      <No_Données_2>
+      </No_Données_2>
+    </Row>
+    <Row>
+      <No_Compte_Client>8</No_Compte_Client>
+      <No_Données>8</No_Données>
+      <Type_de_Compte>False</Type_de_Compte>
+      <No_Données_1>
+      </No_Données_1>
+      <No_Données_2>
+      </No_Données_2>
+    </Row>
+    <Row>
+      <No_Compte_Client>9</No_Compte_Client>
+      <No_Données>9</No_Données>
+      <Type_de_Compte>False</Type_de_Compte>
+      <No_Données_1>
+      </No_Données_1>
+      <No_Données_2>
+      </No_Données_2>
+    </Row>
+    <Row>
+      <No_Compte_Client>10</No_Compte_Client>
+      <No_Données>10</No_Données>
+      <Type_de_Compte>False</Type_de_Compte>
+      <No_Données_1>
+      </No_Données_1>
+      <No_Données_2>
+      </No_Données_2>
+    </Row>
+    <Row>
+      <No_Compte_Client>11</No_Compte_Client>
+      <No_Données>11</No_Données>
+      <Type_de_Compte>False</Type_de_Compte>
+      <No_Données_1>
+      </No_Données_1>
+      <No_Données_2>
+      </No_Données_2>
+    </Row>
+    <Row>
+      <No_Compte_Client>12</No_Compte_Client>
+      <No_Données>12</No_Données>
+      <Type_de_Compte>False</Type_de_Compte>
+      <No_Données_1>
+      </No_Données_1>
+      <No_Données_2>
+      </No_Données_2>
+    </Row>
+    <Row>
+      <No_Compte_Client>13</No_Compte_Client>
+      <No_Données>13</No_Données>
+      <Type_de_Compte>False</Type_de_Compte>
+      <No_Données_1>
+      </No_Données_1>
+      <No_Données_2>
+      </No_Données_2>
+    </Row>
+    <Row>
+      <No_Compte_Client>14</No_Compte_Client>
+      <No_Données>14</No_Données>
+      <Type_de_Compte>False</Type_de_Compte>
+      <No_Données_1>
+      </No_Données_1>
+      <No_Données_2>
+      </No_Données_2>
+    </Row>
+    <Row>
+      <No_Compte_Client>15</No_Compte_Client>
+      <No_Données>15</No_Données>
+      <Type_de_Compte>False</Type_de_Compte>
+      <No_Données_1>
+      </No_Données_1>
+      <No_Données_2>
+      </No_Données_2>
+    </Row>
+    <Row>
+      <No_Compte_Client>16</No_Compte_Client>
+      <No_Données>16</No_Données>
+      <Type_de_Compte>False</Type_de_Compte>
+      <No_Données_1>
+      </No_Données_1>
+      <No_Données_2>
+      </No_Données_2>
+    </Row>
+    <Row>
+      <No_Compte_Client>17</No_Compte_Client>
+      <No_Données>17</No_Données>
+      <Type_de_Compte>False</Type_de_Compte>
+      <No_Données_1>
+      </No_Données_1>
+      <No_Données_2>
+      </No_Données_2>
+    </Row>
+    <Row>
+      <No_Compte_Client>18</No_Compte_Client>
+      <No_Données>18</No_Données>
+      <Type_de_Compte>False</Type_de_Compte>
+      <No_Données_1>
+      </No_Données_1>
+      <No_Données_2>
+      </No_Données_2>
+    </Row>
+    <Row>
+      <No_Compte_Client>19</No_Compte_Client>
+      <No_Données>19</No_Données>
+      <Type_de_Compte>False</Type_de_Compte>
+      <No_Données_1>
+      </No_Données_1>
+      <No_Données_2>
+      </No_Données_2>
+    </Row>
+    <Row>
+      <No_Compte_Client>20</No_Compte_Client>
+      <No_Données>20</No_Données>
+      <Type_de_Compte>False</Type_de_Compte>
+      <No_Données_1>
+      </No_Données_1>
+      <No_Données_2>
+      </No_Données_2>
+    </Row>
+    <Row>
+      <No_Compte_Client>21</No_Compte_Client>
+      <No_Données>1</No_Données>
+      <Type_de_Compte>True</Type_de_Compte>
+      <No_Données_1>
+      </No_Données_1>
+      <No_Données_2>
+      </No_Données_2>
+    </Row>
+    <Row>
+      <No_Compte_Client>22</No_Compte_Client>
+      <No_Données>2</No_Données>
+      <Type_de_Compte>True</Type_de_Compte>
+      <No_Données_1>
+      </No_Données_1>
+      <No_Données_2>
+      </No_Données_2>
+    </Row>
+    <Row>
+      <No_Compte_Client>23</No_Compte_Client>
+      <No_Données>3</No_Données>
+      <Type_de_Compte>True</Type_de_Compte>
+      <No_Données_1>
+      </No_Données_1>
+      <No_Données_2>
+      </No_Données_2>
+    </Row>
+    <Row>
+      <No_Compte_Client>24</No_Compte_Client>
+      <No_Données>4</No_Données>
+      <Type_de_Compte>True</Type_de_Compte>
+      <No_Données_1>
+      </No_Données_1>
+      <No_Données_2>
+      </No_Données_2>
+    </Row>
+    <Row>
+      <No_Compte_Client>25</No_Compte_Client>
+      <No_Données>5</No_Données>
+      <Type_de_Compte>True</Type_de_Compte>
+      <No_Données_1>
+      </No_Données_1>
+      <No_Données_2>
+      </No_Données_2>
+    </Row>
+    <Row>
+      <No_Compte_Client>26</No_Compte_Client>
+      <No_Données>6</No_Données>
+      <Type_de_Compte>True</Type_de_Compte>
+      <No_Données_1>
+      </No_Données_1>
+      <No_Données_2>
+      </No_Données_2>
+    </Row>
+    <Row>
+      <No_Compte_Client>27</No_Compte_Client>
+      <No_Données>7</No_Données>
+      <Type_de_Compte>True</Type_de_Compte>
+      <No_Données_1>
+      </No_Données_1>
+      <No_Données_2>
+      </No_Données_2>
+    </Row>
+    <Row>
+      <No_Compte_Client>28</No_Compte_Client>
+      <No_Données>8</No_Données>
+      <Type_de_Compte>True</Type_de_Compte>
+      <No_Données_1>
+      </No_Données_1>
+      <No_Données_2>
+      </No_Données_2>
+    </Row>
+    <Row>
+      <No_Compte_Client>29</No_Compte_Client>
+      <No_Données>9</No_Données>
+      <Type_de_Compte>True</Type_de_Compte>
+      <No_Données_1>
+      </No_Données_1>
+      <No_Données_2>
+      </No_Données_2>
+    </Row>
+    <Row>
+      <No_Compte_Client>30</No_Compte_Client>
+      <No_Données>10</No_Données>
+      <Type_de_Compte>True</Type_de_Compte>
+      <No_Données_1>
+      </No_Données_1>
+      <No_Données_2>
+      </No_Données_2>
+    </Row>
+    <Row>
+      <No_Compte_Client>31</No_Compte_Client>
+      <No_Données>11</No_Données>
+      <Type_de_Compte>True</Type_de_Compte>
+      <No_Données_1>
+      </No_Données_1>
+      <No_Données_2>
+      </No_Données_2>
+    </Row>
+    <Row>
+      <No_Compte_Client>32</No_Compte_Client>
+      <No_Données>12</No_Données>
+      <Type_de_Compte>True</Type_de_Compte>
+      <No_Données_1>
+      </No_Données_1>
+      <No_Données_2>
+      </No_Données_2>
+    </Row>
+    <Row>
+      <No_Compte_Client>33</No_Compte_Client>
+      <No_Données>13</No_Données>
+      <Type_de_Compte>True</Type_de_Compte>
+      <No_Données_1>
+      </No_Données_1>
+      <No_Données_2>
+      </No_Données_2>
+    </Row>
+    <Row>
+      <No_Compte_Client>34</No_Compte_Client>
+      <No_Données>14</No_Données>
+      <Type_de_Compte>True</Type_de_Compte>
+      <No_Données_1>
+      </No_Données_1>
+      <No_Données_2>
+      </No_Données_2>
+    </Row>
+    <Row>
+      <No_Compte_Client>35</No_Compte_Client>
+      <No_Données>15</No_Données>
+      <Type_de_Compte>True</Type_de_Compte>
+      <No_Données_1>
+      </No_Données_1>
+      <No_Données_2>
+      </No_Données_2>
+    </Row>
+    <Row>
+      <No_Compte_Client>36</No_Compte_Client>
+      <No_Données>16</No_Données>
+      <Type_de_Compte>True</Type_de_Compte>
+      <No_Données_1>
+      </No_Données_1>
+      <No_Données_2>
+      </No_Données_2>
+    </Row>
+    <Row>
+      <No_Compte_Client>37</No_Compte_Client>
+      <No_Données>17</No_Données>
+      <Type_de_Compte>True</Type_de_Compte>
+      <No_Données_1>
+      </No_Données_1>
+      <No_Données_2>
+      </No_Données_2>
+    </Row>
+    <Row>
+      <No_Compte_Client>38</No_Compte_Client>
+      <No_Données>18</No_Données>
+      <Type_de_Compte>True</Type_de_Compte>
+      <No_Données_1>
+      </No_Données_1>
+      <No_Données_2>
+      </No_Données_2>
+    </Row>
+    <Row>
+      <No_Compte_Client>39</No_Compte_Client>
+      <No_Données>19</No_Données>
+      <Type_de_Compte>True</Type_de_Compte>
+      <No_Données_1>
+      </No_Données_1>
+      <No_Données_2>
+      </No_Données_2>
+    </Row>
+    <Row>
+      <No_Compte_Client>40</No_Compte_Client>
+      <No_Données>20</No_Données>
+      <Type_de_Compte>True</Type_de_Compte>
+      <No_Données_1>
+      </No_Données_1>
+      <No_Données_2>
+      </No_Données_2>
+    </Row>
+  </Compte_Client>
+  <Compte_Cuisinier>
+    <Row>
+      <No_Compte_Cuisinier>1</No_Compte_Cuisinier>
+      <No_Données>1</No_Données>
+      <Type_de_compte>False</Type_de_compte>
+      <Disponibilité>True</Disponibilité>
+      <No_Données_1>
+      </No_Données_1>
+      <No_Données_2>
+      </No_Données_2>
+    </Row>
+    <Row>
+      <No_Compte_Cuisinier>2</No_Compte_Cuisinier>
+      <No_Données>2</No_Données>
+      <Type_de_compte>False</Type_de_compte>
+      <Disponibilité>False</Disponibilité>
+      <No_Données_1>
+      </No_Données_1>
+      <No_Données_2>
+      </No_Données_2>
+    </Row>
+    <Row>
+      <No_Compte_Cuisinier>3</No_Compte_Cuisinier>
+      <No_Données>3</No_Données>
+      <Type_de_compte>False</Type_de_compte>
+      <Disponibilité>True</Disponibilité>
+      <No_Données_1>
+      </No_Données_1>
+      <No_Données_2>
+      </No_Données_2>
+    </Row>
+    <Row>
+      <No_Compte_Cuisinier>4</No_Compte_Cuisinier>
+      <No_Données>4</No_Données>
+      <Type_de_compte>False</Type_de_compte>
+      <Disponibilité>True</Disponibilité>
+      <No_Données_1>
+      </No_Données_1>
+      <No_Données_2>
+      </No_Données_2>
+    </Row>
+    <Row>
+      <No_Compte_Cuisinier>5</No_Compte_Cuisinier>
+      <No_Données>5</No_Données>
+      <Type_de_compte>False</Type_de_compte>
+      <Disponibilité>True</Disponibilité>
+      <No_Données_1>
+      </No_Données_1>
+      <No_Données_2>
+      </No_Données_2>
+    </Row>
+    <Row>
+      <No_Compte_Cuisinier>6</No_Compte_Cuisinier>
+      <No_Données>6</No_Données>
+      <Type_de_compte>False</Type_de_compte>
+      <Disponibilité>False</Disponibilité>
+      <No_Données_1>
+      </No_Données_1>
+      <No_Données_2>
+      </No_Données_2>
+    </Row>
+    <Row>
+      <No_Compte_Cuisinier>7</No_Compte_Cuisinier>
+      <No_Données>7</No_Données>
+      <Type_de_compte>False</Type_de_compte>
+      <Disponibilité>False</Disponibilité>
+      <No_Données_1>
+      </No_Données_1>
+      <No_Données_2>
+      </No_Données_2>
+    </Row>
+    <Row>
+      <No_Compte_Cuisinier>8</No_Compte_Cuisinier>
+      <No_Données>8</No_Données>
+      <Type_de_compte>False</Type_de_compte>
+      <Disponibilité>False</Disponibilité>
+      <No_Données_1>
+      </No_Données_1>
+      <No_Données_2>
+      </No_Données_2>
+    </Row>
+    <Row>
+      <No_Compte_Cuisinier>9</No_Compte_Cuisinier>
+      <No_Données>9</No_Données>
+      <Type_de_compte>False</Type_de_compte>
+      <Disponibilité>False</Disponibilité>
+      <No_Données_1>
+      </No_Données_1>
+      <No_Données_2>
+      </No_Données_2>
+    </Row>
+    <Row>
+      <No_Compte_Cuisinier>10</No_Compte_Cuisinier>
+      <No_Données>10</No_Données>
+      <Type_de_compte>False</Type_de_compte>
+      <Disponibilité>False</Disponibilité>
+      <No_Données_1>
+      </No_Données_1>
+      <No_Données_2>
+      </No_Données_2>
+    </Row>
+    <Row>
+      <No_Compte_Cuisinier>11</No_Compte_Cuisinier>
+      <No_Données>11</No_Données>
+      <Type_de_compte>False</Type_de_compte>
+      <Disponibilité>False</Disponibilité>
+      <No_Données_1>
+      </No_Données_1>
+      <No_Données_2>
+      </No_Données_2>
+    </Row>
+    <Row>
+      <No_Compte_Cuisinier>12</No_Compte_Cuisinier>
+      <No_Données>12</No_Données>
+      <Type_de_compte>False</Type_de_compte>
+      <Disponibilité>True</Disponibilité>
+      <No_Données_1>
+      </No_Données_1>
+      <No_Données_2>
+      </No_Données_2>
+    </Row>
+    <Row>
+      <No_Compte_Cuisinier>13</No_Compte_Cuisinier>
+      <No_Données>13</No_Données>
+      <Type_de_compte>False</Type_de_compte>
+      <Disponibilité>False</Disponibilité>
+      <No_Données_1>
+      </No_Données_1>
+      <No_Données_2>
+      </No_Données_2>
+    </Row>
+    <Row>
+      <No_Compte_Cuisinier>14</No_Compte_Cuisinier>
+      <No_Données>14</No_Données>
+      <Type_de_compte>False</Type_de_compte>
+      <Disponibilité>True</Disponibilité>
+      <No_Données_1>
+      </No_Données_1>
+      <No_Données_2>
+      </No_Données_2>
+    </Row>
+    <Row>
+      <No_Compte_Cuisinier>15</No_Compte_Cuisinier>
+      <No_Données>15</No_Données>
+      <Type_de_compte>False</Type_de_compte>
+      <Disponibilité>False</Disponibilité>
+      <No_Données_1>
+      </No_Données_1>
+      <No_Données_2>
+      </No_Données_2>
+    </Row>
+    <Row>
+      <No_Compte_Cuisinier>16</No_Compte_Cuisinier>
+      <No_Données>16</No_Données>
+      <Type_de_compte>False</Type_de_compte>
+      <Disponibilité>True</Disponibilité>
+      <No_Données_1>
+      </No_Données_1>
+      <No_Données_2>
+      </No_Données_2>
+    </Row>
+    <Row>
+      <No_Compte_Cuisinier>17</No_Compte_Cuisinier>
+      <No_Données>17</No_Données>
+      <Type_de_compte>False</Type_de_compte>
+      <Disponibilité>False</Disponibilité>
+      <No_Données_1>
+      </No_Données_1>
+      <No_Données_2>
+      </No_Données_2>
+    </Row>
+    <Row>
+      <No_Compte_Cuisinier>18</No_Compte_Cuisinier>
+      <No_Données>18</No_Données>
+      <Type_de_compte>False</Type_de_compte>
+      <Disponibilité>False</Disponibilité>
+      <No_Données_1>
+      </No_Données_1>
+      <No_Données_2>
+      </No_Données_2>
+    </Row>
+    <Row>
+      <No_Compte_Cuisinier>19</No_Compte_Cuisinier>
+      <No_Données>19</No_Données>
+      <Type_de_compte>False</Type_de_compte>
+      <Disponibilité>False</Disponibilité>
+      <No_Données_1>
+      </No_Données_1>
+      <No_Données_2>
+      </No_Données_2>
+    </Row>
+    <Row>
+      <No_Compte_Cuisinier>20</No_Compte_Cuisinier>
+      <No_Données>20</No_Données>
+      <Type_de_compte>False</Type_de_compte>
+      <Disponibilité>False</Disponibilité>
+      <No_Données_1>
+      </No_Données_1>
+      <No_Données_2>
+      </No_Données_2>
+    </Row>
+  </Compte_Cuisinier>
+  <Element_de_commande>
+    <Row>
+      <No_Element>1</No_Element>
+      <Date_Fabrication>05/01/2023 00:00:00</Date_Fabrication>
+      <Date_péremption>05/06/2023 00:00:00</Date_péremption>
+      <Quantité>42</Quantité>
+      <No_Repas>1</No_Repas>
+    </Row>
+    <Row>
+      <No_Element>2</No_Element>
+      <Date_Fabrication>12/01/2023 00:00:00</Date_Fabrication>
+      <Date_péremption>12/06/2023 00:00:00</Date_péremption>
+      <Quantité>35</Quantité>
+      <No_Repas>2</No_Repas>
+    </Row>
+    <Row>
+      <No_Element>3</No_Element>
+      <Date_Fabrication>18/01/2023 00:00:00</Date_Fabrication>
+      <Date_péremption>18/06/2023 00:00:00</Date_péremption>
+      <Quantité>68</Quantité>
+      <No_Repas>3</No_Repas>
+    </Row>
+    <Row>
+      <No_Element>4</No_Element>
+      <Date_Fabrication>25/01/2023 00:00:00</Date_Fabrication>
+      <Date_péremption>25/06/2023 00:00:00</Date_péremption>
+      <Quantité>53</Quantité>
+      <No_Repas>4</No_Repas>
+    </Row>
+    <Row>
+      <No_Element>5</No_Element>
+      <Date_Fabrication>02/02/2023 00:00:00</Date_Fabrication>
+      <Date_péremption>02/07/2023 00:00:00</Date_péremption>
+      <Quantité>27</Quantité>
+      <No_Repas>5</No_Repas>
+    </Row>
+    <Row>
+      <No_Element>6</No_Element>
+      <Date_Fabrication>09/02/2023 00:00:00</Date_Fabrication>
+      <Date_péremption>09/07/2023 00:00:00</Date_péremption>
+      <Quantité>74</Quantité>
+      <No_Repas>6</No_Repas>
+    </Row>
+    <Row>
+      <No_Element>7</No_Element>
+      <Date_Fabrication>16/02/2023 00:00:00</Date_Fabrication>
+      <Date_péremption>16/07/2023 00:00:00</Date_péremption>
+      <Quantité>39</Quantité>
+      <No_Repas>7</No_Repas>
+    </Row>
+    <Row>
+      <No_Element>8</No_Element>
+      <Date_Fabrication>23/02/2023 00:00:00</Date_Fabrication>
+      <Date_péremption>23/07/2023 00:00:00</Date_péremption>
+      <Quantité>61</Quantité>
+      <No_Repas>8</No_Repas>
+    </Row>
+    <Row>
+      <No_Element>9</No_Element>
+      <Date_Fabrication>02/03/2023 00:00:00</Date_Fabrication>
+      <Date_péremption>02/08/2023 00:00:00</Date_péremption>
+      <Quantité>45</Quantité>
+      <No_Repas>9</No_Repas>
+    </Row>
+    <Row>
+      <No_Element>10</No_Element>
+      <Date_Fabrication>09/03/2023 00:00:00</Date_Fabrication>
+      <Date_péremption>09/08/2023 00:00:00</Date_péremption>
+      <Quantité>58</Quantité>
+      <No_Repas>10</No_Repas>
+    </Row>
+    <Row>
+      <No_Element>11</No_Element>
+      <Date_Fabrication>16/03/2023 00:00:00</Date_Fabrication>
+      <Date_péremption>16/08/2023 00:00:00</Date_péremption>
+      <Quantité>31</Quantité>
+      <No_Repas>11</No_Repas>
+    </Row>
+    <Row>
+      <No_Element>12</No_Element>
+      <Date_Fabrication>23/03/2023 00:00:00</Date_Fabrication>
+      <Date_péremption>23/08/2023 00:00:00</Date_péremption>
+      <Quantité>72</Quantité>
+      <No_Repas>12</No_Repas>
+    </Row>
+    <Row>
+      <No_Element>13</No_Element>
+      <Date_Fabrication>30/03/2023 00:00:00</Date_Fabrication>
+      <Date_péremption>30/08/2023 00:00:00</Date_péremption>
+      <Quantité>49</Quantité>
+      <No_Repas>13</No_Repas>
+    </Row>
+    <Row>
+      <No_Element>14</No_Element>
+      <Date_Fabrication>06/04/2023 00:00:00</Date_Fabrication>
+      <Date_péremption>06/09/2023 00:00:00</Date_péremption>
+      <Quantité>63</Quantité>
+      <No_Repas>14</No_Repas>
+    </Row>
+    <Row>
+      <No_Element>15</No_Element>
+      <Date_Fabrication>13/04/2023 00:00:00</Date_Fabrication>
+      <Date_péremption>13/09/2023 00:00:00</Date_péremption>
+      <Quantité>36</Quantité>
+      <No_Repas>15</No_Repas>
+    </Row>
+    <Row>
+      <No_Element>16</No_Element>
+      <Date_Fabrication>20/04/2023 00:00:00</Date_Fabrication>
+      <Date_péremption>20/09/2023 00:00:00</Date_péremption>
+      <Quantité>54</Quantité>
+      <No_Repas>16</No_Repas>
+    </Row>
+    <Row>
+      <No_Element>17</No_Element>
+      <Date_Fabrication>27/04/2023 00:00:00</Date_Fabrication>
+      <Date_péremption>27/09/2023 00:00:00</Date_péremption>
+      <Quantité>41</Quantité>
+      <No_Repas>17</No_Repas>
+    </Row>
+    <Row>
+      <No_Element>18</No_Element>
+      <Date_Fabrication>04/05/2023 00:00:00</Date_Fabrication>
+      <Date_péremption>04/10/2023 00:00:00</Date_péremption>
+      <Quantité>67</Quantité>
+      <No_Repas>18</No_Repas>
+    </Row>
+    <Row>
+      <No_Element>19</No_Element>
+      <Date_Fabrication>11/05/2023 00:00:00</Date_Fabrication>
+      <Date_péremption>11/10/2023 00:00:00</Date_péremption>
+      <Quantité>29</Quantité>
+      <No_Repas>19</No_Repas>
+    </Row>
+    <Row>
+      <No_Element>20</No_Element>
+      <Date_Fabrication>18/05/2023 00:00:00</Date_Fabrication>
+      <Date_péremption>18/10/2023 00:00:00</Date_péremption>
+      <Quantité>76</Quantité>
+      <No_Repas>20</No_Repas>
+    </Row>
+    <Row>
+      <No_Element>21</No_Element>
+      <Date_Fabrication>25/05/2023 00:00:00</Date_Fabrication>
+      <Date_péremption>25/10/2023 00:00:00</Date_péremption>
+      <Quantité>44</Quantité>
+      <No_Repas>21</No_Repas>
+    </Row>
+    <Row>
+      <No_Element>22</No_Element>
+      <Date_Fabrication>01/06/2023 00:00:00</Date_Fabrication>
+      <Date_péremption>01/11/2023 00:00:00</Date_péremption>
+      <Quantité>59</Quantité>
+      <No_Repas>22</No_Repas>
+    </Row>
+    <Row>
+      <No_Element>23</No_Element>
+      <Date_Fabrication>08/06/2023 00:00:00</Date_Fabrication>
+      <Date_péremption>08/11/2023 00:00:00</Date_péremption>
+      <Quantité>33</Quantité>
+      <No_Repas>23</No_Repas>
+    </Row>
+    <Row>
+      <No_Element>24</No_Element>
+      <Date_Fabrication>15/06/2023 00:00:00</Date_Fabrication>
+      <Date_péremption>15/11/2023 00:00:00</Date_péremption>
+      <Quantité>70</Quantité>
+      <No_Repas>24</No_Repas>
+    </Row>
+    <Row>
+      <No_Element>25</No_Element>
+      <Date_Fabrication>22/06/2023 00:00:00</Date_Fabrication>
+      <Date_péremption>22/11/2023 00:00:00</Date_péremption>
+      <Quantité>47</Quantité>
+      <No_Repas>25</No_Repas>
+    </Row>
+    <Row>
+      <No_Element>26</No_Element>
+      <Date_Fabrication>29/06/2023 00:00:00</Date_Fabrication>
+      <Date_péremption>29/11/2023 00:00:00</Date_péremption>
+      <Quantité>64</Quantité>
+      <No_Repas>26</No_Repas>
+    </Row>
+    <Row>
+      <No_Element>27</No_Element>
+      <Date_Fabrication>06/07/2023 00:00:00</Date_Fabrication>
+      <Date_péremption>06/12/2023 00:00:00</Date_péremption>
+      <Quantité>38</Quantité>
+      <No_Repas>27</No_Repas>
+    </Row>
+    <Row>
+      <No_Element>28</No_Element>
+      <Date_Fabrication>13/07/2023 00:00:00</Date_Fabrication>
+      <Date_péremption>13/12/2023 00:00:00</Date_péremption>
+      <Quantité>55</Quantité>
+      <No_Repas>28</No_Repas>
+    </Row>
+    <Row>
+      <No_Element>29</No_Element>
+      <Date_Fabrication>20/07/2023 00:00:00</Date_Fabrication>
+      <Date_péremption>20/12/2023 00:00:00</Date_péremption>
+      <Quantité>43</Quantité>
+      <No_Repas>29</No_Repas>
+    </Row>
+    <Row>
+      <No_Element>30</No_Element>
+      <Date_Fabrication>27/07/2023 00:00:00</Date_Fabrication>
+      <Date_péremption>27/12/2023 00:00:00</Date_péremption>
+      <Quantité>69</Quantité>
+      <No_Repas>30</No_Repas>
+    </Row>
+    <Row>
+      <No_Element>31</No_Element>
+      <Date_Fabrication>03/08/2023 00:00:00</Date_Fabrication>
+      <Date_péremption>03/01/2024 00:00:00</Date_péremption>
+      <Quantité>52</Quantité>
+      <No_Repas>31</No_Repas>
+    </Row>
+    <Row>
+      <No_Element>32</No_Element>
+      <Date_Fabrication>10/08/2023 00:00:00</Date_Fabrication>
+      <Date_péremption>10/01/2024 00:00:00</Date_péremption>
+      <Quantité>26</Quantité>
+      <No_Repas>32</No_Repas>
+    </Row>
+    <Row>
+      <No_Element>33</No_Element>
+      <Date_Fabrication>17/08/2023 00:00:00</Date_Fabrication>
+      <Date_péremption>17/01/2024 00:00:00</Date_péremption>
+      <Quantité>73</Quantité>
+      <No_Repas>33</No_Repas>
+    </Row>
+    <Row>
+      <No_Element>34</No_Element>
+      <Date_Fabrication>24/08/2023 00:00:00</Date_Fabrication>
+      <Date_péremption>24/01/2024 00:00:00</Date_péremption>
+      <Quantité>37</Quantité>
+      <No_Repas>34</No_Repas>
+    </Row>
+    <Row>
+      <No_Element>35</No_Element>
+      <Date_Fabrication>31/08/2023 00:00:00</Date_Fabrication>
+      <Date_péremption>31/01/2024 00:00:00</Date_péremption>
+      <Quantité>60</Quantité>
+      <No_Repas>35</No_Repas>
+    </Row>
+    <Row>
+      <No_Element>36</No_Element>
+      <Date_Fabrication>07/09/2023 00:00:00</Date_Fabrication>
+      <Date_péremption>07/02/2024 00:00:00</Date_péremption>
+      <Quantité>48</Quantité>
+      <No_Repas>36</No_Repas>
+    </Row>
+    <Row>
+      <No_Element>37</No_Element>
+      <Date_Fabrication>14/09/2023 00:00:00</Date_Fabrication>
+      <Date_péremption>14/02/2024 00:00:00</Date_péremption>
+      <Quantité>65</Quantité>
+      <No_Repas>37</No_Repas>
+    </Row>
+    <Row>
+      <No_Element>38</No_Element>
+      <Date_Fabrication>21/09/2023 00:00:00</Date_Fabrication>
+      <Date_péremption>21/02/2024 00:00:00</Date_péremption>
+      <Quantité>34</Quantité>
+      <No_Repas>38</No_Repas>
+    </Row>
+    <Row>
+      <No_Element>39</No_Element>
+      <Date_Fabrication>28/09/2023 00:00:00</Date_Fabrication>
+      <Date_péremption>28/02/2024 00:00:00</Date_péremption>
+      <Quantité>71</Quantité>
+      <No_Repas>39</No_Repas>
+    </Row>
+    <Row>
+      <No_Element>40</No_Element>
+      <Date_Fabrication>05/10/2023 00:00:00</Date_Fabrication>
+      <Date_péremption>05/03/2024 00:00:00</Date_péremption>
+      <Quantité>46</Quantité>
+      <No_Repas>40</No_Repas>
+    </Row>
+    <Row>
+      <No_Element>41</No_Element>
+      <Date_Fabrication>12/10/2023 00:00:00</Date_Fabrication>
+      <Date_péremption>12/03/2024 00:00:00</Date_péremption>
+      <Quantité>57</Quantité>
+      <No_Repas>41</No_Repas>
+    </Row>
+    <Row>
+      <No_Element>42</No_Element>
+      <Date_Fabrication>19/10/2023 00:00:00</Date_Fabrication>
+      <Date_péremption>19/03/2024 00:00:00</Date_péremption>
+      <Quantité>32</Quantité>
+      <No_Repas>42</No_Repas>
+    </Row>
+    <Row>
+      <No_Element>43</No_Element>
+      <Date_Fabrication>26/10/2023 00:00:00</Date_Fabrication>
+      <Date_péremption>26/03/2024 00:00:00</Date_péremption>
+      <Quantité>75</Quantité>
+      <No_Repas>43</No_Repas>
+    </Row>
+    <Row>
+      <No_Element>44</No_Element>
+      <Date_Fabrication>02/11/2023 00:00:00</Date_Fabrication>
+      <Date_péremption>02/04/2024 00:00:00</Date_péremption>
+      <Quantité>40</Quantité>
+      <No_Repas>44</No_Repas>
+    </Row>
+    <Row>
+      <No_Element>45</No_Element>
+      <Date_Fabrication>09/11/2023 00:00:00</Date_Fabrication>
+      <Date_péremption>09/04/2024 00:00:00</Date_péremption>
+      <Quantité>62</Quantité>
+      <No_Repas>45</No_Repas>
+    </Row>
+    <Row>
+      <No_Element>46</No_Element>
+      <Date_Fabrication>16/11/2023 00:00:00</Date_Fabrication>
+      <Date_péremption>16/04/2024 00:00:00</Date_péremption>
+      <Quantité>51</Quantité>
+      <No_Repas>46</No_Repas>
+    </Row>
+    <Row>
+      <No_Element>47</No_Element>
+      <Date_Fabrication>23/11/2023 00:00:00</Date_Fabrication>
+      <Date_péremption>23/04/2024 00:00:00</Date_péremption>
+      <Quantité>28</Quantité>
+      <No_Repas>47</No_Repas>
+    </Row>
+    <Row>
+      <No_Element>48</No_Element>
+      <Date_Fabrication>30/11/2023 00:00:00</Date_Fabrication>
+      <Date_péremption>30/04/2024 00:00:00</Date_péremption>
+      <Quantité>66</Quantité>
+      <No_Repas>48</No_Repas>
+    </Row>
+    <Row>
+      <No_Element>49</No_Element>
+      <Date_Fabrication>07/12/2023 00:00:00</Date_Fabrication>
+      <Date_péremption>07/05/2024 00:00:00</Date_péremption>
+      <Quantité>56</Quantité>
+      <No_Repas>49</No_Repas>
+    </Row>
+    <Row>
+      <No_Element>50</No_Element>
+      <Date_Fabrication>14/12/2023 00:00:00</Date_Fabrication>
+      <Date_péremption>14/05/2024 00:00:00</Date_péremption>
+      <Quantité>30</Quantité>
+      <No_Repas>50</No_Repas>
+    </Row>
+  </Element_de_commande>
+  <Ingrédient>
+    <Row>
+      <Nom>Bouillon de boeuf</Nom>
+      <Quantité>1 L</Quantité>
+      <No_Repas>1</No_Repas>
+    </Row>
+    <Row>
+      <Nom>Carottes nouvelles</Nom>
+      <Quantité>4</Quantité>
+      <No_Repas>1</No_Repas>
+    </Row>
+    <Row>
+      <Nom>Échalotes</Nom>
+      <Quantité>3</Quantité>
+      <No_Repas>1</No_Repas>
+    </Row>
+    <Row>
+      <Nom>Filet de boeuf</Nom>
+      <Quantité>800 g</Quantité>
+      <No_Repas>1</No_Repas>
+    </Row>
+    <Row>
+      <Nom>Pommes de terre rattes</Nom>
+      <Quantité>500 g</Quantité>
+      <No_Repas>1</No_Repas>
+    </Row>
+    <Row>
+      <Nom>Thym frais</Nom>
+      <Quantité>5 brins</Quantité>
+      <No_Repas>1</No_Repas>
+    </Row>
+    <Row>
+      <Nom>Aneth frais</Nom>
+      <Quantité>10 g</Quantité>
+      <No_Repas>2</No_Repas>
+    </Row>
+    <Row>
+      <Nom>Citron jaune</Nom>
+      <Quantité>1</Quantité>
+      <No_Repas>2</No_Repas>
+    </Row>
+    <Row>
+      <Nom>Crème fraîche épaisse</Nom>
+      <Quantité>200 ml</Quantité>
+      <No_Repas>2</No_Repas>
+    </Row>
+    <Row>
+      <Nom>Saumon sauvage</Nom>
+      <Quantité>600 g</Quantité>
+      <No_Repas>2</No_Repas>
+    </Row>
+    <Row>
+      <Nom>Crème liquide</Nom>
+      <Quantité>250 ml</Quantité>
+      <No_Repas>3</No_Repas>
+    </Row>
+    <Row>
+      <Nom>Emmental râpé</Nom>
+      <Quantité>150 g</Quantité>
+      <No_Repas>3</No_Repas>
+    </Row>
+    <Row>
+      <Nom>Jambon de Parme</Nom>
+      <Quantité>200 g</Quantité>
+      <No_Repas>3</No_Repas>
+    </Row>
+    <Row>
+      <Nom>Noix de muscade</Nom>
+      <Quantité>1 pincée</Quantité>
+      <No_Repas>3</No_Repas>
+    </Row>
+    <Row>
+      <Nom>Pâtes penne</Nom>
+      <Quantité>400 g</Quantité>
+      <No_Repas>3</No_Repas>
+    </Row>
+    <Row>
+      <Nom>Beurre demi-sel</Nom>
+      <Quantité>100 g</Quantité>
+      <No_Repas>4</No_Repas>
+    </Row>
+    <Row>
+      <Nom>Farine T55</Nom>
+      <Quantité>500 g</Quantité>
+      <No_Repas>4</No_Repas>
+    </Row>
+    <Row>
+      <Nom>Lait entier</Nom>
+      <Quantité>300 ml</Quantité>
+      <No_Repas>4</No_Repas>
+    </Row>
+    <Row>
+      <Nom>Oeufs bio</Nom>
+      <Quantité>4</Quantité>
+      <No_Repas>4</No_Repas>
+    </Row>
+    <Row>
+      <Nom>Sucre en poudre</Nom>
+      <Quantité>50 g</Quantité>
+      <No_Repas>4</No_Repas>
+    </Row>
+    <Row>
+      <Nom>Vanille Bourbon</Nom>
+      <Quantité>1 gousse</Quantité>
+      <No_Repas>4</No_Repas>
+    </Row>
+    <Row>
+      <Nom>Magret de canard</Nom>
+      <Quantité>2</Quantité>
+      <No_Repas>5</No_Repas>
+    </Row>
+    <Row>
+      <Nom>Miel</Nom>
+      <Quantité>3 c.à.s</Quantité>
+      <No_Repas>5</No_Repas>
+    </Row>
+    <Row>
+      <Nom>Poivre noir</Nom>
+      <Quantité>1 c.à.c</Quantité>
+      <No_Repas>5</No_Repas>
+    </Row>
+    <Row>
+      <Nom>Beurre doux</Nom>
+      <Quantité>40 g</Quantité>
+      <No_Repas>6</No_Repas>
+    </Row>
+    <Row>
+      <Nom>Calvados</Nom>
+      <Quantité>50 ml</Quantité>
+      <No_Repas>6</No_Repas>
+    </Row>
+    <Row>
+      <Nom>Canelle</Nom>
+      <Quantité>1 c.à.c</Quantité>
+      <No_Repas>6</No_Repas>
+    </Row>
+    <Row>
+      <Nom>Pommes Golden</Nom>
+      <Quantité>4</Quantité>
+      <No_Repas>6</No_Repas>
+    </Row>
+    <Row>
+      <Nom>Ail</Nom>
+      <Quantité>4 gousses</Quantité>
+      <No_Repas>7</No_Repas>
+    </Row>
+    <Row>
+      <Nom>Gambas</Nom>
+      <Quantité>20</Quantité>
+      <No_Repas>7</No_Repas>
+    </Row>
+    <Row>
+      <Nom>Huile d olive</Nom>
+      <Quantité>50 ml</Quantité>
+      <No_Repas>7</No_Repas>
+    </Row>
+    <Row>
+      <Nom>Persil plat</Nom>
+      <Quantité>1 bouquet</Quantité>
+      <No_Repas>7</No_Repas>
+    </Row>
+    <Row>
+      <Nom>Piment d Espelette</Nom>
+      <Quantité>1 pincée</Quantité>
+      <No_Repas>7</No_Repas>
+    </Row>
+    <Row>
+      <Nom>Mozzarella</Nom>
+      <Quantité>2 boules</Quantité>
+      <No_Repas>8</No_Repas>
+    </Row>
+    <Row>
+      <Nom>Tomates anciennes</Nom>
+      <Quantité>1 kg</Quantité>
+      <No_Repas>8</No_Repas>
+    </Row>
+  </Ingrédient>
+  <Commande>
+    <Row>
+      <No_Achat>1</No_Achat>
+      <Date_Achat>05/01/2023 00:00:00</Date_Achat>
+      <Terminé>True</Terminé>
+      <No_Compte_Client>1</No_Compte_Client>
+      <No_Compte_Cuisinier>3</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Achat>2</No_Achat>
+      <Date_Achat>07/01/2023 00:00:00</Date_Achat>
+      <Terminé>True</Terminé>
+      <No_Compte_Client>2</No_Compte_Client>
+      <No_Compte_Cuisinier>5</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Achat>3</No_Achat>
+      <Date_Achat>08/01/2023 00:00:00</Date_Achat>
+      <Terminé>False</Terminé>
+      <No_Compte_Client>3</No_Compte_Client>
+      <No_Compte_Cuisinier>7</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Achat>4</No_Achat>
+      <Date_Achat>10/01/2023 00:00:00</Date_Achat>
+      <Terminé>True</Terminé>
+      <No_Compte_Client>4</No_Compte_Client>
+      <No_Compte_Cuisinier>2</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Achat>5</No_Achat>
+      <Date_Achat>12/01/2023 00:00:00</Date_Achat>
+      <Terminé>True</Terminé>
+      <No_Compte_Client>5</No_Compte_Client>
+      <No_Compte_Cuisinier>11</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Achat>6</No_Achat>
+      <Date_Achat>15/01/2023 00:00:00</Date_Achat>
+      <Terminé>True</Terminé>
+      <No_Compte_Client>6</No_Compte_Client>
+      <No_Compte_Cuisinier>9</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Achat>7</No_Achat>
+      <Date_Achat>18/01/2023 00:00:00</Date_Achat>
+      <Terminé>False</Terminé>
+      <No_Compte_Client>7</No_Compte_Client>
+      <No_Compte_Cuisinier>4</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Achat>8</No_Achat>
+      <Date_Achat>20/01/2023 00:00:00</Date_Achat>
+      <Terminé>True</Terminé>
+      <No_Compte_Client>8</No_Compte_Client>
+      <No_Compte_Cuisinier>15</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Achat>9</No_Achat>
+      <Date_Achat>22/01/2023 00:00:00</Date_Achat>
+      <Terminé>True</Terminé>
+      <No_Compte_Client>9</No_Compte_Client>
+      <No_Compte_Cuisinier>8</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Achat>10</No_Achat>
+      <Date_Achat>25/01/2023 00:00:00</Date_Achat>
+      <Terminé>True</Terminé>
+      <No_Compte_Client>10</No_Compte_Client>
+      <No_Compte_Cuisinier>12</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Achat>11</No_Achat>
+      <Date_Achat>28/01/2023 00:00:00</Date_Achat>
+      <Terminé>True</Terminé>
+      <No_Compte_Client>11</No_Compte_Client>
+      <No_Compte_Cuisinier>6</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Achat>12</No_Achat>
+      <Date_Achat>01/02/2023 00:00:00</Date_Achat>
+      <Terminé>True</Terminé>
+      <No_Compte_Client>12</No_Compte_Client>
+      <No_Compte_Cuisinier>14</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Achat>13</No_Achat>
+      <Date_Achat>03/02/2023 00:00:00</Date_Achat>
+      <Terminé>True</Terminé>
+      <No_Compte_Client>13</No_Compte_Client>
+      <No_Compte_Cuisinier>1</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Achat>14</No_Achat>
+      <Date_Achat>05/02/2023 00:00:00</Date_Achat>
+      <Terminé>True</Terminé>
+      <No_Compte_Client>14</No_Compte_Client>
+      <No_Compte_Cuisinier>10</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Achat>15</No_Achat>
+      <Date_Achat>08/02/2023 00:00:00</Date_Achat>
+      <Terminé>True</Terminé>
+      <No_Compte_Client>15</No_Compte_Client>
+      <No_Compte_Cuisinier>13</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Achat>16</No_Achat>
+      <Date_Achat>10/02/2023 00:00:00</Date_Achat>
+      <Terminé>True</Terminé>
+      <No_Compte_Client>16</No_Compte_Client>
+      <No_Compte_Cuisinier>17</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Achat>17</No_Achat>
+      <Date_Achat>12/02/2023 00:00:00</Date_Achat>
+      <Terminé>False</Terminé>
+      <No_Compte_Client>17</No_Compte_Client>
+      <No_Compte_Cuisinier>16</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Achat>18</No_Achat>
+      <Date_Achat>15/02/2023 00:00:00</Date_Achat>
+      <Terminé>True</Terminé>
+      <No_Compte_Client>18</No_Compte_Client>
+      <No_Compte_Cuisinier>19</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Achat>19</No_Achat>
+      <Date_Achat>18/02/2023 00:00:00</Date_Achat>
+      <Terminé>True</Terminé>
+      <No_Compte_Client>19</No_Compte_Client>
+      <No_Compte_Cuisinier>18</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Achat>20</No_Achat>
+      <Date_Achat>20/02/2023 00:00:00</Date_Achat>
+      <Terminé>False</Terminé>
+      <No_Compte_Client>20</No_Compte_Client>
+      <No_Compte_Cuisinier>10</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Achat>21</No_Achat>
+      <Date_Achat>22/02/2023 00:00:00</Date_Achat>
+      <Terminé>True</Terminé>
+      <No_Compte_Client>1</No_Compte_Client>
+      <No_Compte_Cuisinier>4</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Achat>22</No_Achat>
+      <Date_Achat>25/02/2023 00:00:00</Date_Achat>
+      <Terminé>True</Terminé>
+      <No_Compte_Client>2</No_Compte_Client>
+      <No_Compte_Cuisinier>6</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Achat>23</No_Achat>
+      <Date_Achat>28/02/2023 00:00:00</Date_Achat>
+      <Terminé>True</Terminé>
+      <No_Compte_Client>3</No_Compte_Client>
+      <No_Compte_Cuisinier>5</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Achat>24</No_Achat>
+      <Date_Achat>02/03/2023 00:00:00</Date_Achat>
+      <Terminé>True</Terminé>
+      <No_Compte_Client>4</No_Compte_Client>
+      <No_Compte_Cuisinier>1</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Achat>25</No_Achat>
+      <Date_Achat>05/03/2023 00:00:00</Date_Achat>
+      <Terminé>True</Terminé>
+      <No_Compte_Client>5</No_Compte_Client>
+      <No_Compte_Cuisinier>12</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Achat>26</No_Achat>
+      <Date_Achat>08/03/2023 00:00:00</Date_Achat>
+      <Terminé>True</Terminé>
+      <No_Compte_Client>6</No_Compte_Client>
+      <No_Compte_Cuisinier>10</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Achat>27</No_Achat>
+      <Date_Achat>10/03/2023 00:00:00</Date_Achat>
+      <Terminé>False</Terminé>
+      <No_Compte_Client>7</No_Compte_Client>
+      <No_Compte_Cuisinier>3</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Achat>28</No_Achat>
+      <Date_Achat>12/03/2023 00:00:00</Date_Achat>
+      <Terminé>True</Terminé>
+      <No_Compte_Client>8</No_Compte_Client>
+      <No_Compte_Cuisinier>14</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Achat>29</No_Achat>
+      <Date_Achat>15/03/2023 00:00:00</Date_Achat>
+      <Terminé>True</Terminé>
+      <No_Compte_Client>9</No_Compte_Client>
+      <No_Compte_Cuisinier>7</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Achat>30</No_Achat>
+      <Date_Achat>18/03/2023 00:00:00</Date_Achat>
+      <Terminé>True</Terminé>
+      <No_Compte_Client>10</No_Compte_Client>
+      <No_Compte_Cuisinier>15</No_Compte_Cuisinier>
+    </Row>
+  </Commande>
+  <Comporte>
+    <Row>
+      <No_Achat>4</No_Achat>
+      <No_Element>1</No_Element>
+    </Row>
+    <Row>
+      <No_Achat>9</No_Achat>
+      <No_Element>2</No_Element>
+    </Row>
+    <Row>
+      <No_Achat>25</No_Achat>
+      <No_Element>2</No_Element>
+    </Row>
+    <Row>
+      <No_Achat>1</No_Achat>
+      <No_Element>3</No_Element>
+    </Row>
+    <Row>
+      <No_Achat>7</No_Achat>
+      <No_Element>4</No_Element>
+    </Row>
+    <Row>
+      <No_Achat>29</No_Achat>
+      <No_Element>4</No_Element>
+    </Row>
+    <Row>
+      <No_Achat>2</No_Achat>
+      <No_Element>5</No_Element>
+    </Row>
+    <Row>
+      <No_Achat>10</No_Achat>
+      <No_Element>6</No_Element>
+    </Row>
+    <Row>
+      <No_Achat>1</No_Achat>
+      <No_Element>7</No_Element>
+    </Row>
+    <Row>
+      <No_Achat>26</No_Achat>
+      <No_Element>7</No_Element>
+    </Row>
+    <Row>
+      <No_Achat>6</No_Achat>
+      <No_Element>8</No_Element>
+    </Row>
+    <Row>
+      <No_Achat>3</No_Achat>
+      <No_Element>9</No_Element>
+    </Row>
+    <Row>
+      <No_Achat>28</No_Achat>
+      <No_Element>9</No_Element>
+    </Row>
+    <Row>
+      <No_Achat>11</No_Achat>
+      <No_Element>10</No_Element>
+    </Row>
+    <Row>
+      <No_Achat>5</No_Achat>
+      <No_Element>11</No_Element>
+    </Row>
+    <Row>
+      <No_Achat>1</No_Achat>
+      <No_Element>12</No_Element>
+    </Row>
+    <Row>
+      <No_Achat>8</No_Achat>
+      <No_Element>13</No_Element>
+    </Row>
+    <Row>
+      <No_Achat>27</No_Achat>
+      <No_Element>13</No_Element>
+    </Row>
+    <Row>
+      <No_Achat>12</No_Achat>
+      <No_Element>14</No_Element>
+    </Row>
+    <Row>
+      <No_Achat>4</No_Achat>
+      <No_Element>15</No_Element>
+    </Row>
+    <Row>
+      <No_Achat>30</No_Achat>
+      <No_Element>15</No_Element>
+    </Row>
+    <Row>
+      <No_Achat>14</No_Achat>
+      <No_Element>16</No_Element>
+    </Row>
+    <Row>
+      <No_Achat>9</No_Achat>
+      <No_Element>17</No_Element>
+    </Row>
+    <Row>
+      <No_Achat>2</No_Achat>
+      <No_Element>18</No_Element>
+    </Row>
+    <Row>
+      <No_Achat>25</No_Achat>
+      <No_Element>18</No_Element>
+    </Row>
+    <Row>
+      <No_Achat>6</No_Achat>
+      <No_Element>19</No_Element>
+    </Row>
+    <Row>
+      <No_Achat>13</No_Achat>
+      <No_Element>20</No_Element>
+    </Row>
+    <Row>
+      <No_Achat>15</No_Achat>
+      <No_Element>21</No_Element>
+    </Row>
+    <Row>
+      <No_Achat>3</No_Achat>
+      <No_Element>22</No_Element>
+    </Row>
+    <Row>
+      <No_Achat>28</No_Achat>
+      <No_Element>22</No_Element>
+    </Row>
+    <Row>
+      <No_Achat>16</No_Achat>
+      <No_Element>23</No_Element>
+    </Row>
+    <Row>
+      <No_Achat>20</No_Achat>
+      <No_Element>24</No_Element>
+    </Row>
+    <Row>
+      <No_Achat>7</No_Achat>
+      <No_Element>25</No_Element>
+    </Row>
+    <Row>
+      <No_Achat>17</No_Achat>
+      <No_Element>26</No_Element>
+    </Row>
+    <Row>
+      <No_Achat>5</No_Achat>
+      <No_Element>27</No_Element>
+    </Row>
+    <Row>
+      <No_Achat>30</No_Achat>
+      <No_Element>27</No_Element>
+    </Row>
+    <Row>
+      <No_Achat>14</No_Achat>
+      <No_Element>28</No_Element>
+    </Row>
+    <Row>
+      <No_Achat>10</No_Achat>
+      <No_Element>29</No_Element>
+    </Row>
+    <Row>
+      <No_Achat>26</No_Achat>
+      <No_Element>29</No_Element>
+    </Row>
+    <Row>
+      <No_Achat>18</No_Achat>
+      <No_Element>30</No_Element>
+    </Row>
+    <Row>
+      <No_Achat>8</No_Achat>
+      <No_Element>31</No_Element>
+    </Row>
+    <Row>
+      <No_Achat>19</No_Achat>
+      <No_Element>32</No_Element>
+    </Row>
+    <Row>
+      <No_Achat>4</No_Achat>
+      <No_Element>33</No_Element>
+    </Row>
+    <Row>
+      <No_Achat>21</No_Achat>
+      <No_Element>34</No_Element>
+    </Row>
+    <Row>
+      <No_Achat>11</No_Achat>
+      <No_Element>35</No_Element>
+    </Row>
+    <Row>
+      <No_Achat>27</No_Achat>
+      <No_Element>35</No_Element>
+    </Row>
+    <Row>
+      <No_Achat>20</No_Achat>
+      <No_Element>36</No_Element>
+    </Row>
+    <Row>
+      <No_Achat>22</No_Achat>
+      <No_Element>37</No_Element>
+    </Row>
+    <Row>
+      <No_Achat>12</No_Achat>
+      <No_Element>38</No_Element>
+    </Row>
+    <Row>
+      <No_Achat>29</No_Achat>
+      <No_Element>38</No_Element>
+    </Row>
+    <Row>
+      <No_Achat>15</No_Achat>
+      <No_Element>39</No_Element>
+    </Row>
+    <Row>
+      <No_Achat>16</No_Achat>
+      <No_Element>40</No_Element>
+    </Row>
+    <Row>
+      <No_Achat>23</No_Achat>
+      <No_Element>41</No_Element>
+    </Row>
+    <Row>
+      <No_Achat>13</No_Achat>
+      <No_Element>42</No_Element>
+    </Row>
+    <Row>
+      <No_Achat>24</No_Achat>
+      <No_Element>43</No_Element>
+    </Row>
+    <Row>
+      <No_Achat>17</No_Achat>
+      <No_Element>44</No_Element>
+    </Row>
+    <Row>
+      <No_Achat>18</No_Achat>
+      <No_Element>45</No_Element>
+    </Row>
+    <Row>
+      <No_Achat>24</No_Achat>
+      <No_Element>46</No_Element>
+    </Row>
+    <Row>
+      <No_Achat>19</No_Achat>
+      <No_Element>47</No_Element>
+    </Row>
+    <Row>
+      <No_Achat>21</No_Achat>
+      <No_Element>48</No_Element>
+    </Row>
+    <Row>
+      <No_Achat>22</No_Achat>
+      <No_Element>49</No_Element>
+    </Row>
+    <Row>
+      <No_Achat>23</No_Achat>
+      <No_Element>50</No_Element>
+    </Row>
+  </Comporte>
+  <Propose>
+    <Row>
+      <No_Repas>1</No_Repas>
+      <No_Compte_Cuisinier>1</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Repas>2</No_Repas>
+      <No_Compte_Cuisinier>1</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Repas>3</No_Repas>
+      <No_Compte_Cuisinier>1</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Repas>4</No_Repas>
+      <No_Compte_Cuisinier>1</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Repas>5</No_Repas>
+      <No_Compte_Cuisinier>1</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Repas>6</No_Repas>
+      <No_Compte_Cuisinier>2</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Repas>7</No_Repas>
+      <No_Compte_Cuisinier>2</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Repas>8</No_Repas>
+      <No_Compte_Cuisinier>2</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Repas>9</No_Repas>
+      <No_Compte_Cuisinier>3</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Repas>10</No_Repas>
+      <No_Compte_Cuisinier>3</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Repas>11</No_Repas>
+      <No_Compte_Cuisinier>3</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Repas>12</No_Repas>
+      <No_Compte_Cuisinier>3</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Repas>13</No_Repas>
+      <No_Compte_Cuisinier>4</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Repas>14</No_Repas>
+      <No_Compte_Cuisinier>4</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Repas>15</No_Repas>
+      <No_Compte_Cuisinier>4</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Repas>16</No_Repas>
+      <No_Compte_Cuisinier>4</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Repas>17</No_Repas>
+      <No_Compte_Cuisinier>4</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Repas>18</No_Repas>
+      <No_Compte_Cuisinier>5</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Repas>19</No_Repas>
+      <No_Compte_Cuisinier>5</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Repas>20</No_Repas>
+      <No_Compte_Cuisinier>5</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Repas>21</No_Repas>
+      <No_Compte_Cuisinier>6</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Repas>22</No_Repas>
+      <No_Compte_Cuisinier>6</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Repas>23</No_Repas>
+      <No_Compte_Cuisinier>6</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Repas>24</No_Repas>
+      <No_Compte_Cuisinier>6</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Repas>25</No_Repas>
+      <No_Compte_Cuisinier>7</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Repas>26</No_Repas>
+      <No_Compte_Cuisinier>7</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Repas>27</No_Repas>
+      <No_Compte_Cuisinier>8</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Repas>28</No_Repas>
+      <No_Compte_Cuisinier>8</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Repas>29</No_Repas>
+      <No_Compte_Cuisinier>8</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Repas>30</No_Repas>
+      <No_Compte_Cuisinier>9</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Repas>31</No_Repas>
+      <No_Compte_Cuisinier>9</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Repas>32</No_Repas>
+      <No_Compte_Cuisinier>9</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Repas>33</No_Repas>
+      <No_Compte_Cuisinier>9</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Repas>34</No_Repas>
+      <No_Compte_Cuisinier>9</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Repas>35</No_Repas>
+      <No_Compte_Cuisinier>10</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Repas>36</No_Repas>
+      <No_Compte_Cuisinier>10</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Repas>37</No_Repas>
+      <No_Compte_Cuisinier>10</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Repas>38</No_Repas>
+      <No_Compte_Cuisinier>10</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Repas>39</No_Repas>
+      <No_Compte_Cuisinier>11</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Repas>40</No_Repas>
+      <No_Compte_Cuisinier>12</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Repas>41</No_Repas>
+      <No_Compte_Cuisinier>12</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Repas>42</No_Repas>
+      <No_Compte_Cuisinier>13</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Repas>43</No_Repas>
+      <No_Compte_Cuisinier>13</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Repas>44</No_Repas>
+      <No_Compte_Cuisinier>13</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Repas>45</No_Repas>
+      <No_Compte_Cuisinier>14</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Repas>46</No_Repas>
+      <No_Compte_Cuisinier>15</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Repas>47</No_Repas>
+      <No_Compte_Cuisinier>15</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Repas>48</No_Repas>
+      <No_Compte_Cuisinier>16</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Repas>49</No_Repas>
+      <No_Compte_Cuisinier>17</No_Compte_Cuisinier>
+    </Row>
+    <Row>
+      <No_Repas>50</No_Repas>
+      <No_Compte_Cuisinier>18</No_Compte_Cuisinier>
+    </Row>
+  </Propose>
+</LiveInParis>

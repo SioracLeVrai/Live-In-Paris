@@ -1,0 +1,175 @@
+"Filet de boeuf","800 g",1
+"Carottes nouvelles","4",1
+"Pommes de terre rattes","500 g",1
+"Échalotes","3",1
+"Bouillon de boeuf","1 L",1
+"Thym frais","5 brins",1
+"Saumon sauvage","600 g",2
+"Citron jaune","1",2
+"Aneth frais","10 g",2
+"Crème fraîche épaisse","200 ml",2
+"Pâtes penne","400 g",3
+"Jambon de Parme","200 g",3
+"Crème liquide","250 ml",3
+"Emmental râpé","150 g",3
+"Noix de muscade","1 pincée",3
+"Farine T55","500 g",4
+"Oeufs bio","4",4
+"Lait entier","300 ml",4
+"Beurre demi-sel","100 g",4
+"Sucre en poudre","50 g",4
+"Vanille Bourbon","1 gousse",4
+"Magret de canard","2",5
+"Miel","3 c.à.s",5
+"Poivre noir","1 c.à.c",5
+"Pommes Golden","4",6
+"Calvados","50 ml",6
+"Beurre doux","40 g",6
+"Canelle","1 c.à.c",6
+"Gambas","20",7
+"Ail","4 gousses",7
+"Persil plat","1 bouquet",7
+"Piment d Espelette","1 pincée",7
+"Huile d olive","50 ml",7
+"Tomates anciennes","1 kg",8
+"Mozzarella","2 boules",8
+"Basilic","20 feuilles",8
+"Jambon cru","8 tranches",9
+"Melon charentais","1",9
+"Porto","100 ml",10
+"Figues fraîches","8",10
+"Jambon serrano","12 tranches",10
+"Champignons de Paris","300 g",11
+"Échalotes","4",11
+"Persil","5 brins",11
+"Crème fraîche","200 ml",11
+"Parmesan","100 g",12
+"Artichauts","4",12
+"Vinaigre balsamique","50 ml",12
+"Pommes grenaille","600 g",13
+"Romarin","3 branches",13
+"Ail","2 gousses",13
+"Filet mignon","800 g",14
+"Moutarde à l ancienne","2 c.à.s",14
+"Crème fraîche","200 ml",14
+"Échalotes","3",14
+"Lentilles vertes","300 g",15
+"Carottes","3",15
+"Oignons","2",15
+"Lardons fumés","200 g",15
+"Truite arc-en-ciel","2",16
+"Amandes effilées","50 g",16
+"Beurre noisette","80 g",16
+"Citron vert","1",17
+"Coriandre fraîche","1 bouquet",17
+"Piment rouge","1",17
+"Ail","2 gousses",17
+"Saint-Jacques","12",18
+"Chou vert","1",18
+"Lardons","150 g",18
+"Pommes de terre","400 g",19
+"Cèpes","200 g",19
+"Ail","3 gousses",19
+"Persil","1 bouquet",19
+"Ris de veau","600 g",20
+"Champignons","300 g",20
+"Échalotes","4",20
+"Vin blanc sec","200 ml",20
+"Agneau","1 gigot",21
+"Romarin","5 branches",21
+"Ail","6 gousses",21
+"Haricots verts","500 g",22
+"Amandes","50 g",22
+"Échalotes","3",22
+"Beurre","50 g",22
+"Turbot","1",23
+"Fenouil","2 bulbes",23
+"Citron","2",23
+"Pommes de terre","500 g",24
+"Câpres","30 g",24
+"Anchois","50 g",24
+"Olives noires","100 g",24
+"Poulpes","2",25
+"Pommes de terre","600 g",25
+"Persil","1 bouquet",25
+"Ail","4 gousses",25
+"Langoustines","20",26
+"Basilic","20 feuilles",26
+"Tomates","8",26
+"Courgettes","3",27
+"Aubergines","2",27
+"Poivrons","3",27
+"Oignons","2",27
+"Thon rouge","800 g",28
+"Sésame","30 g",28
+"Gingembre","20 g",28
+"Canard","2 filets",29
+"Oranges","2",29
+"Miel","50 g",29
+"Pommes","4",30
+"Caramel","100 g",30
+"Pâte brisée","1 rouleau",30
+"Poires","6",31
+"Chocolat noir","200 g",31
+"Amandes","100 g",31
+"Fraises","500 g",32
+"Rhubarbe","300 g",32
+"Sucre vanillé","10 g",32
+"Pêches","8",33
+"Biscuits spéculoos","200 g",33
+"Crème chantilly","200 ml",33
+"Abricots","12",34
+"Amandes","50 g",34
+"Miel","50 g",34
+"Prunes","15",35
+"Cannelle","1 c.à.c",35
+"Pâte feuilletée","1 rouleau",35
+"Figues","10",36
+"Jambon cru","8 tranches",36
+"Roquefort","150 g",36
+"Chèvre frais","2",37
+"Miel","50 g",37
+"Pignons","30 g",37
+"Foie gras","1 bloc",38
+"Gelée de coing","100 g",38
+"Pain d épices","8 tranches",38
+"Saumon fumé","200 g",39
+"Blini","12",39
+"Crème fraîche","100 ml",39
+"Crevettes","300 g",40
+"Avocats","3",40
+"Coriandre","1 bouquet",40
+"Tomates cerises","200 g",41
+"Mozzarella","2 boules",41
+"Basilic","20 feuilles",41
+"Concombre","1",42
+"Yaourt grec","200 g",42
+"Ail","1 gousse",42
+"Pois chiches","400 g",43
+"Tahini","50 g",43
+"Citron","1",43
+"Boeuf haché","500 g",44
+"Tomates","6",44
+"Oignons","2",44
+"Ail","2 gousses",44
+"Pâtes fusilli","400 g",45
+"Pesto","100 g",45
+"Parmesan","50 g",45
+"Pommes de terre","1 kg",46
+"Crème fraîche","200 ml",46
+"Lardons","200 g",46
+"Oignons","2",46
+"Chocolat","300 g",47
+"Beurre","200 g",47
+"Oeufs","4",47
+"Farine","200 g",47
+"Sucre","150 g",47
+"Framboises","300 g",48
+"Mascarpone","250 g",48
+"Biscuits cuillère","20",48
+"Pistaches","100 g",49
+"Chocolat blanc","200 g",49
+"Crème liquide","200 ml",49
+"Mangues","2",50
+"Coulis de fruits rouges","100 ml",50
+"Menthe fraîche","10 feuilles",50
